@@ -1,0 +1,3396 @@
+[
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd4135"
+    },
+    "plot": "Three men hammer on an anvil and pass a bottle of beer around.",
+    "genres": [
+      "Short"
+    ],
+    "runtime": 1,
+    "cast": [
+      "Charles Kayser",
+      "John Ott"
+    ],
+    "num_mflix_comments": 0,
+    "title": "Blacksmith Scene",
+    "fullplot": "A stationary camera looks at a large anvil with a blacksmith behind it and one on either side. The smith in the middle draws a heated metal rod from the fire, places it on the anvil, and all three begin a rhythmic hammering. After several blows, the metal goes back in the fire. One smith pulls out a bottle of beer, and they each take a swig. Then, out comes the glowing metal and the hammering resumes.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-2418768000000"
+      }
+    },
+    "directors": [
+      "William K.L. Dickson"
+    ],
+    "rated": "UNRATED",
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-25T18:33:50.133Z"
+    },
+    "year": 1893,
+    "imdb": {
+      "rating": 6.2,
+      "votes": 1189,
+      "id": 5
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3,
+        "numReviews": 184,
+        "meter": 32
+      },
+      "lastUpdated": {
+        "$date": "2015-06-28T18:34:09Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd42e8"
+    },
+    "plot": "A group of bandits stage a brazen train hold-up, only to find a determined posse hot on their heels.",
+    "genres": [
+      "Short",
+      "Western"
+    ],
+    "runtime": 11,
+    "cast": [
+      "A.C. Abadie",
+      "Gilbert M. 'Broncho Billy' Anderson",
+      "George Barnes",
+      "Justus D. Barnes"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU3NjE5NzYtYTYyNS00MDVmLWIwYjgtMmYwYWIxZDYyNzU2XkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Great Train Robbery",
+    "fullplot": "Among the earliest existing films in American cinema - notable as the first film that presented a narrative story to tell - it depicts a group of cowboy outlaws who hold up a train and rob the passengers. They are then pursued by a Sheriff's posse. Several scenes have color included - all hand tinted.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-2085523200000"
+      }
+    },
+    "directors": [
+      "Edwin S. Porter"
+    ],
+    "rated": "TV-G",
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-12T18:57:59.177Z"
+    },
+    "year": 1903,
+    "imdb": {
+      "rating": 7.4,
+      "votes": 9847,
+      "id": 439
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.7,
+        "numReviews": 2559,
+        "meter": 75
+      },
+      "fresh": 6,
+      "critic": {
+        "rating": 7.6,
+        "numReviews": 6,
+        "meter": 100
+      },
+      "rotten": 0,
+      "lastUpdated": {
+        "$date": "2015-08-08T19:16:10Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd4323"
+    },
+    "plot": "A young boy, opressed by his mother, goes on an outing in the country with a social welfare group where he dares to dream of a land where the cares of his ordinary life fade.",
+    "genres": [
+      "Short",
+      "Drama",
+      "Fantasy"
+    ],
+    "runtime": 14,
+    "rated": "UNRATED",
+    "cast": [
+      "Martin Fuller",
+      "Mrs. William Bechtel",
+      "Walter Edwin",
+      "Ethel Jewett"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTMzMDcxMjgyNl5BMl5BanBnXkFtZTcwOTgxNjg4Mg@@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Land Beyond the Sunset",
+    "fullplot": "Thanks to the Fresh Air Fund, a slum child escapes his drunken mother for a day's outing in the country. Upon arriving, he and the other children are told a story about a mythical land of no pain. Rather then return to the slum at day's end, the lad seeks to journey to that beautiful land beyond the sunset.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1804377600000"
+      }
+    },
+    "directors": [
+      "Harold M. Shaw"
+    ],
+    "writers": [
+      "Dorothy G. Shore"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-28T18:57:45.437Z"
+    },
+    "year": 1912,
+    "imdb": {
+      "rating": 7.1,
+      "votes": 448,
+      "id": 488
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.7,
+        "numReviews": 53,
+        "meter": 67
+      },
+      "lastUpdated": {
+        "$date": "2015-04-27T19:06:35Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd446f"
+    },
+    "plot": "A greedy tycoon decides, on a whim, to corner the world market in wheat. This doubles the price of bread, forcing the grain's producers into charity lines and further into poverty. The film...",
+    "genres": [
+      "Short",
+      "Drama"
+    ],
+    "runtime": 14,
+    "cast": [
+      "Frank Powell",
+      "Grace Henderson",
+      "James Kirkwood",
+      "Linda Arvidson"
+    ],
+    "num_mflix_comments": 1,
+    "title": "A Corner in Wheat",
+    "fullplot": "A greedy tycoon decides, on a whim, to corner the world market in wheat. This doubles the price of bread, forcing the grain's producers into charity lines and further into poverty. The film continues to contrast the ironic differences between the lives of those who work to grow the wheat and the life of the man who dabbles in its sale for profit.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1895097600000"
+      }
+    },
+    "directors": [
+      "D.W. Griffith"
+    ],
+    "rated": "G",
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-12T19:16:30.66Z"
+    },
+    "year": 1909,
+    "imdb": {
+      "rating": 6.6,
+      "votes": 1375,
+      "id": 832
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.6,
+        "numReviews": 109,
+        "meter": 73
+      },
+      "lastUpdated": {
+        "$date": "2015-05-11T18:36:53Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd4803"
+    },
+    "plot": "Cartoon figures announce, via comic strip balloons, that they will move - and move they do, in a wildly exaggerated style.",
+    "genres": [
+      "Animation",
+      "Short",
+      "Comedy"
+    ],
+    "runtime": 7,
+    "cast": [
+      "Winsor McCay"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzg2NjNhNTctMjUxMi00ZWU4LWI3ZjYtNTI0NTQxNThjZTk2XkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Winsor McCay, the Famous Cartoonist of the N.Y. Herald and His Moving Comics",
+    "fullplot": "Cartoonist Winsor McCay agrees to create a large set of drawings that will be photographed and made into a motion picture. The job requires plenty of drawing supplies, and the cartoonist must also overcome some mishaps caused by an assistant. Finally, the work is done, and everyone can see the resulting animated picture.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1853539200000"
+      }
+    },
+    "directors": [
+      "Winsor McCay",
+      "J. Stuart Blackton"
+    ],
+    "writers": [
+      "Winsor McCay (comic strip \"Little Nemo in Slumberland\")",
+      "Winsor McCay (screenplay)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-28T19:39:03.03Z"
+    },
+    "year": 1911,
+    "imdb": {
+      "rating": 7.3,
+      "votes": 1034,
+      "id": 1737
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.4,
+        "numReviews": 89,
+        "meter": 47
+      },
+      "lastUpdated": {
+        "$date": "2015-08-20T18:51:24Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd4eaf"
+    },
+    "plot": "A woman, with the aid of her police officer sweetheart, endeavors to uncover the prostitution ring that has kidnapped her sister, and the philanthropist who secretly runs it.",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "runtime": 88,
+    "cast": [
+      "Jane Gail",
+      "Ethel Grandin",
+      "William H. Turner",
+      "Matt Moore"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzk0YWQzMGYtYTM5MC00NjM2LWE5YzYtMjgyNDVhZDg1N2YzXkEyXkFqcGdeQXVyMzE0MjY5ODA@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Traffic in Souls",
+    "lastupdated": {
+      "$date": "2015-09-14T20:37:14.247Z"
+    },
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1770508800000"
+      }
+    },
+    "directors": [
+      "George Loane Tucker"
+    ],
+    "rated": "TV-PG",
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "year": 1913,
+    "imdb": {
+      "rating": 6,
+      "votes": 371,
+      "id": 3471
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3,
+        "numReviews": 85,
+        "meter": 57
+      },
+      "dvd": {
+        "$date": "2008-08-26T00:00:00Z"
+      },
+      "lastUpdated": {
+        "$date": "2015-08-10T18:33:55Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd50e5"
+    },
+    "plot": "The cartoonist, Winsor McCay, brings the Dinosaurus back to life in the figure of his latest creation, Gertie the Dinosaur.",
+    "genres": [
+      "Animation",
+      "Short",
+      "Comedy"
+    ],
+    "runtime": 12,
+    "cast": [
+      "Winsor McCay",
+      "George McManus",
+      "Roy L. McCardell"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTQxNzI4ODQ3NF5BMl5BanBnXkFtZTgwNzY5NzMwMjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Gertie the Dinosaur",
+    "fullplot": "Winsor Z. McCay bets another cartoonist that he can animate a dinosaur. So he draws a big friendly herbivore called Gertie. Then he get into his own picture. Gertie walks through the picture, eats a tree, meets her creator, and takes him carefully on her back for a ride.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1745020800000"
+      }
+    },
+    "directors": [
+      "Winsor McCay"
+    ],
+    "writers": [
+      "Winsor McCay"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-17T19:33:15.313Z"
+    },
+    "year": 1914,
+    "imdb": {
+      "rating": 7.3,
+      "votes": 1837,
+      "id": 4008
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.7,
+        "numReviews": 29
+      },
+      "lastUpdated": {
+        "$date": "2015-08-10T19:20:03Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd516c"
+    },
+    "plot": "Original advertising for the film describes it as a drama of primitive life on the shores of the North Pacific...",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "runtime": 65,
+    "cast": [
+      "Stanley Hunt",
+      "Sarah Constance Smith Hunt",
+      "Mrs. George Walkus",
+      "Paddy 'Malid"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjE3MjAyNzM5NV5BMl5BanBnXkFtZTgwMjA5OTg5NjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "In the Land of the Head Hunters",
+    "lastupdated": {
+      "$date": "2015-09-16T06:41:37.77Z"
+    },
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1737849600000"
+      }
+    },
+    "directors": [
+      "Edward S. Curtis"
+    ],
+    "writers": [
+      "Edward S. Curtis (story)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "year": 1914,
+    "imdb": {
+      "rating": 5.8,
+      "votes": 223,
+      "id": 4150
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 2.7,
+        "numReviews": 64,
+        "meter": 18
+      },
+      "dvd": {
+        "$date": "2000-08-15T00:00:00Z"
+      },
+      "website": "http://www.milestonefilms.com/",
+      "production": "World Film Corporation",
+      "lastUpdated": {
+        "$date": "2015-08-18T19:21:12Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd5293"
+    },
+    "plot": "Young Pauline is left a lot of money when her wealthy uncle dies. However, her uncle's secretary has been named as her guardian until she marries, at which time she will officially take ...",
+    "genres": [
+      "Action"
+    ],
+    "runtime": 199,
+    "cast": [
+      "Pearl White",
+      "Crane Wilbur",
+      "Paul Panzer",
+      "Edward Josè"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzgxODk1Mzk2Ml5BMl5BanBnXkFtZTgwMDg0NzkwMjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Perils of Pauline",
+    "fullplot": "Young Pauline is left a lot of money when her wealthy uncle dies. However, her uncle's secretary has been named as her guardian until she marries, at which time she will officially take possession of her inheritance. Meanwhile, her \"guardian\" and his confederates constantly come up with schemes to get rid of Pauline so that he can get his hands on the money himself.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1760227200000"
+      }
+    },
+    "directors": [
+      "Louis J. Gasnier",
+      "Donald MacKenzie"
+    ],
+    "writers": [
+      "Charles W. Goddard (screenplay)",
+      "Basil Dickey (screenplay)",
+      "Charles W. Goddard (novel)",
+      "George B. Seitz",
+      "Bertram Millhauser"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-11T18:31:18.647Z"
+    },
+    "year": 1914,
+    "imdb": {
+      "rating": 7.6,
+      "votes": 744,
+      "id": 4465
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 2.8,
+        "numReviews": 9
+      },
+      "production": "Pathè Frères",
+      "lastUpdated": {
+        "$date": "2015-09-11T17:46:19Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd548c"
+    },
+    "plot": "The Civil War divides friends and destroys families, but that's nothing compared to the anarchy in the black-ruled South after the war.",
+    "genres": [
+      "Drama",
+      "History",
+      "Romance"
+    ],
+    "runtime": 165,
+    "rated": "NOT RATED",
+    "cast": [
+      "Lillian Gish",
+      "Mae Marsh",
+      "Henry B. Walthall",
+      "Miriam Cooper"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTM4ZDhiYTQtYzExNC00YjVlLTg2YWYtYTk3NTAzMzcwNTExXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Birth of a Nation",
+    "fullplot": "Two brothers, Phil and Ted Stoneman, visit their friends in Piedmont, South Carolina: the family Cameron. This friendship is affected by the Civil War, as the Stonemans and the Camerons must join up opposite armies. The consequences of the War in their lives are shown in connection to major historical events, like the development of the Civil War itself, Lincoln's assassination, and the birth of the Ku Klux Klan.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1730419200000"
+      }
+    },
+    "directors": [
+      "D.W. Griffith"
+    ],
+    "writers": [
+      "Thomas Dixon Jr. (adapted from his novel: \"The Clansman: An Historical Romance of the Ku Klux Klan\")",
+      "Thomas Dixon Jr. (play)",
+      "Thomas Dixon Jr. (novel)",
+      "D.W. Griffith",
+      "Frank E. Woods"
+    ],
+    "awards": {
+      "wins": 2,
+      "nominations": 0,
+      "text": "2 wins."
+    },
+    "lastupdated": {
+      "$date": "2015-09-10T19:02:27.763Z"
+    },
+    "year": 1915,
+    "imdb": {
+      "rating": 6.8,
+      "votes": 15715,
+      "id": 4972
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.2,
+        "numReviews": 4358,
+        "meter": 57
+      },
+      "dvd": {
+        "$date": "2004-06-29T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8,
+        "numReviews": 38,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-09-10T18:30:23Z"
+      },
+      "consensus": "Racial depictions aside, The Birth of a Nation is a landmark film whose achievements and pioneering techniques remain fully relevant today.",
+      "rotten": 0,
+      "production": "Gravitas",
+      "fresh": 38
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd5501"
+    },
+    "plot": "A venal, spoiled stockbroker's wife impulsively embezzles $10,000 from the charity she chairs and desperately turns to a Burmese ivory trader to replace the stolen money.",
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 59,
+    "rated": "NOT RATED",
+    "cast": [
+      "Fannie Ward",
+      "Sessue Hayakawa",
+      "Jack Dean",
+      "James Neill"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjEzMjcxNTM5M15BMl5BanBnXkFtZTgwMzgwNjQ1MjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Cheat",
+    "fullplot": "Edith Hardy uses charity funds for Wall Street investments in hopes of buying some new gowns. She loses all the money and borrows from wealthy oriental Tori. When her husband gives her the amount she borrowed, Tori won't take it back, branding her shoulder with a Japanese sign of his ownership. She shoots him. Her husband takes the blame. In court Edith reveals all to an angry mob.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1705795200000"
+      }
+    },
+    "directors": [
+      "Cecil B. DeMille"
+    ],
+    "writers": [
+      "Hector Turnbull (scenario)",
+      "Jeanie Macpherson (scenario)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-30T19:11:20.67Z"
+    },
+    "year": 1915,
+    "imdb": {
+      "rating": 6.5,
+      "votes": 1660,
+      "id": 5078
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.2,
+        "numReviews": 423,
+        "meter": 44
+      },
+      "production": "Jesse L. Lasky Feature Play Company",
+      "lastUpdated": {
+        "$date": "2015-09-11T17:55:28Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd56df"
+    },
+    "plot": "An immigrant leaves his sweetheart in Italy to find a better life across the sea in the grimy slums of New York. They are eventually reunited and marry. But life in New York is hard and ...",
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 78,
+    "rated": "PASSED",
+    "cast": [
+      "George Beban",
+      "Clara Williams",
+      "J. Frank Burke",
+      "Leo Willis"
+    ],
+    "title": "The Italian",
+    "fullplot": "An immigrant leaves his sweetheart in Italy to find a better life across the sea in the grimy slums of New York. They are eventually reunited and marry. But life in New York is hard and tragedy tarnishes their dream of a better life in the new world.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1735689600000"
+      }
+    },
+    "directors": [
+      "Reginald Barker"
+    ],
+    "writers": [
+      "Thomas H. Ince (story)",
+      "C. Gardner Sullivan (story)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-07-26T18:37:43.23Z"
+    },
+    "year": 1915,
+    "imdb": {
+      "rating": 6.4,
+      "votes": 175,
+      "id": 5557
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4,
+        "numReviews": 204,
+        "meter": 60
+      },
+      "dvd": {
+        "$date": "2008-08-26T00:00:00Z"
+      },
+      "lastUpdated": {
+        "$date": "2015-07-24T19:30:02Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd587d"
+    },
+    "plot": "At 10 years old, Owens becomes a ragged orphan when his sainted mother dies. The Conways, who are next door neighbors, take Owen in, but the constant drinking by Jim soon puts Owen on the ...",
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "runtime": 72,
+    "rated": "PASSED",
+    "cast": [
+      "John McCann",
+      "James A. Marcus",
+      "Maggie Weston",
+      "Harry McCoy"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDkxZGU4NmMtODJlNy00YzA2LTg4ZGMtNGFlNzAyNzcxOTM1XkEyXkFqcGdeQXVyOTM3MjcyMjI@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Regeneration",
+    "fullplot": "At 10 years old, Owens becomes a ragged orphan when his sainted mother dies. The Conways, who are next door neighbors, take Owen in, but the constant drinking by Jim soon puts Owen on the street. By 17, Owen learns that might is right. By 25, Owen is the leader of his own gang who spend most of their time gambling and drinking. But Marie comes into the gangster area of town and everything changes for Owen as he falls for Marie. But he cannot tell her so, so he comes to her settlement to find education and inspiration. But soon, his old way of life will rise to confront him again.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1713657600000"
+      }
+    },
+    "directors": [
+      "Raoul Walsh"
+    ],
+    "writers": [
+      "Owen Frawley Kildare (book)",
+      "Raoul Walsh (adapted from the book: \"My Mamie Rose\")",
+      "Carl Harbaugh (adapted from the book: \"My Mamie Rose\")"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-13T19:58:18.957Z"
+    },
+    "year": 1915,
+    "imdb": {
+      "rating": 6.8,
+      "votes": 626,
+      "id": 5960
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.4,
+        "numReviews": 395,
+        "meter": 70
+      },
+      "dvd": {
+        "$date": "2001-11-27T00:00:00Z"
+      },
+      "critic": {
+        "rating": 9.2,
+        "numReviews": 5,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-09-17T17:22:42Z"
+      },
+      "rotten": 0,
+      "production": "Fox Film Corporation",
+      "fresh": 5
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd5967"
+    },
+    "plot": "An intrepid reporter and his loyal friend battle a bizarre secret society of criminals known as The Vampires.",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Crime"
+    ],
+    "runtime": 399,
+    "rated": "NOT RATED",
+    "cast": [
+      "Musidora",
+      "èdouard Mathè",
+      "Marcel Lèvesque",
+      "Jean Aymè"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTc1NTY3NDIzNl5BMl5BanBnXkFtZTgwNTIyODg5MTE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Les vampires",
+    "fullplot": "An intrepid reporter and his loyal friend battle a bizarre secret society of criminals known as The Vampires.",
+    "languages": [
+      "French"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1675900800000"
+      }
+    },
+    "directors": [
+      "Louis Feuillade"
+    ],
+    "writers": [
+      "Louis Feuillade"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 1,
+      "text": "1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-09-01T18:54:27.333Z"
+    },
+    "year": 1915,
+    "imdb": {
+      "rating": 6.8,
+      "votes": 2878,
+      "id": 6206
+    },
+    "countries": [
+      "France"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.8,
+        "numReviews": 2118,
+        "meter": 82
+      },
+      "dvd": {
+        "$date": "2000-05-16T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8.8,
+        "numReviews": 13,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-09-15T17:02:33Z"
+      },
+      "rotten": 0,
+      "fresh": 13
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd5a93"
+    },
+    "plot": "Christ takes on the form of a pacifist count to end a senseless war.",
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 78,
+    "cast": [
+      "Howard C. Hickman",
+      "Enid Markey",
+      "Lola May",
+      "Kate Bruce"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjAwNTIxMjE5N15BMl5BanBnXkFtZTgwODc1Mjg1MzE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Civilization",
+    "fullplot": "Allegorical film about peace. A king starts a war, many of the women are against it, people are pressed into service. A count has constructed a submarine and gets the order to sink an ocean liner, that is also carrying - supposedly - ammunition for the enemy. The count refuses to fire the torpedos, and sinks the submarine. He survives, but in a limbo between death and life where he meets Jesus, who takes him over to preach peace. Naturally the king arrests him and sentences him to death for treason, but then Jesus shows him the real face of war.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1690934400000"
+      }
+    },
+    "directors": [
+      "Reginald Barker",
+      "Thomas H. Ince",
+      "Raymond B. West",
+      "Walter Edwards",
+      "David Hartford",
+      "Jay Hunt",
+      "J. Parker Read Jr."
+    ],
+    "writers": [
+      "C. Gardner Sullivan"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-04-29T20:43:27.863Z"
+    },
+    "year": 1916,
+    "imdb": {
+      "rating": 6.3,
+      "votes": 162,
+      "id": 6517
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 0,
+        "numReviews": 7
+      },
+      "lastUpdated": {
+        "$date": "2015-08-07T18:42:35Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd5b9a"
+    },
+    "plot": "In the wayward western town known as Hell's Hinges, a local tough guy is reformed by the faith of a good woman.",
+    "genres": [
+      "Romance",
+      "Western"
+    ],
+    "runtime": 64,
+    "rated": "UNRATED",
+    "cast": [
+      "William S. Hart",
+      "Clara Williams",
+      "Jack Standing",
+      "Alfred Hollingsworth"
+    ],
+    "num_mflix_comments": 1,
+    "title": "Hell's Hinges",
+    "fullplot": "When Reverend Robert Henley and his sister Faith arrive in the town of Hell's Hinges, saloon owner Silk Miller and his cohorts sense danger to their evil ways. They hire gunman Blaze Tracy to run the minister out of town. But Blaze finds something in Faith Henley that turns him around, and soon Silk Miller and his compadres have Blaze to deal with.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1698624000000"
+      }
+    },
+    "directors": [
+      "Charles Swickard",
+      "William S. Hart",
+      "Clifford Smith"
+    ],
+    "writers": [
+      "C. Gardner Sullivan (screenplay)",
+      "C. Gardner Sullivan (story)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-15T19:43:00.09Z"
+    },
+    "year": 1916,
+    "imdb": {
+      "rating": 6.4,
+      "votes": 531,
+      "id": 6780
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.2,
+        "numReviews": 98,
+        "meter": 36
+      },
+      "lastUpdated": {
+        "$date": "2015-09-01T19:31:17Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd5c0f"
+    },
+    "plot": "The story of a poor young woman, separated by prejudice from her husband and baby, is interwoven with tales of intolerance from throughout history.",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "runtime": 197,
+    "rated": "NOT RATED",
+    "cast": [
+      "Lillian Gish",
+      "Spottiswoode Aitken",
+      "Mary Alden",
+      "Frank Bennett"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTc0YjA1ZjctOTFlZi00NWRiLWE2MTAtZDE1MWY1YTgzOTJjXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Intolerance: Love's Struggle Throughout the Ages",
+    "fullplot": "Intolerance and its terrible effects are examined in four historical eras. In ancient Babylon, a mountain girl is caught up in the religious rivalry that leads to the city's downfall. In Judea, the hypocritical Pharisees condemn Jesus Christ. In 1572 Paris, unaware of the impending St. Bartholomew's Day Massacre, two young Huguenots prepare for marriage. Finally, in modern America, social reformers destroy the lives of a young woman and her beloved.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1682726400000"
+      }
+    },
+    "directors": [
+      "D.W. Griffith"
+    ],
+    "writers": [
+      "D.W. Griffith (scenario)",
+      "Anita Loos (titles)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-04T18:31:19.58Z"
+    },
+    "year": 1916,
+    "imdb": {
+      "rating": 8,
+      "votes": 9880,
+      "id": 6864
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.8,
+        "numReviews": 4718,
+        "meter": 78
+      },
+      "dvd": {
+        "$date": "2002-12-10T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8.1,
+        "numReviews": 32,
+        "meter": 97
+      },
+      "lastUpdated": {
+        "$date": "2015-09-15T17:02:34Z"
+      },
+      "consensus": "A pioneering classic and one of the most influential films ever made, D.W. Griffith's Intolerance stands as the crowning jewel in an incredible filmography.",
+      "rotten": 1,
+      "production": "Cohen Media Group",
+      "fresh": 31
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd5ea4"
+    },
+    "plot": "A District Attorney's outspoken stand on abortion gets him in trouble with the local community.",
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 62,
+    "rated": "APPROVED",
+    "cast": [
+      "Tyrone Power Sr.",
+      "Helen Riaume",
+      "Marie Walcamp",
+      "Cora Drew"
+    ],
+    "title": "Where Are My Children?",
+    "fullplot": "While prosecuting a physician for the death of a client after an abortion, the district attorney discovers that his wife helped her society friends and the daughter of her maid obtain and pay for abortions from the physician (and was perhaps herself also a client.)",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1693699200000"
+      }
+    },
+    "directors": [
+      "Phillips Smalley",
+      "Lois Weber"
+    ],
+    "writers": [
+      "Lucy Payton (from the story by)",
+      "Franklin Hall (from the story by)",
+      "Lois Weber",
+      "Phillips Smalley"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-06T19:21:32.56Z"
+    },
+    "year": 1916,
+    "imdb": {
+      "rating": 5.9,
+      "votes": 247,
+      "id": 7558
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.1,
+        "numReviews": 34,
+        "meter": 50
+      },
+      "production": "MCA/Universal Pictures",
+      "lastUpdated": {
+        "$date": "2015-08-06T19:49:17Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd60e4"
+    },
+    "plot": "Charlie is an immigrant who endures a challenging voyage and gets into trouble as soon as he arrives in America.",
+    "genres": [
+      "Short",
+      "Comedy",
+      "Drama"
+    ],
+    "runtime": 30,
+    "cast": [
+      "Charles Chaplin",
+      "Edna Purviance",
+      "Eric Campbell",
+      "Albert Austin"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTNkYWU5YjMtMjY2My00MDI4LTlmYzQtNTFkNTFjM2E1MTVlXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Immigrant",
+    "fullplot": "Charlie is on his way to the USA. He wins in a card game, puts the money in Edna's bag (she and her sick mother have been robbed of everything). When he retrieves a little for himself he is accused of being a thief. Edna clears his name. Later, broke, Charlie finds a coin and goes into a restaurant. There he finds Edna, whose mother has died, and asks her to join him. When he reaches for the coin to pay for their meals it is missing (it has fallen through a hole in his pocket).",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1658102400000"
+      }
+    },
+    "directors": [
+      "Charles Chaplin"
+    ],
+    "rated": "UNRATED",
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-16T23:22:02.293Z"
+    },
+    "year": 1917,
+    "imdb": {
+      "rating": 7.8,
+      "votes": 4680,
+      "id": 8133
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4.1,
+        "numReviews": 636,
+        "meter": 90
+      },
+      "dvd": {
+        "$date": "2001-04-12T00:00:00Z"
+      },
+      "lastUpdated": {
+        "$date": "2015-09-12T17:16:45Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd6223"
+    },
+    "plot": "Gwen's family is rich, but her parents ignore her and most of the servants push her around, so she is lonely and unhappy. Her father is concerned only with making money, and her mother ...",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "runtime": 65,
+    "cast": [
+      "Mary Pickford",
+      "Madlaine Traverse",
+      "Charles Wellesley",
+      "Gladys Fairbanks"
+    ],
+    "title": "The Poor Little Rich Girl",
+    "fullplot": "Gwen's family is rich, but her parents ignore her and most of the servants push her around, so she is lonely and unhappy. Her father is concerned only with making money, and her mother cares only about her social position. But one day a servant's irresponsibility creates a crisis that causes everyone to rethink what is important to them.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1667088000000"
+      }
+    },
+    "directors": [
+      "Maurice Tourneur"
+    ],
+    "writers": [
+      "Eleanor Gates (play)",
+      "Frances Marion (scenario)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-07-26T18:41:31.387Z"
+    },
+    "year": 1917,
+    "imdb": {
+      "rating": 6.9,
+      "votes": 884,
+      "id": 8443
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.9,
+        "numReviews": 137,
+        "meter": 77
+      },
+      "production": "Artcraft",
+      "lastUpdated": {
+        "$date": "2015-08-21T18:00:25Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd6377"
+    },
+    "plot": "A rich young Easterner who has always wanted to live in \"the Wild West\" plans to move to a Western town. Unknown to him, the town's \"wild\" days are long gone, and it is an orderly, ...",
+    "genres": [
+      "Comedy",
+      "Western",
+      "Romance"
+    ],
+    "runtime": 72,
+    "cast": [
+      "Douglas Fairbanks",
+      "Eileen Percy",
+      "Calvert Carter",
+      "Charles Stevens"
+    ],
+    "title": "Wild and Woolly",
+    "fullplot": "A rich young Easterner who has always wanted to live in \"the Wild West\" plans to move to a Western town. Unknown to him, the town's \"wild\" days are long gone, and it is an orderly, civilized place now. The townsmen, not wanting to lose a rich potential resident, contrive to make over the town to suit the young man's fantasy.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1657497600000"
+      }
+    },
+    "directors": [
+      "John Emerson"
+    ],
+    "writers": [
+      "Horace B. Carpenter (story)",
+      "John Emerson",
+      "Anita Loos"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-06-04T19:10:35.137Z"
+    },
+    "year": 1917,
+    "imdb": {
+      "rating": 6.9,
+      "votes": 388,
+      "id": 8775
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd63d6"
+    },
+    "plot": "Two peasant children, Mytyl and Tyltyl, are led by Berylune, a fairy, to search for the Blue Bird of Happiness. Berylune gives Tyltyl a cap with a diamond setting, and when Tyltyl turns the...",
+    "genres": [
+      "Fantasy"
+    ],
+    "runtime": 75,
+    "cast": [
+      "Tula Belle",
+      "Robin Macdougall",
+      "Edwin E. Reed",
+      "Emma Lowry"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjNlMThmNzItMTZlMS00YzJkLTk1MzktYzIyMzllOGFmZmRlXkEyXkFqcGdeQXVyMzE0MjY5ODA@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Blue Bird",
+    "fullplot": "Two peasant children, Mytyl and Tyltyl, are led by Berylune, a fairy, to search for the Blue Bird of Happiness. Berylune gives Tyltyl a cap with a diamond setting, and when Tyltyl turns the diamond, the children become aware of and conversant with the souls of a Dog and Cat, as well as of Fire, Water, Bread, Light, and other presumably inanimate things. The troupe thus sets off to find the elusive Blue Bird of Happiness.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1633305600000"
+      }
+    },
+    "directors": [
+      "Maurice Tourneur"
+    ],
+    "writers": [
+      "Maurice Maeterlinck (play)",
+      "Charles Maigne"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-07-19T19:02:04.81Z"
+    },
+    "year": 1918,
+    "imdb": {
+      "rating": 6.6,
+      "votes": 446,
+      "id": 8891
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.6,
+        "numReviews": 607,
+        "meter": 60
+      },
+      "dvd": {
+        "$date": "2005-09-06T00:00:00Z"
+      },
+      "lastUpdated": {
+        "$date": "2015-08-21T18:10:22Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1390f29313caabcd680a"
+    },
+    "plot": "A frail waif, abused by her brutal boxer father in London's seedy Limehouse District, is befriended by a sensitive Chinese immigrant with tragic consequences.",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime": 90,
+    "rated": "NOT RATED",
+    "cast": [
+      "Lillian Gish",
+      "Richard Barthelmess",
+      "Donald Crisp",
+      "Arthur Howard"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTY0ODRmZDktMzM2MC00NThmLWEyMDMtODQzNWEyMjMxYTYzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Broken Blossoms or The Yellow Man and the Girl",
+    "fullplot": "Cheng Huan is a missionary whose goal is to bring the teachings of peace by Buddha to the civilized Anglo-Saxons. Upon landing in England, he is quickly disillusioned by the intolerance and apathy of the country. He becomes a storekeeper of a small shop. Out his window, he sees the young Lucy Burrows. She is regularly beaten by her prizefighter father, underfed and wears ragged clothes. Even in this deplorable condition, Cheng can see that she is a priceless beauty and he falls in love with her from afar. On the day that she passes out in front of his store, he takes her in and cares for her. With nothing but love in his heart, he dresses her in silks and provides food for her. Still weak, she stays in his shop that night and all that Cheng does is watch over her. The peace and happiness that he sees last only until Battling Burrows finds out that his daughter is with a foreigner.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1584230400000"
+      }
+    },
+    "directors": [
+      "D.W. Griffith"
+    ],
+    "writers": [
+      "Thomas Burke (adapted from a story by)",
+      "D.W. Griffith"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-20T18:36:48.907Z"
+    },
+    "year": 1919,
+    "imdb": {
+      "rating": 7.7,
+      "votes": 6610,
+      "id": 9968
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.7,
+        "numReviews": 3717,
+        "meter": 72
+      },
+      "dvd": {
+        "$date": "1999-05-11T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8.2,
+        "numReviews": 21,
+        "meter": 95
+      },
+      "lastUpdated": {
+        "$date": "2015-08-21T18:30:26Z"
+      },
+      "consensus": "Thought-provoking and beautifully filmed, D.W. Griffith's Broken Blossoms presents a master at the top of his form.",
+      "rotten": 1,
+      "production": "Kino on Video",
+      "fresh": 20
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd68d0"
+    },
+    "plot": "A penniless young man tries to save an heiress from kidnappers and help her secure her inheritance.",
+    "genres": [
+      "Comedy",
+      "Short",
+      "Action"
+    ],
+    "runtime": 22,
+    "rated": "TV-G",
+    "cast": [
+      "Harold Lloyd",
+      "Mildred Davis",
+      "'Snub' Pollard",
+      "Peggy Cartwright"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzE1OWRlNDgtMTllNi00NTZiLWIyNTktYTk0MDY1ZWUwYTc5XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SY1000_SX677_AL_.jpg",
+    "title": "From Hand to Mouth",
+    "fullplot": "As a penniless man worries about how he will manage to eat, he is joined by a young waif and her dog, who are in the same predicament. Meanwhile, across town a dishonest lawyer is working with a gang of criminals, trying to swindle an innocent young heiress out of her inheritance. As the heiress is on her way home from the lawyer's office, she notices the young man and the waif in the midst of their latest problem with the authorities, and she rescues them. Later on, the young man will have an unexpected opportunity to repay her for her kindness.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1578268800000"
+      }
+    },
+    "directors": [
+      "Alfred J. Goulding",
+      "Hal Roach"
+    ],
+    "writers": [
+      "H.M. Walker (titles)"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 1,
+      "text": "1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-04-16T18:46:14.22Z"
+    },
+    "year": 1919,
+    "imdb": {
+      "rating": 7,
+      "votes": 639,
+      "id": 10146
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.3,
+        "numReviews": 71,
+        "meter": 55
+      },
+      "production": "Pathè Exchange",
+      "lastUpdated": {
+        "$date": "2015-08-21T18:45:11Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd6d40"
+    },
+    "plot": "A tipsy doctor encounters his patient sleepwalking on a building ledge, high above the street.",
+    "genres": [
+      "Comedy",
+      "Short"
+    ],
+    "runtime": 26,
+    "rated": "PASSED",
+    "cast": [
+      "Harold Lloyd",
+      "Roy Brooks",
+      "Mildred Davis",
+      "Wallace Howe"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BODliMjc3ODctYjhlOC00MDM5LTgzNmUtMjQ1MmViNDQ0NzlhXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SY1000_SX677_AL_.jpg",
+    "title": "High and Dizzy",
+    "fullplot": "After a long wait, a young doctor finally has a patient come to his office. She is a young woman whose father has brought her to be treated for sleep-walking, but the father becomes annoyed with the doctor, and takes his daughter away. Soon afterward, the young doctor shares in a drinking binge with another doctor who has built a still in his office. After a series of misadventures, the two of them wind up in the same hotel where the daughter and her father are staying, leading to some hazardous predicaments.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1561334400000"
+      }
+    },
+    "directors": [
+      "Hal Roach"
+    ],
+    "writers": [
+      "Frank Terry (story)",
+      "H.M. Walker (titles)"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 1,
+      "text": "1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-08-10T19:05:33.717Z"
+    },
+    "year": 1920,
+    "imdb": {
+      "rating": 7,
+      "votes": 646,
+      "id": 11293
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.4,
+        "numReviews": 30,
+        "meter": 70
+      },
+      "lastUpdated": {
+        "$date": "2015-06-27T19:17:10Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd6d90"
+    },
+    "plot": "As Alice and Cora Munro attempt to find their father, a British officer in the French and Indian War, they are set upon by French soldiers and their cohorts, Huron tribesmen led by the evil...",
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "runtime": 73,
+    "rated": "NOT RATED",
+    "cast": [
+      "Wallace Beery",
+      "Barbara Bedford",
+      "Alan Roscoe",
+      "Lillian Hall"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmJkZDU2N2ItMGNiYy00MTBmLTliOTYtNDU5NTdmMjEyMDFmXkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Last of the Mohicans",
+    "fullplot": "As Alice and Cora Munro attempt to find their father, a British officer in the French and Indian War, they are set upon by French soldiers and their cohorts, Huron tribesmen led by the evil Magua. Fighting to rescue the women are Chingachgook and his son Uncas, the last of the Mohican tribe, and their white ally, the frontiersman Natty Bumppo, known as Hawkeye.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1549843200000"
+      }
+    },
+    "directors": [
+      "Clarence Brown",
+      "Maurice Tourneur"
+    ],
+    "writers": [
+      "James Fenimore Cooper (novel)",
+      "Robert Dillon (scenario)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-07-18T18:42:27.01Z"
+    },
+    "year": 1920,
+    "imdb": {
+      "rating": 6.9,
+      "votes": 773,
+      "id": 11387
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.5,
+        "numReviews": 306,
+        "meter": 63
+      },
+      "dvd": {
+        "$date": "2000-05-09T00:00:00Z"
+      },
+      "lastUpdated": {
+        "$date": "2015-08-05T18:26:29Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd6e2a"
+    },
+    "plot": "A newly wedded couple attempt to build a house with a prefabricated kit, unaware that a rival sabotaged the kit's component numbering.",
+    "genres": [
+      "Short",
+      "Comedy"
+    ],
+    "runtime": 25,
+    "cast": [
+      "Buster Keaton",
+      "Sybil Seely"
+    ],
+    "num_mflix_comments": 0,
+    "title": "One Week",
+    "fullplot": "Buster and Sybil exit a chapel as newlyweds. Among the gifts is a portable house you easily put together in one week. It doesn't help that Buster's rival for Sybil switches the numbers on the crates containing the house parts.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1556841600000"
+      }
+    },
+    "directors": [
+      "Edward F. Cline",
+      "Buster Keaton"
+    ],
+    "rated": "TV-G",
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-05-06T19:37:01.633Z"
+    },
+    "year": 1920,
+    "imdb": {
+      "rating": 8.3,
+      "votes": 3942,
+      "id": 11541
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4.3,
+        "numReviews": 752,
+        "meter": 91
+      },
+      "lastUpdated": {
+        "$date": "2015-09-13T18:22:19Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd6ea2"
+    },
+    "plot": "The simple-minded son of a rich financier must find his own way in the world.",
+    "genres": [
+      "Comedy"
+    ],
+    "runtime": 77,
+    "cast": [
+      "Edward Jobson",
+      "Beulah Booker",
+      "Edward Connelly",
+      "Edward Alexander"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZDNiODA3NzQtNTBmZS00NTM3LWJlOGMtMDg2NzFiNDU2M2M3XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Saphead",
+    "fullplot": "Nick Van Alstyne owns the Henrietta silver mine and is very rich. His son Bertie is naive and spoiled. His daughter Rose is married to shady investor Mark. Mark wrecks Bertie's wedding plans by making him take the blame for Mark's illegitimate daughter. Mark also nearly ruins the family business by selling off Henrietta stock at too low a price. Bertie, of all people, must come to the rescue on the trading floor.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1556841600000"
+      }
+    },
+    "directors": [
+      "Herbert Blachè",
+      "Winchell Smith"
+    ],
+    "writers": [
+      "Bronson Howard (original play \"The Henrietta\")",
+      "Victor Mapes (play)",
+      "June Mathis (scenario)",
+      "Winchell Smith (play)"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 1,
+      "text": "1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-06-19T19:08:08.303Z"
+    },
+    "year": 1920,
+    "imdb": {
+      "rating": 6.2,
+      "votes": 1020,
+      "id": 11652
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.3,
+        "numReviews": 435,
+        "meter": 49
+      },
+      "dvd": {
+        "$date": "2000-01-11T00:00:00Z"
+      },
+      "lastUpdated": {
+        "$date": "2015-06-23T19:23:34Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd6f98"
+    },
+    "plot": "A romantic rivalry among members of a secret society becomes even tenser when one of the men is assigned to carry out an assassination.",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "runtime": 75,
+    "rated": "PASSED",
+    "cast": [
+      "Lon Chaney",
+      "Leatrice Joy",
+      "John Bowers",
+      "Hardee Kirkland"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTkwOTUyNDk1N15BMl5BanBnXkFtZTYwODI3MzI3._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Ace of Hearts",
+    "fullplot": "A secret society holds a meeting to determine what to do about a powerful and dangerous man whom they have been studying closely for the past three months. They all agree that he deserves to die. Two of the members, Farallone and Forrest, are both in love with Lilith, the group's only female member. But Lilith accepts neither of them, preferring to devote herself to the group's cause. When the group meets again and deals cards to all the members, Forrest draws the ace of hearts, meaning that he will be the one to carry out the assassination. Lilith then suddenly agrees to marry him, in order to give him courage. But after their first night together, both of them begin to feel differently about what they have planned.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1443571200000"
+      }
+    },
+    "directors": [
+      "Wallace Worsley"
+    ],
+    "writers": [
+      "Gouverneur Morris (by)",
+      "Ruth Wightman (scenario)"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 2,
+      "text": "2 nominations."
+    },
+    "lastupdated": {
+      "$date": "2015-07-19T18:31:29.56Z"
+    },
+    "year": 1921,
+    "imdb": {
+      "rating": 7,
+      "votes": 798,
+      "id": 11904
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.5,
+        "numReviews": 377,
+        "meter": 68
+      },
+      "lastUpdated": {
+        "$date": "2015-04-28T19:29:23Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd70b4"
+    },
+    "plot": "An extended family split up in France and Germany find themselves on opposing sides of the battlefield during World War I.",
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "runtime": 150,
+    "rated": "PASSED",
+    "cast": [
+      "Pomeroy Cannon",
+      "Josef Swickard",
+      "Bridgetta Clark",
+      "Rudolph Valentino"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTU1ODQyYTctODhkNy00YWRmLWE2YzYtMTQ5ZjA3OTNiN2QyXkEyXkFqcGdeQXVyMzE0MjY5ODA@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Four Horsemen of the Apocalypse",
+    "fullplot": "Julio Madariaga is the Argentine patriarch of a wealthy family. He has two daughters, the elder wed to a Frenchman and the other to a German. He prefers the Frenchman and his family, especially his grandson Julio, causing jealousy from the German and his three sons. When Madariaga dies, the family splits up, each son-in-law returning to his own country. The Frenchman and his own move to Paris, where Julio becomes an artist and has an affair with an unhappily married woman, the lovely Marguerite Laurier. Her husband finds out, but before he can finalize a divorce, World War One rears its head and both sides of the family will endure great suffering in the conflict, especially since they must fight one another on the battlefield.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1475539200000"
+      }
+    },
+    "directors": [
+      "Rex Ingram"
+    ],
+    "writers": [
+      "Vicente Blasco Ibèèez (novel)",
+      "June Mathis (written for the screen by)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-23T19:29:30.43Z"
+    },
+    "year": 1921,
+    "imdb": {
+      "rating": 7.9,
+      "votes": 2475,
+      "id": 12190
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.9,
+        "numReviews": 507,
+        "meter": 76
+      },
+      "production": "Metro Pictures Corporation",
+      "lastUpdated": {
+        "$date": "2015-07-28T18:34:16Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd715c"
+    },
+    "plot": "The Tramp cares for an abandoned child, but events put that relationship in jeopardy.",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "runtime": 68,
+    "rated": "NOT RATED",
+    "cast": [
+      "Carl Miller",
+      "Edna Purviance",
+      "Jackie Coogan",
+      "Charles Chaplin"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjhhMThhNDItNTY2MC00MmU1LTliNDEtNDdhZjdlNTY5ZDQ1XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Kid",
+    "fullplot": "The opening title reads: \"A comedy with a smile--and perhaps a tear\". As she leaves the charity hospital and passes a church wedding, Edna deposits her new baby with a pleading note in a limousine and goes off to commit suicide. The limo is stolen by thieves who dump the baby by a garbage can. Charlie the Tramp finds the baby and makes a home for him. Five years later Edna has become an opera star but does charity work for slum youngsters in hope of finding her boy. A doctor called by Edna discovers the note with the truth about the Kid and reports it to the authorities who come to take him away from Charlie. Before he arrives at the Orphan Asylum Charlie steals him back and takes him to a flophouse. The proprietor reads of a reward for the Kid and takes him to Edna. Charlie is later awakened by a kind policeman who reunites him with the Kid at Edna's mansion.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1543190400000"
+      }
+    },
+    "directors": [
+      "Charles Chaplin"
+    ],
+    "writers": [
+      "Charles Chaplin"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-04T18:54:11.143Z"
+    },
+    "year": 1921,
+    "imdb": {
+      "rating": 8.4,
+      "votes": 56858,
+      "id": 12349
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4.2,
+        "numReviews": 14860,
+        "meter": 96
+      },
+      "dvd": {
+        "$date": "2004-03-02T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8.7,
+        "numReviews": 22,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-09-14T17:49:56Z"
+      },
+      "rotten": 0,
+      "production": "First National Pictures Inc.",
+      "fresh": 22
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd71e3"
+    },
+    "plot": "Wlliam deMille produced and directed Miss Lulu Bett, a film of extraordinary conviction and insight. It was then often the custom for unmarried women to lodge with family; thus we discover ...",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime": 71,
+    "cast": [
+      "Lois Wilson",
+      "Milton Sills",
+      "Theodore Roberts",
+      "Helen Ferguson"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTY5MTY0MzY0Ml5BMl5BanBnXkFtZTgwNjE4NDAxMjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Miss Lulu Bett",
+    "fullplot": "Wlliam deMille produced and directed Miss Lulu Bett, a film of extraordinary conviction and insight. It was then often the custom for unmarried women to lodge with family; thus we discover Miss Lulu in a boring Midwestern town, an exploited household drudge for her sister and her overbearing brother-in-law. In the course of the story (based upon the Pulitzer Prize play and novel by Zona Gale), Lulu evolves from slavery into an attractive and self-assured woman, prepared to make her own life. Revealed through wonderful performances and clever use of props, the characters are extraordinarily solid and involving.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1520035200000"
+      }
+    },
+    "directors": [
+      "William C. de Mille"
+    ],
+    "writers": [
+      "Clara Beranger (adaptation)",
+      "Zona Gale (novel)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-20T18:45:46.14Z"
+    },
+    "year": 1921,
+    "imdb": {
+      "rating": 7.2,
+      "votes": 204,
+      "id": 12465
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 2.5,
+        "numReviews": 2
+      },
+      "lastUpdated": {
+        "$date": "2015-05-02T19:03:48Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd71f5"
+    },
+    "plot": "A young man, unaccustomed to children, must accompany a young girl on a train trip.",
+    "genres": [
+      "Comedy",
+      "Short"
+    ],
+    "runtime": 35,
+    "rated": "PASSED",
+    "cast": [
+      "Harold Lloyd",
+      "Mildred Davis",
+      "Anna Mae Bilson"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjgzYzY1NjEtYWQxZS00ZjA4LWJlYmQtYzRjNTg3NjUwNDRlXkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Now or Never",
+    "fullplot": "Mary is looking after a young child whose parents have little time for her. So, when Mary travels home to meet her childhood sweetheart, she takes the child with her. Meanwhile, her boyfriend has a mishap on the road, and is tricked out of his money by a tramp. When the tramp then hitches a ride on a train, the boyfriend does so as well. At the station, he meets Mary and the child, and they plan to re-board the train together. But difficulties arise when Mary sees her boss boarding the same train - and there is also the problem that her boyfriend doesn't have a ticket.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1538956800000"
+      }
+    },
+    "directors": [
+      "Fred C. Newmeyer",
+      "Hal Roach"
+    ],
+    "writers": [
+      "H.M. Walker (titles)",
+      "Sam Taylor (scenario)"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 1,
+      "text": "1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-06-24T18:32:16.613Z"
+    },
+    "year": 1921,
+    "imdb": {
+      "rating": 6.8,
+      "votes": 489,
+      "id": 12512
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.8,
+        "numReviews": 3
+      },
+      "lastUpdated": {
+        "$date": "2015-07-16T17:59:55Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd72f0"
+    },
+    "plot": "When three thuggish men are responsible for the death of his father and the crippling of his brother, young David must choose between supporting his family or risking his life and exacting vengeance.",
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 99,
+    "cast": [
+      "Richard Barthelmess",
+      "Gladys Hulette",
+      "Walter P. Lewis",
+      "Ernest Torrence"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMzA3MDAyNl5BMl5BanBnXkFtZTgwNzMyNTE1MjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Tol'able David",
+    "fullplot": "When three thuggish men are responsible for the death of his father and the crippling of his brother, young David must choose between supporting his family or risking his life and exacting vengeance.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1514851200000"
+      }
+    },
+    "directors": [
+      "Henry King"
+    ],
+    "writers": [
+      "Joseph Hergesheimer (novel)",
+      "Edmund Goulding",
+      "Henry King"
+    ],
+    "awards": {
+      "wins": 2,
+      "nominations": 0,
+      "text": "2 wins."
+    },
+    "lastupdated": {
+      "$date": "2015-08-22T19:42:08.943Z"
+    },
+    "year": 1921,
+    "imdb": {
+      "rating": 8.1,
+      "votes": 1455,
+      "id": 12763
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.3,
+        "numReviews": 249,
+        "meter": 70
+      },
+      "dvd": {
+        "$date": "1999-03-23T00:00:00Z"
+      },
+      "production": "Universum Film A.G. (UFA)",
+      "lastUpdated": {
+        "$date": "2015-08-26T18:24:46Z"
+      }
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd73f4"
+    },
+    "plot": "A series of mishaps manages to make a young man get chased by a big city's entire police force.",
+    "genres": [
+      "Short",
+      "Comedy",
+      "Family"
+    ],
+    "runtime": 22,
+    "rated": "UNRATED",
+    "cast": [
+      "Buster Keaton"
+    ],
+    "num_mflix_comments": 0,
+    "title": "Cops",
+    "fullplot": "Through a series of mistaken identities Buster winds up with a load of furniture in the middle of parade of policemen. An anarchist's bomb lands in his carriage. After lighting his cigarette with it, he tosses it into the ranks of police. When it explodes the police chase him all over town.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1509667200000"
+      }
+    },
+    "directors": [
+      "Edward F. Cline",
+      "Buster Keaton"
+    ],
+    "writers": [
+      "Buster Keaton",
+      "Edward F. Cline"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-16T00:51:19.243Z"
+    },
+    "year": 1922,
+    "imdb": {
+      "rating": 7.8,
+      "votes": 3738,
+      "id": 13025
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4,
+        "numReviews": 498,
+        "meter": 88
+      },
+      "production": "Joseph M. Schenck Productions",
+      "lastUpdated": {
+        "$date": "2015-09-15T18:06:57Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7472"
+    },
+    "plot": "A con artist masquerades a Russian nobility and attempts to seduce the wife of an American diplomat.",
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 117,
+    "cast": [
+      "Rudolph Christians",
+      "Miss DuPont",
+      "Maude George",
+      "Mae Busch"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTk2NDkxMTY1Nl5BMl5BanBnXkFtZTgwNDI1NDU5MTE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Foolish Wives",
+    "fullplot": "\"Count\" Karanzim, a Don Juan is with his cousins in Monte Carlo, living from faked money and the money he gets from rich ladies, who are attracted by his charmes and his title or his militaristic and aristocratic behaviour. He tries to have success with Mrs Hughes, the wife of the new US ambassador.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1513900800000"
+      }
+    },
+    "directors": [
+      "Erich von Stroheim"
+    ],
+    "writers": [
+      "Erich von Stroheim (story)",
+      "Marian Ainslee (titles)",
+      "Walter Anthony (titles)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-04T18:30:37.817Z"
+    },
+    "year": 1922,
+    "imdb": {
+      "rating": 7.3,
+      "votes": 1777,
+      "id": 13140
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.7,
+        "numReviews": 1079,
+        "meter": 77
+      },
+      "dvd": {
+        "$date": "2000-09-19T00:00:00Z"
+      },
+      "critic": {
+        "rating": 9,
+        "numReviews": 9,
+        "meter": 89
+      },
+      "lastUpdated": {
+        "$date": "2015-09-15T17:02:32Z"
+      },
+      "rotten": 1,
+      "production": "Universal Pictures",
+      "fresh": 8
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7586"
+    },
+    "plot": "In this silent predecessor to the modern documentary, film-maker Robert J. Flaherty spends one year following the lives of Nanook and his family, Inuit living in the Arctic Circle.",
+    "genres": [
+      "Documentary"
+    ],
+    "runtime": 79,
+    "cast": [
+      "Allakariallak",
+      "Nyla",
+      "Allee",
+      "Cunayou"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTg4Njk3MjU5Ml5BMl5BanBnXkFtZTgwOTIyODg5MTE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Nanook of the North",
+    "fullplot": "Documents one year in the life of Nanook, an Eskimo (Inuit), and his family. Describes the trading, hunting, fishing and migrations of a group barely touched by industrial technology. Nanook of the North was widely shown and praised as the first full-length, anthropological documentary in cinematographic history.",
+    "countries": [
+      "USA",
+      "France"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1500854400000"
+      }
+    },
+    "directors": [
+      "Robert J. Flaherty"
+    ],
+    "rated": "NOT RATED",
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-28T18:57:40.327Z"
+    },
+    "year": 1922,
+    "imdb": {
+      "rating": 7.8,
+      "votes": 6918,
+      "id": 13427
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.8,
+        "numReviews": 4759,
+        "meter": 80
+      },
+      "dvd": {
+        "$date": "1999-01-26T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8.7,
+        "numReviews": 23,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-09-15T17:02:34Z"
+      },
+      "rotten": 0,
+      "fresh": 23
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd75b5"
+    },
+    "plot": "Vampire Count Orlok expresses interest in a new residence and real estate agent Hutter's wife. Silent classic based on the story \"Dracula.\"",
+    "genres": [
+      "Horror"
+    ],
+    "runtime": 81,
+    "rated": "UNRATED",
+    "cast": [
+      "Max Schreck",
+      "Gustav von Wangenheim",
+      "Greta Schrèder",
+      "Georg H. Schnell"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTAxYjEyMTctZTg3Ni00MGZmLWIxMmMtOGM2NTFiY2U3MmExXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Nosferatu",
+    "fullplot": "Wisbourg, Germany based estate agent Knock dispatches his associate, Hutter, to Count Orlok's castle in Transylvania as the Count wants to purchase an isolated house in Wisbourg. They plan on selling him the one across the way from Hutter's own home. Hutter leaves his innocent wife, Ellen, with some friends while he is away. Hutter's trek is an unusual one, with many locals not wanting to take him near the castle where strange events have been occurring. Once at the castle, Hutter does manage to sell the Count the house, but he also notices and feels unusual occurrences, primarily feeling like there is a dark shadow hanging over him, even in the daytime when the Count is unusually asleep. Hutter eventually sees the Count's sleeping chamber in a crypt, and based on a book he has recently read, believes the Count is really a vampire or Nosferatu. While Hutter is trapped in the castle, the Count, hiding in a shipment of coffins, makes his way to Wisbourg, causing death along his way, which most attribute to the plague. Hutter himself tries to rush home to save his town and most importantly save Ellen from Nosferatu's imminent arrival. In Wisbourg, Ellen can feel the impending darkness as Nosferatu gets closer. But she learns that a sinless woman can sacrifice herself to kill the vampire. Will Hutter be able to save Ellen either from Nosferatu and/or her self-sacrifice?",
+    "languages": [
+      "German"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1280620800000"
+      }
+    },
+    "directors": [
+      "F.W. Murnau"
+    ],
+    "writers": [
+      "Henrik Galeen (screen play)",
+      "Bram Stoker (based on the novel: \"Dracula\")"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 1,
+      "text": "1 win & 1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-08-20T18:34:53.453Z"
+    },
+    "year": 1922,
+    "imdb": {
+      "rating": 8,
+      "votes": 63322,
+      "id": 13442
+    },
+    "countries": [
+      "Germany"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4,
+        "numReviews": 46806,
+        "meter": 87
+      },
+      "dvd": {
+        "$date": "1997-10-22T00:00:00Z"
+      },
+      "critic": {
+        "rating": 9,
+        "numReviews": 62,
+        "meter": 97
+      },
+      "lastUpdated": {
+        "$date": "2015-08-20T19:15:25Z"
+      },
+      "consensus": "One of the silent era's most influential masterpieces, Nosferatu's eerie, gothic feel -- and a chilling performance from Max Shrek as the vampire -- set the template for the horror films that followed.",
+      "rotten": 2,
+      "production": "Film Arts Guild",
+      "fresh": 60
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7616"
+    },
+    "plot": "Salome, the daughter of Herodias, seduces her step-father/uncle Herod, governor of Judea, with a salacious dance. In return, he promises her the head of the prophet John the Baptist.",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "runtime": 72,
+    "cast": [
+      "Mitchell Lewis",
+      "Alla Nazimova",
+      "Rose Dione",
+      "Earl Schenck"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA0MTY4MzI2OV5BMl5BanBnXkFtZTgwNTMyODg5MTE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Salomè",
+    "fullplot": "Salome, the daughter of Herodias, seduces her step-father/uncle Herod, governor of Judea, with a salacious dance. In return, he promises her the head of the prophet John the Baptist.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1479340800000"
+      }
+    },
+    "directors": [
+      "Charles Bryant",
+      "Alla Nazimova"
+    ],
+    "writers": [
+      "Oscar Wilde (play)",
+      "Natacha Rambova (scenario)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-04-25T18:33:19.913Z"
+    },
+    "year": 1922,
+    "imdb": {
+      "rating": 6.6,
+      "votes": 466,
+      "id": 13571
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.9,
+        "numReviews": 310,
+        "meter": 70
+      },
+      "fresh": 3,
+      "critic": {
+        "rating": 6.5,
+        "numReviews": 5,
+        "meter": 60
+      },
+      "rotten": 2,
+      "lastUpdated": {
+        "$date": "2015-06-13T19:00:41Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7626"
+    },
+    "plot": "A nobleman becomes the vigilante Robin Hood who protects the oppressed English people from the tyrannical Prince John.",
+    "genres": [
+      "Adventure",
+      "Romance",
+      "Family"
+    ],
+    "runtime": 143,
+    "cast": [
+      "Wallace Beery",
+      "Sam De Grasse",
+      "Enid Bennett",
+      "Paul Dickey"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzRmMWIyNDEtYTRmYS00Y2FlLWJhOGUtYWZmNTI1YzZjOTc2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Robin Hood",
+    "fullplot": "Amid big-budget medieval pageantry, King Richard goes on the Crusades leaving his brother Prince John as regent, who promptly emerges as a cruel, grasping, treacherous tyrant. Apprised of England's peril by message from his lady-love Marian, the dashing Earl of Huntingdon endangers his life and honor by returning to oppose John, but finds himself and his friends outlawed, and Marian apparently dead. Enter Robin Hood, acrobatic champion of the oppressed, laboring to set things right through swash buckling feats and cliffhanging perils!",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1489708800000"
+      }
+    },
+    "directors": [
+      "Allan Dwan"
+    ],
+    "writers": [
+      "Douglas Fairbanks (story)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-10T18:59:16.047Z"
+    },
+    "year": 1922,
+    "imdb": {
+      "rating": 7.7,
+      "votes": 1460,
+      "id": 13556
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.6,
+        "numReviews": 659,
+        "meter": 70
+      },
+      "dvd": {
+        "$date": "2004-02-03T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8.4,
+        "numReviews": 8,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-07-14T18:21:21Z"
+      },
+      "rotten": 0,
+      "fresh": 8
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7850"
+    },
+    "plot": "In fifteenth century Paris, the brother of the archdeacon plots with the gypsy king to foment a peasant revolt. Meanwhile, a freakish hunchback falls in love with the gypsy queen.",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime": 133,
+    "rated": "UNRATED",
+    "cast": [
+      "Lon Chaney",
+      "Patsy Ruth Miller",
+      "Norman Kerry",
+      "Kate Lester"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjMyODkyNjc5MF5BMl5BanBnXkFtZTgwODY1NDM4MTE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Hunchback of Notre Dame",
+    "fullplot": "Clopin bought Esmeralda from the gypsies when she was young. Dancing in the square at the festival, Esmeralda is spotted by Jehan, the evil brother of the good archdeacon Claude Frollo. When he sets Quasimodo out to kidnap Esmeralda, Phoebus, Captain of the Guards, rescues her and captures Quasimodo. The courts sentence Quasimodo to be flogged, and the only one who will give him water while he is tied in the square is Esmeralda. After Clopin forces Esmeralda to leave Phoebus at the ball, she sends a note to Phoebus to meet her at Notre-Dame. In the garden, Phoebus is stabbed in the back by Jehan. Esmeralda is accused of stabbing Phoebus, convicted by the courts and sentenced to hang. When Esmeralda again rejects Jehan, he tells her that Phoebus is dead, even though it is not true. Clopin, Phoebus and Quasimodo all try different ways to save Esmeralda.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1461801600000"
+      }
+    },
+    "directors": [
+      "Wallace Worsley"
+    ],
+    "writers": [
+      "Victor Hugo",
+      "Perley Poore Sheehan (adaptation)",
+      "Edward T. Lowe Jr. (scenario)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-02T19:13:12.727Z"
+    },
+    "year": 1923,
+    "imdb": {
+      "rating": 7.4,
+      "votes": 3289,
+      "id": 14142
+    },
+    "type": "movie",
+    "tomatoes": {
+      "website": "http://www.flickeralley.com/catalog/item/the-hunchback-of-notre-dame-1923",
+      "viewer": {
+        "rating": 3.6,
+        "numReviews": 2902,
+        "meter": 74
+      },
+      "dvd": {
+        "$date": "2002-02-19T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8.1,
+        "numReviews": 15,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-09-17T18:03:58Z"
+      },
+      "rotten": 0,
+      "production": "Gravitas",
+      "fresh": 15
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7915"
+    },
+    "plot": "A man returns to his Appalachian homestead. On the trip, he falls for a young woman. The only problem is her family has vowed to kill every member of his family.",
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "runtime": 65,
+    "rated": "NOT RATED",
+    "cast": [
+      "Joe Roberts",
+      "Ralph Bushman",
+      "Craig Ward",
+      "Monte Collins"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTNjZjYxMDQtMTViNi00NTg0LWFmZTYtNTdiMzUxZWU3ZTU2XkEyXkFqcGdeQXVyNDQzMDg4Nzk@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Our Hospitality",
+    "fullplot": "After her husband John McKay is killed in an ongoing feud with the Canfield family, a woman takes her baby boy Willie to her sister's house in New York hoping he will never know of the feud with the Canfields. Twenty years later Willie is a grown man and he receives a letter saying he has inherited his father's estate and must travel to his family home to take possession. On the train there he meets a beautiful young woman and falls in love only to learn that she's a Canfield. He accepts her invitation to dinner and quickly realizes that the Canfield men won't kill him while he's in their home. His plan to stay there as a permanent guest is short-lived and the Canfields are soon after him.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1455408000000"
+      }
+    },
+    "directors": [
+      "John G. Blystone",
+      "Buster Keaton"
+    ],
+    "writers": [
+      "Jean C. Havez (story)",
+      "Clyde Bruckman (story)",
+      "Joseph A. Mitchell (story)"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 1,
+      "text": "1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-08-10T18:32:19.313Z"
+    },
+    "year": 1923,
+    "imdb": {
+      "rating": 7.9,
+      "votes": 6646,
+      "id": 14341
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4.1,
+        "numReviews": 3329,
+        "meter": 90
+      },
+      "dvd": {
+        "$date": "1998-04-28T00:00:00Z"
+      },
+      "critic": {
+        "rating": 9,
+        "numReviews": 23,
+        "meter": 96
+      },
+      "lastUpdated": {
+        "$date": "2015-09-15T17:02:36Z"
+      },
+      "rotten": 1,
+      "production": "MGM",
+      "fresh": 22
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd796e"
+    },
+    "plot": "When a store clerk organizes a publicity stunt, in which a friend climbs the outside of a tall building, circumstances force him to make the perilous climb himself.",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Thriller"
+    ],
+    "runtime": 70,
+    "rated": "NOT RATED",
+    "cast": [
+      "Harold Lloyd",
+      "Mildred Davis",
+      "Bill Strother",
+      "Noah Young"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjkyOTg2MzE1MV5BMl5BanBnXkFtZTgwMDUzODYwMjE@._V1._CR32.883331298828125,11.533340454101562,508,1024_SX89_AL_.jpg",
+    "title": "Safety Last!",
+    "fullplot": "In 1922, the country boy Harold says goodbye to his mother and his girlfriend Mildred in the train station and leaves Great Bend expecting to be successful in the big city. Harold promises to Mildred to get married with her as soon as he \"make good\". Harold shares a room with his friend \"Limpy\" Bill and he finally gets a job as salesman in the De Vore Department Store. However, he pawns Bill's phonograph, buys a lavaliere and writes to Mildred telling that he is a manager of De Vore. One day, Harold sees an old friend from Great Bend that is a policeman and when he meets his friend Bill, he asks Bill to push the policeman over him and make him fall down. However Bill pushes the wrong policeman that chases him, but he escapes climbing up a building. Out of the blue, Mildred is convinced by her mother to visit Harold without previous notice and he pretends to be the manager of De Vore. When Harold overhears the general manager telling that he would give one thousand dollars to to anyone that could promote De Vore attracting people to the department store, he offers five hundred dollars to Bill to climb up the Bolton Building. However things go wrong when the angry policeman decides to check whether the mystery man that will climb up the building is the one who pushed him over on the floor.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1475452800000"
+      }
+    },
+    "directors": [
+      "Fred C. Newmeyer",
+      "Sam Taylor"
+    ],
+    "writers": [
+      "Hal Roach (story)",
+      "Sam Taylor (story)",
+      "Tim Whelan (story)",
+      "H.M. Walker (titles)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 1,
+      "text": "1 win & 1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-08-20T19:29:44.877Z"
+    },
+    "year": 1923,
+    "imdb": {
+      "rating": 8.3,
+      "votes": 11803,
+      "id": 14429
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4.2,
+        "numReviews": 3536,
+        "meter": 93
+      },
+      "dvd": {
+        "$date": "2013-06-18T00:00:00Z"
+      },
+      "critic": {
+        "rating": 8.6,
+        "numReviews": 25,
+        "meter": 96
+      },
+      "lastUpdated": {
+        "$date": "2015-09-01T18:14:59Z"
+      },
+      "rotten": 1,
+      "production": "Criterion Collection",
+      "fresh": 24
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd79e4"
+    },
+    "plot": "The misadventures of Buster in three separate historical periods.",
+    "genres": [
+      "Comedy"
+    ],
+    "runtime": 63,
+    "cast": [
+      "Buster Keaton",
+      "Margaret Leahy",
+      "Wallace Beery",
+      "Joe Roberts"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjI3OTEzODA4NF5BMl5BanBnXkFtZTgwODc0NDIwMjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Three Ages",
+    "fullplot": "In his first independently produced feature film Buster tells of love and romance through three historical ages: the Stone Age, the Roman Age, and the Modern Age.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1460246400000"
+      }
+    },
+    "directors": [
+      "Edward F. Cline",
+      "Buster Keaton"
+    ],
+    "writers": [
+      "Clyde Bruckman (story)",
+      "Joseph A. Mitchell (story)",
+      "Jean C. Havez (story)"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 1,
+      "text": "1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-08-04T19:32:46.273Z"
+    },
+    "year": 1923,
+    "imdb": {
+      "rating": 7.2,
+      "votes": 2628,
+      "id": 14538
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.6,
+        "numReviews": 1412,
+        "meter": 77
+      },
+      "dvd": {
+        "$date": "1999-11-23T00:00:00Z"
+      },
+      "critic": {
+        "rating": 7.2,
+        "numReviews": 8,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-08-09T18:36:00Z"
+      },
+      "rotten": 0,
+      "fresh": 8
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7a34"
+    },
+    "plot": "A kept woman runs into her one-time fiancè and finds herself torn between love and comfort.",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime": 78,
+    "rated": "TV-PG",
+    "cast": [
+      "Edna Purviance",
+      "Clarence Geldart",
+      "Carl Miller",
+      "Lydia Knott"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjJiMTU2NGQtNWRkNi00ZjExLWExMTUtMmNkNTU0NzRlMTA3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SY1000_SX677_AL_.jpg",
+    "title": "A Woman of Paris: A Drama of Fate",
+    "fullplot": "Marie St. Clair believes she has been jilted by her artist fiance Jean when he fails to meet her at the railway station. She goes off to Paris alone. A year later, mistress of wealthy Pierre Revel, she meets Jean again. Misinterpreting events she bounces back and forth between apparent security and true love.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1456704000000"
+      }
+    },
+    "directors": [
+      "Charles Chaplin"
+    ],
+    "writers": [
+      "Charles Chaplin"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-01T18:52:09.303Z"
+    },
+    "year": 1923,
+    "imdb": {
+      "rating": 7.1,
+      "votes": 3179,
+      "id": 14624
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.7,
+        "numReviews": 886,
+        "meter": 78
+      },
+      "dvd": {
+        "$date": "2004-03-02T00:00:00Z"
+      },
+      "critic": {
+        "rating": 7.4,
+        "numReviews": 11,
+        "meter": 91
+      },
+      "lastUpdated": {
+        "$date": "2015-08-23T18:34:44Z"
+      },
+      "rotten": 1,
+      "production": "Criterion Collection",
+      "fresh": 10
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7ac4"
+    },
+    "plot": "A fire engulfs a shipload of prospectors and adventurers making their way to Alaska. In the confusion, Mrs. Stanlaw is separated from her young daughter, who ends up in the care of '...",
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "runtime": 87,
+    "rated": "UNRATED",
+    "cast": [
+      "William Dills",
+      "Albert Van Antwerp",
+      "Eva Gordon",
+      "Baby Margie"
+    ],
+    "num_mflix_comments": 0,
+    "title": "The Chechahcos",
+    "fullplot": "A fire engulfs a shipload of prospectors and adventurers making their way to Alaska. In the confusion, Mrs. Stanlaw is separated from her young daughter, who ends up in the care of 'Horseshoe' Riley and Bob Dexter. Mrs. Stanlaw is told by gambler Richard Steele that her daughter is lost. Flash forward 10 years; Riley and Dexter are running a prosperous gold mine, and Steele has just come to town to run the local saloon. Ruth, meanwhile, has grown into a beautiful young woman, and finds herself falling in love with Dexter. Between Steele sending his henchman Pierre to kill Dexter, Dexter discovering that Steele tried to kill him on the ship, and the reunion of Mrs. Stanlaw and Ruth, there's plenty of drama even without the dramatic Alaskan scenery, including the majestic glaciers.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1440028800000"
+      }
+    },
+    "directors": [
+      "Lewis H. Moomaw"
+    ],
+    "writers": [
+      "Lewis H. Moomaw (story)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-24T19:29:36.103Z"
+    },
+    "year": 1923,
+    "imdb": {
+      "rating": 6.6,
+      "votes": 167,
+      "id": 14770
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.4,
+        "numReviews": 49,
+        "meter": 50
+      },
+      "lastUpdated": {
+        "$date": "2015-07-18T18:55:26Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7b98"
+    },
+    "plot": "A bitter clown endeavors to rescue the young woman he loves from the lecherous count who once betrayed him.",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "runtime": 95,
+    "cast": [
+      "Lon Chaney",
+      "Norma Shearer",
+      "John Gilbert",
+      "Ruth King"
+    ],
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTEwMTA1OTc1NF5BMl5BanBnXkFtZTgwMzU1NjkwMjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "He Who Gets Slapped",
+    "fullplot": "Story of an inventor who, suffering betrayal in life, makes a career of it by becoming a clown whose act consists of getting slapped by all the other clowns. He falls in love with another circus performer, and those who betrayed him enter his life yet again.",
+    "languages": [
+      "English"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1420934400000"
+      }
+    },
+    "directors": [
+      "Victor Sjèstrèm"
+    ],
+    "writers": [
+      "Leonid Andreyev (adapted from the play by)",
+      "Carey Wilson (adapted for the screen by)",
+      "Victor Sjèstrèm (adapted for the screen by)",
+      "Marian Ainslee (titles)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-10T18:30:29.303Z"
+    },
+    "year": 1924,
+    "imdb": {
+      "rating": 7.8,
+      "votes": 1825,
+      "id": 14972
+    },
+    "countries": [
+      "USA"
+    ],
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4.2,
+        "numReviews": 337,
+        "meter": 91
+      },
+      "lastUpdated": {
+        "$date": "2015-08-27T18:03:27Z"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7bc3"
+    },
+    "plot": "Springfield, Illinois. Brandon, a surveyor, dreams of building a railway to the west, but Marsh, a contractor, is sceptical. Abraham Lincoln looks on as their children, Davy Brandon and ...",
+    "genres": [
+      "Western"
+    ],
+    "runtime": 150,
+    "rated": "PASSED",
+    "title": "The Iron Horse",
+    "num_mflix_comments": 0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMGYwNjkxMmQtYzI1My00YzA4LTg2MGMtMjlmZjIzMWMwZDE1XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_SX677_AL_.jpg",
+    "countries": [
+      "USA"
+    ],
+    "fullplot": "Springfield, Illinois. Brandon, a surveyor, dreams of building a railway to the west, but Marsh, a contractor, is sceptical. Abraham Lincoln looks on as their children, Davy Brandon and Miriam Marsh, play together. Brandon sets off with Davy to survey a route. They discover a new pass which will shave 200 miles off the expected distance, but they are set upon by a party of Cheyenne. One of them, a white renegade with only two fingers on his right hand, kills Brandon and scalps him. Davy buries his father... Years pass. It is 1862 and Lincoln signs the bill authorizing construction of the Union Pacific and Central Pacific railways. Marsh is principal contractor and Miriam is engaged to Jesson, the chief engineer... Crews of Chinese, Italians, and Irish work to build the railway while resisting Indian attack. When the pay train is delayed by Indian ambush, the Italians go on strike. Miriam persuades them to return to work... Marsh needs to find a shortcut through the Black Hills. To finish on time, he needs to shorten the route by 200 miles. Bauman, the biggest land owner, wants the route to stay the same - through his land. Marsh has entrusted Jesson with finding the new route. Bauman has Ruby, a saloon girl, persuade Jesson to do otherwise... Davy, now a pony express rider, recalls his father's discovery. He sets off to find the pass. He goes alone, except for Jesson...",
+    "languages": [
+      "English"
+    ],
+    "cast": [
+      "George O'Brien",
+      "Madge Bellamy",
+      "Charles Edward Bull",
+      "Cyril Chadwick"
+    ],
+    "directors": [
+      "John Ford"
+    ],
+    "writers": [
+      "Charles Kenyon (story)",
+      "John Russell (story)",
+      "Charles Kenyon (scenario)",
+      "Charles Darnton (titles)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-09-01T18:51:48.663Z"
+    },
+    "year": 1924,
+    "imdb": {
+      "rating": 7.3,
+      "votes": 1276,
+      "id": 15016
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.7,
+        "numReviews": 521,
+        "meter": 83
+      },
+      "dvd": {
+        "$date": "2006-02-14T00:00:00Z"
+      },
+      "critic": {
+        "rating": 7.2,
+        "numReviews": 8,
+        "meter": 75
+      },
+      "lastUpdated": {
+        "$date": "2015-07-23T18:58:55Z"
+      },
+      "rotten": 2,
+      "fresh": 6
+    }
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7c4c"
+    },
+    "plot": "Two spoiled rich people find themselves trapped on an empty passenger ship.",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "runtime": 59,
+    "rated": "UNRATED",
+    "cast": [
+      "Buster Keaton",
+      "Kathryn McGuire",
+      "Frederick Vroom"
+    ],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzA1ODQ1Nzk0MV5BMl5BanBnXkFtZTgwOTEwNTQ2MzE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "The Navigator",
+    "fullplot": "Rollo decides to marry his sweetheart Betsy and sail to Honolulu. When she rejects him he decides to go alone but boards the wrong ship, the \"Navigator\" owned by Betsy's father. Unaware of this, Betsy boards the ship to look for her father. whom spies capture before cutting the ship loose. It drifts out to sea with the two socialites each unaware of there being anyone else on board.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1426982400000"
+      }
+    },
+    "directors": [
+      "Donald Crisp",
+      "Buster Keaton"
+    ],
+    "writers": [
+      "Clyde Bruckman (story)",
+      "Joseph A. Mitchell (story)",
+      "Jean C. Havez (story)"
+    ],
+    "awards": {
+      "wins": 0,
+      "nominations": 1,
+      "text": "1 nomination."
+    },
+    "lastupdated": {
+      "$date": "2015-08-10T18:32:35.483Z"
+    },
+    "year": 1924,
+    "imdb": {
+      "rating": 8.1,
+      "votes": 6094,
+      "id": 15163
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 4,
+        "numReviews": 3129,
+        "meter": 89
+      },
+      "dvd": {
+        "$date": "2001-11-20T00:00:00Z"
+      },
+      "critic": {
+        "rating": 9.1,
+        "numReviews": 13,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-09-15T18:06:23Z"
+      },
+      "rotten": 0,
+      "production": "MGM",
+      "fresh": 13
+    },
+    "num_mflix_comments": 0
+  },
+  {
+    "_id": {
+      "$oid": "573a1391f29313caabcd7c9e"
+    },
+    "plot": "Peter Pan enters the nursery of the Darling children and, with the help of fairy dust, leads them off to Never Never Land, where they meet the nefarious Captain Hook.",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ],
+    "runtime": 105,
+    "cast": [
+      "George Ali",
+      "Esther Ralston",
+      "Cyril Chadwick",
+      "Mary Brian"
+    ],
+    "num_mflix_comments": 1,
+    "poster": "https://m.media-amazon.com/images/M/MV5BODkwOTUxMDkyMV5BMl5BanBnXkFtZTgwOTA1MDQ0MjE@._V1_SY1000_SX677_AL_.jpg",
+    "title": "Peter Pan",
+    "fullplot": "Peter Pan, the kid who doesn't want to grow up, arrives at the Darling home searching for his shadow. He meets the Darling children and takes them to Never-Never Land, where they will fight against Capt. Hook and his pirate ship and crew. At the end the children will be back in their warm beds.",
+    "countries": [
+      "USA"
+    ],
+    "released": {
+      "$date": {
+        "$numberLong": "-1420329600000"
+      }
+    },
+    "directors": [
+      "Herbert Brenon"
+    ],
+    "writers": [
+      "J.M. Barrie (play)",
+      "Willis Goldbeck (screenplay)"
+    ],
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": {
+      "$date": "2015-08-08T19:35:18.003Z"
+    },
+    "year": 1924,
+    "imdb": {
+      "rating": 7.4,
+      "votes": 589,
+      "id": 15224
+    },
+    "type": "movie",
+    "tomatoes": {
+      "viewer": {
+        "rating": 3.4,
+        "numReviews": 6168,
+        "meter": 76
+      },
+      "dvd": {
+        "$date": "1999-11-23T00:00:00Z"
+      },
+      "critic": {
+        "rating": 7.9,
+        "numReviews": 8,
+        "meter": 100
+      },
+      "lastUpdated": {
+        "$date": "2015-07-27T18:39:19Z"
+      },
+      "rotten": 0,
+      "production": "Paramount Pictures",
+      "fresh": 8
+    }
+  }
+]

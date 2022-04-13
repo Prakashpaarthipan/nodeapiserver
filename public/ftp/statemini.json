@@ -1,0 +1,35 @@
+[
+  {
+    "id": 3901,
+    "name": "Badakhshan",
+    "country_id": 1,
+    "country_code": "AF",
+    "country_name": "Afghanistan",
+    "state_code": "BDS",
+    "type": null,
+    "latitude": "36.73477250",
+    "longitude": "70.81199530"
+  },
+  {
+    "id": 3871,
+    "name": "Badghis",
+    "country_id": 1,
+    "country_code": "AF",
+    "country_name": "Afghanistan",
+    "state_code": "BDG",
+    "type": null,
+    "latitude": "35.16713390",
+    "longitude": "63.76953840"
+  },
+  {
+    "id": 3875,
+    "name": "Baghlan",
+    "country_id": 1,
+    "country_code": "AF",
+    "country_name": "Afghanistan",
+    "state_code": "BGL",
+    "type": null,
+    "latitude": "36.17890260",
+    "longitude": "68.74530640"
+  }
+]

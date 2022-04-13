@@ -1,0 +1,45 @@
+[0mGET /users [36m304 [0m24.438 ms - -[0m
+9404 - ::1 - - 12-07-2022 6:7:9 PM "GET /users HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" - 23.404 ms
+8300 - ::1 - - 12-08-2022 06:08:48 PM "GET /users HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" - 24.536 ms
+15744 - ::1 - - 12-23-2022 06:23:16 PM "GET /users HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" - 27.031 ms
+10216 - ::ffff:127.0.0.1 - - 13-05-2022 04:05:37 PM "GET / HTTP/1.1" 200 538 "https://www.youtube.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 32.372 ms
+11260 - ::ffff:127.0.0.1 - - 13-35-2022 04:35:19 PM "GET / HTTP/1.1" 200 538 "https://www.youtube.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 13.723 ms
+11260 - ::ffff:127.0.0.1 - - 13-36-2022 04:36:00 PM "GET / HTTP/1.1" 500 947 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 2.135 ms
+10412 - ::ffff:127.0.0.1 - - 13-38-2022 04:38:27 PM "GET / HTTP/1.1" 200 538 "https://www.youtube.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 12.916 ms
+10412 - ::ffff:127.0.0.1 - - 13-39-2022 04:39:05 PM "GET / HTTP/1.1" 500 947 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 2.197 ms
+22824 - ::1 - - 13-44-2022 04:44:45 PM "GET / HTTP/1.1" 500 947 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 13.288 ms
+22824 - ::1 - - 13-44-2022 04:44:45 PM "GET /favicon.ico HTTP/1.1" 500 947 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 1.320 ms
+9444 - ::1 - - 13-45-2022 04:45:06 PM "GET / HTTP/1.1" 500 947 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 9.357 ms
+9444 - ::1 - - 13-45-2022 04:45:06 PM "GET /favicon.ico HTTP/1.1" 500 947 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 1.305 ms
+9444 - ::1 - - 13-45-2022 04:45:08 PM "GET / HTTP/1.1" 500 947 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.808 ms
+9444 - ::1 - - 13-45-2022 04:45:08 PM "GET /favicon.ico HTTP/1.1" 500 947 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.671 ms
+17744 - ::ffff:127.0.0.1 - - 13-51-2022 04:51:06 PM "GET / HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 3.254 ms
+17744 - ::1 - - 13-51-2022 04:51:09 PM "GET / HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.473 ms
+17744 - ::1 - - 13-51-2022 04:51:09 PM "GET /favicon.ico HTTP/1.1" 500 12 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.251 ms
+14504 - ::1 - - 13-51-2022 04:51:43 PM "GET / HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 2.987 ms
+14504 - ::1 - - 13-51-2022 04:51:43 PM "GET /favicon.ico HTTP/1.1" 500 12 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.447 ms
+14504 - ::1 - - 13-51-2022 04:51:49 PM "GET /users HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.536 ms
+14504 - ::1 - - 13-51-2022 04:51:50 PM "GET /favicon.ico HTTP/1.1" 500 12 "http://localhost:3000/users" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.428 ms
+14504 - ::1 - - 13-52-2022 04:52:34 PM "GET /users HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.334 ms
+14504 - ::1 - - 13-52-2022 04:52:34 PM "GET /favicon.ico HTTP/1.1" 500 12 "http://localhost:3000/users" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.232 ms
+12888 - ::1 - - 13-52-2022 04:52:53 PM "GET /users HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 2.753 ms
+12888 - ::1 - - 13-52-2022 04:52:53 PM "GET /favicon.ico HTTP/1.1" 500 12 "http://localhost:3000/users" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.459 ms
+12888 - ::1 - - 13-52-2022 04:52:56 PM "GET / HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.246 ms
+12888 - ::1 - - 13-52-2022 04:52:57 PM "GET /favicon.ico HTTP/1.1" 500 12 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.265 ms
+16744 - ::1 - - 13-53-2022 04:53:08 PM "GET / HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 2.846 ms
+16744 - ::1 - - 13-53-2022 04:53:08 PM "GET /favicon.ico HTTP/1.1" 500 12 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.477 ms
+16744 - ::1 - - 13-53-2022 04:53:10 PM "GET / HTTP/1.1" 500 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.246 ms
+16744 - ::1 - - 13-53-2022 04:53:10 PM "GET /favicon.ico HTTP/1.1" 500 12 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 0.438 ms
+16744 - ::ffff:127.0.0.1 - - 13-53-2022 04:53:26 PM "GET / HTTP/1.1" 200 538 "https://www.youtube.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 10.411 ms
+3204 - ::ffff:172.16.54.155 - - 13-09-2022 05:09:39 PM "GET / HTTP/1.1" 500 12 "-" "PostmanRuntime/7.29.0" - 2.884 ms
+25484 - ::ffff:172.16.54.155 - - 13-13-2022 05:13:26 PM "GET / HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0" - 2.892 ms
+23736 - ::ffff:172.16.54.155 - - 13-21-2022 05:21:20 PM "GET / HTTP/1.1" 500 12 "-" "PostmanRuntime/7.29.0" - 2.692 ms
+21432 - ::ffff:172.16.54.155 - - 13-23-2022 05:23:49 PM "GET / HTTP/1.1" 200 538 "-" "PostmanRuntime/7.29.0" - 44.682 ms
+21432 - ::ffff:127.0.0.1 - - 13-24-2022 05:24:04 PM "GET / HTTP/1.1" 200 538 "https://www.youtube.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" - 2.453 ms
+8448 - ::ffff:172.16.54.155 - - 13-27-2022 05:27:21 PM "GET / HTTP/1.1" 200 - 13.142 ms
+8448 - ::1 - - 13-27-2022 05:27:24 PM "GET / HTTP/1.1" 200 - 4.396 ms
+8448 - ::1 - - 13-27-2022 05:27:24 PM "GET /stylesheets/style.css HTTP/1.1" 304 - 1.723 ms
+8448 - ::1 - - 13-27-2022 05:27:25 PM "GET /favicon.ico HTTP/1.1" 404 - 2.470 ms
+24584 - ::ffff:172.16.54.155 - - 13-32-2022 05:32:10 PM "GET / HTTP/1.1" 200 - db15646e-3e41-4acd-bd23-1311c9dd6794 13.857 ms
+24584 - ::1 - - 13-32-2022 05:32:40 PM "GET / HTTP/1.1" 304 - 3d465c79-e77e-428f-83c0-1d3661d22adf 2.557 ms
+24584 - ::1 - - 13-32-2022 05:32:40 PM "GET /stylesheets/style.css HTTP/1.1" 304 - b3b28b39-5d27-4061-a326-08e8251dd466 1.897 ms
