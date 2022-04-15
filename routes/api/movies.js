@@ -8,7 +8,7 @@
  *     description: Retrieve a list of movies from json object. Can be used to populate a list of fake movies when prototyping or testing an API.
 */
 
-var Movies = require('../models/movies');
+var Movies = require('../../controllers/movies');
 
 router.get('/:id?', function (req, res, next) {
     if (req.params.id) {
