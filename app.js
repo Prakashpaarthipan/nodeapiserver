@@ -8,10 +8,12 @@ var _ = require('lodash');
 var fs = require('fs');
 var setDate = require('date-fns');
 var cors = require('cors');
-var whiteLists = require('./util/accessLists');
-const { v4: uuidv4 } = require('uuid')
-
-
+const { v4: uuidv4 } = require('uuid');
+const { serverLog } = require('./middleware/logger');
+const { homeRouter, usersRouter, productRouter } = require('./routes/index');
+const productsRouter = require('./routes/api/products');
+const swaggerJSDoc = require('swagger-jsdoc');
+const swaggerUi = require('swagger-ui-express');
 logger.token('pid', (req, res) => {
   return process.pid;
 });
@@ -27,8 +29,7 @@ var accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), {
   flags: 'a'
 });
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+
 
 var app = express();
 
@@ -37,12 +38,14 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(logger('myformat', { stream: accessLogStream }));
+
 //console.log(cors);
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/data/Product', express.static(path.join(__dirname, 'public')));
 const setCustomCacheControl = (res, path) => {
   if (serveStatic.mime.lookup(path) === 'text/html') {
     res.setHeader('Cache-Control', 'public, max-age=0')
@@ -53,8 +56,43 @@ app.use(serveStatic(path.join(__dirname, 'public/ftp'), {
 }));
 //app.use(serveStatic('public/ftp', { index: ['default.html', 'default.htm'] }))
 
-app.use('/', indexRouter);
+app.use('/', homeRouter);
 app.use('/users', usersRouter);
+app.use('/data/Product', productRouter);
+app.use('/api/v1/Products', productsRouter);
+//API Docs
+const swaggerDefinition = {
+  openapi: '3.0.0',
+  info: {
+    title: 'API DOCS',
+    version: '1.0.0',
+    description:
+      'This is a REST API application made with Express. It retrieves data from JSONPlaceholder.',
+    license: {
+      name: 'Licensed Under MIT',
+      url: 'https://spdx.org/licenses/MIT.html',
+    },
+    contact: {
+      name: 'Prakash P',
+      url: 'github.com/prakashpaarthipan',
+    },
+  },
+  servers: [
+    {
+      url: 'http://localhost:3000',
+      description: 'Development server',
+    },
+  ],
+};
+
+const options = {
+  swaggerDefinition,
+  // Paths to files containing OpenAPI definitions
+  apis: ['./routes/*.js'],
+};
+
+const swaggerSpec = swaggerJSDoc(options);
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use((err, req, res, next) => {
   res.status(500).send(err.message)
@@ -74,6 +112,9 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+app.use(serverLog);
+
+
 
 async function Calldown(e) {
   let err = e;
