@@ -7,8 +7,11 @@
  *     summary: Retrieve a list of movies
  *     description: Retrieve a list of movies from json object. Can be used to populate a list of fake movies when prototyping or testing an API.
 */
-
-var Movies = require('../../controllers/movies');
+var express = require('express');
+var router = express.Router();
+var path = require('path');
+const data = {};
+var Movies = require('../../controllers/movieController');
 
 router.get('/:id?', function (req, res, next) {
     if (req.params.id) {

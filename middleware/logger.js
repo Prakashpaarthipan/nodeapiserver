@@ -18,7 +18,7 @@ const logEvent = async (message, fileName) => {
     }
 };
 const serverLog = (err, req, res, next) => {
-    logEvent(`${err.message} \t ${req.method} \t ${req.url} \t ${re.headers.origin}`, 'req.log');
+    logEvent(`${err.message} \t ${req.method} \t ${req.url} \t ${req.headers.origin}`, 'req.log');
     next();
 }
 module.exports = { serverLog, logEvent };

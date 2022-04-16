@@ -11,7 +11,7 @@ var cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
 const { serverLog } = require('./middleware/logger');
 const { homeRouter, usersRouter, productRouter } = require('./routes/index');
-const productsRouter = require('./routes/api/products');
+const { productsRouter, studentRouter } = require('./routes/api');
 const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 logger.token('pid', (req, res) => {
@@ -59,7 +59,9 @@ app.use(serveStatic(path.join(__dirname, 'public/ftp'), {
 app.use('/', homeRouter);
 app.use('/users', usersRouter);
 app.use('/data/Product', productRouter);
+var Apiurl = ['/article2', '/article3'];
 app.use('/api/v1/Products', productsRouter);
+app.use('/api/v1/Student', studentRouter);
 //API Docs
 const swaggerDefinition = {
   openapi: '3.0.0',
@@ -101,7 +103,7 @@ app.use((err, req, res, next) => {
 app.use(function (req, res, next) {
   next(createError(404));
 });
-
+app.use(serverLog);
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development
@@ -112,7 +114,7 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-app.use(serverLog);
+
 
 
 
