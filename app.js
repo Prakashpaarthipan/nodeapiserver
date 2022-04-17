@@ -10,10 +10,13 @@ var setDate = require('date-fns');
 var cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
 const { serverLog } = require('./middleware/logger');
-const { homeRouter, usersRouter, productRouter } = require('./routes/index');
+const { homeRouter, moviesRouter, productRouter, authRouter, registerRouter } = require('./routes/index');
 const { productsRouter, studentRouter } = require('./routes/api');
 const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
+
+var verifyJWTToken = require('./middleware/verifyJWT');
+
 logger.token('pid', (req, res) => {
   return process.pid;
 });
@@ -57,9 +60,14 @@ app.use(serveStatic(path.join(__dirname, 'public/ftp'), {
 //app.use(serveStatic('public/ftp', { index: ['default.html', 'default.htm'] }))
 app.use(serverLog);
 app.use('/', homeRouter);
-app.use('/users', usersRouter);
+app.use('/movies', moviesRouter);
 app.use('/data/Product', productRouter);
+app.use('/users/register', registerRouter);
+app.use('/users/auth', authRouter);
 var Apiurl = ['/article2', '/article3'];
+
+//below Route will use JWT
+app.use(verifyJWTToken);
 app.use('/api/v1/Products', productsRouter);
 app.use('/api/v1/Student', studentRouter);
 //API Docs
@@ -95,14 +103,17 @@ const options = {
 
 const swaggerSpec = swaggerJSDoc(options);
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use(serverLog);
 
 app.use((err, req, res, next) => {
   res.status(500).send(err.message)
 });
+
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
-  next(createError(404));
-});
+// app.use(function (req, res, next) {
+//   next(createError(404));
+// });
+
 
 // error handler
 app.use(function (err, req, res, next) {

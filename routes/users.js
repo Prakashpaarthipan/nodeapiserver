@@ -14,7 +14,7 @@ var _ = require('lodash');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function (req, res, next) {
+router.get('/movies', function (req, res, next) {
   // res.send('respond with a resource');
   var jsonBuffer = fs.readFileSync(path.join(__dirname, '../data/movies.json'));
   var jsonArray = JSON.parse(jsonBuffer);

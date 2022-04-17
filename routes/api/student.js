@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
-
 var student = require(path.join(__dirname, '../../controllers/studentController'));
 router.route('/')
     .get(student.getAllStudents)
