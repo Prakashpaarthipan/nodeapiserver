@@ -55,7 +55,7 @@ app.use(serveStatic(path.join(__dirname, 'public/ftp'), {
   //setHeaders: setCustomCacheControl
 }));
 //app.use(serveStatic('public/ftp', { index: ['default.html', 'default.htm'] }))
-
+app.use(serverLog);
 app.use('/', homeRouter);
 app.use('/users', usersRouter);
 app.use('/data/Product', productRouter);
@@ -103,7 +103,7 @@ app.use((err, req, res, next) => {
 app.use(function (req, res, next) {
   next(createError(404));
 });
-app.use(serverLog);
+
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development
