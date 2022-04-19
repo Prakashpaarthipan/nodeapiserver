@@ -20,7 +20,11 @@ const handleRequest = async (req, res) => {
         //hash the password
         const hashedPwd = await bcrypt.hash(pwd, 5);
         //create the users
-        const createUsers = { "username": user, "password": hashedPwd };
+        const createUsers = {
+            "username": user,
+            "password": hashedPwd,
+            "roles": { "USER": 111 }
+        };
         usersDb.setusers([...usersDb.users, createUsers])
 
         //write to the database
