@@ -1,3 +1,9 @@
 16-04-2022 05:21:55 PM	 1db22930-1ab9-4f6d-8343-14cdbc13b3a0	 Not Found 	 GET 	 /api/v1/Student 	 undefined
 17-04-2022 04:42:32 PM	 8184ac20-c158-4d3e-a42d-00864801d228	 toekn is not defined 	 GET 	 /api/v1/Student/ 	 undefined
 17-04-2022 04:43:42 PM	 314075cc-1c25-464b-9568-aef68964ef18	 toekn is not defined 	 GET 	 /api/v1/Student/ 	 undefined
+19-04-2022 05:37:24 PM	 9c35e4d9-856b-46f4-acf8-103ac44962cc	 Cors Blocked 	 GET 	 /api/v1/Student/ 	 http://localhost:3001
+19-04-2022 05:37:32 PM	 9a2bda25-72b4-47f8-ad99-93e46979207f	 Cors Blocked 	 GET 	 /api/v1/Student/1 	 http://localhost:3001
+19-04-2022 05:37:39 PM	 0b3ba6ed-051e-4fe9-94c8-71cd7f0d66ed	 Cors Blocked 	 GET 	 /api/v1/Student/2 	 http://localhost:3001
+19-04-2022 05:39:05 PM	 0bddef0f-529a-493a-8e82-bfda49c9624e	 authHeader?.startWith is not a function 	 GET 	 /api/v1/Student/ 	 undefined
+19-04-2022 05:40:34 PM	 eff44845-9b3b-4454-90a0-4522fd5bcec5	 Cannot access 'findUser' before initialization 	 GET 	 /users/refresh 	 undefined
+19-04-2022 05:41:07 PM	 07af37dc-d19f-46d7-9cd2-2760bc590385	 authHeader?.startWith is not a function 	 GET 	 /api/v1/Student/ 	 undefined

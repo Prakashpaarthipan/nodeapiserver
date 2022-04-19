@@ -395,3 +395,15 @@
 13268 - ::ffff:172.16.54.155 - - 17-36-2022 06:36:02 PM "POST /users/auth HTTP/1.1" - - 17cf3f20-6a5e-4ede-8519-b61c2f859f96 -- ms
 9924 - ::ffff:172.16.54.155 - - 17-36-2022 06:36:29 PM "POST /users/auth HTTP/1.1" 200 - b3fba86e-13ee-4fdf-a7dd-08904f0b9772 -23.546 ms
 24352 - ::ffff:172.16.54.155 - - 17-40-2022 06:40:04 PM "POST /users/auth HTTP/1.1" 200 - 70751cfe-d06b-420b-ae83-bc94eda7e377 -23.533 ms
+17860 - ::ffff:172.16.54.155 - - 19-37-2022 05:37:24 PM "GET /api/v1/Student/ HTTP/1.1" 401 - d0e8f506-07f0-42ef-939c-9a9d6a15ad7a -15.367 ms
+17860 - ::ffff:172.16.54.155 - - 19-37-2022 05:37:32 PM "GET /api/v1/Student/1 HTTP/1.1" 401 - b0f85f00-6000-4a3f-ab1b-22eccf1c152a -1.324 ms
+17860 - ::ffff:172.16.54.155 - - 19-37-2022 05:37:39 PM "GET /api/v1/Student/2 HTTP/1.1" 401 - 84b8f84b-9b26-4cc5-b6e1-b030cdf6600d -1.396 ms
+17860 - ::ffff:172.16.54.155 - - 19-38-2022 05:38:06 PM "GET /api/v1/Student/2 HTTP/1.1" 401 - c466c13b-5ad7-49f1-b34d-74b304193243 -10.531 ms
+17860 - ::ffff:172.16.54.155 - - 19-38-2022 05:38:07 PM "GET /favicon.ico HTTP/1.1" 401 - 5c2fdb27-cf94-4ed1-aa31-ff38f6f98ad9 -3.501 ms
+17860 - ::ffff:172.16.54.155 - - 19-38-2022 05:38:46 PM "POST /users/auth HTTP/1.1" 200 - 96400822-529a-4afb-a6a1-0e5fef5ecdcb -164.484 ms
+14584 - ::ffff:172.16.54.155 - - 19-39-2022 05:39:05 PM "GET /api/v1/Student/ HTTP/1.1" 404 - 69bac0ba-a8ce-4d43-b942-5f963d187efe -10.817 ms
+14584 - ::ffff:172.16.54.155 - - 19-39-2022 05:39:46 PM "POST /users/register HTTP/1.1" 409 - 87328c90-3adf-4f37-9425-fc04da9b8a5d -13.694 ms
+14584 - ::ffff:172.16.54.155 - - 19-39-2022 05:39:54 PM "POST /users/register HTTP/1.1" 201 - c2f01590-1e93-4489-8466-c01ee1cbe612 -29.659 ms
+22844 - ::ffff:172.16.54.155 - - 19-40-2022 05:40:19 PM "POST /users/auth HTTP/1.1" 200 - a173412f-079d-4e14-a529-dce2daef9d68 -23.879 ms
+17916 - ::ffff:172.16.54.155 - - 19-40-2022 05:40:34 PM "GET /users/refresh HTTP/1.1" 404 - 27db884b-fbd3-4334-ac75-f03324dadbc5 -10.677 ms
+17916 - ::ffff:172.16.54.155 - - 19-40-2022 05:40:52 PM "POST /users/auth HTTP/1.1" 200 - 4312681c-46b2-4910-8fdc-6c498523a67d -25.333 ms
