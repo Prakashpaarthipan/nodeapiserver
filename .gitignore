@@ -4,3 +4,6 @@ env
 access.log
 logs
 .env
+.log
+*.log
+req.log

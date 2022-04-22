@@ -7,3 +7,4 @@
 19-04-2022 05:39:05 PM	 0bddef0f-529a-493a-8e82-bfda49c9624e	 authHeader?.startWith is not a function 	 GET 	 /api/v1/Student/ 	 undefined
 19-04-2022 05:40:34 PM	 eff44845-9b3b-4454-90a0-4522fd5bcec5	 Cannot access 'findUser' before initialization 	 GET 	 /users/refresh 	 undefined
 19-04-2022 05:41:07 PM	 07af37dc-d19f-46d7-9cd2-2760bc590385	 authHeader?.startWith is not a function 	 GET 	 /api/v1/Student/ 	 undefined
+19-04-2022 05:42:56 PM	 54e33773-0677-49f9-bd8b-3a52e7fa59a4	 authHeader?.startWith is not a function 	 GET 	 /api/v1/Student/ 	 undefined
