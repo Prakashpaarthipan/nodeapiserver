@@ -1,8 +1,5 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+/* @import "tailwindcss/base";
 
-a {
-  color: #00B7FF;
-}
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities"; */

@@ -1,15 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    <link rel="stylesheet" href="/fonts/css/all.css" />
+    <!-- <script
+      src="https://kit.fontawesome.com/21474fdc13.js"
+      crossorigin="anonymous"
+    ></script> -->
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <h1>Page is rendered from serve-static package 2022</h1>
-    <!-- <img src="https://picsum.photos/600/400?grayscale" alt="SampleImg"> -->
-    <img src="https://images.unsplash.com/photo-1591154669695-5f2a8d20c089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="freeImg">
-
+    <nav class="bg-black text-white h-10 flex top-0 text-center w-auto">
+      <div
+        class="text-center text-lg uppercase justify-center align-middle flex flex-col m-auto"
+      >
+        Custom Node JS API
+      </div>
+    </nav>
+    <div class="container mx-auto">
+      <div
+        class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-cols-1 gap-6 m-10"
+      >
+        <a
+          href="/git"
+          class="hover:bg-lime-500 flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 w-74 h-56 bg-lime-200"
+        >
+          <div class="flex items-center">
+            <i class="fa-brands fa-github mr-3"></i> GitHub
+          </div> </a
+        ><a
+          href="/jsonapi"
+          class="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 w-74 h-56 bg-blue-200 hover:bg-blue-500"
+        >
+          <div class="flex items-center">
+            <i class="fa-solid fa-code mr-3"></i>Json
+          </div></a
+        >
+        <a
+          href="/data"
+          class="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 w-74 h-56 bg-orange-200 hover:bg-orange-500"
+        >
+          <div class="flex items-center mr-3">
+            <i class="fa-solid fa-database mr-3"></i>Oracle
+          </div></a
+        >
+        <a
+          href="/mongo"
+          class="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 w-74 h-56 bg-green-300 hover:bg-green-500"
+        >
+          <div class="flex items-center mr-3">
+            <i class="fa-solid fa-seedling mr-3"></i>Mongo
+          </div></a
+        >
+      </div>
+    </div>
   </body>
 </html>
