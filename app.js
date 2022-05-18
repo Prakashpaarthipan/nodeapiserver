@@ -12,6 +12,7 @@ const { v4: uuidv4 } = require('uuid');
 const { serverLog } = require('./middleware/logger');
 const { homeRouter, moviesRouter, productRouter, authRouter, registerRouter, refreshRouter, logoutRouter } = require('./routes/index');
 const { productsRouter, studentRouter } = require('./routes/api');
+const ftpRouter = require('./routes/ftp');
 const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 
@@ -69,7 +70,7 @@ app.use('/users/register', registerRouter);
 app.use('/users/auth', authRouter);
 app.use('/users/refresh', refreshRouter);
 app.use('/users/logout', logoutRouter);
-
+app.use('/ftp', ftpRouter);
 var Apiurl = ['/article2', '/article3'];
 
 //below Route will use JWT

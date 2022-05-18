@@ -8,3 +8,267 @@
 19-04-2022 05:40:34 PM	 eff44845-9b3b-4454-90a0-4522fd5bcec5	 Cannot access 'findUser' before initialization 	 GET 	 /users/refresh 	 undefined
 19-04-2022 05:41:07 PM	 07af37dc-d19f-46d7-9cd2-2760bc590385	 authHeader?.startWith is not a function 	 GET 	 /api/v1/Student/ 	 undefined
 19-04-2022 05:42:56 PM	 54e33773-0677-49f9-bd8b-3a52e7fa59a4	 authHeader?.startWith is not a function 	 GET 	 /api/v1/Student/ 	 undefined
+18-05-2022 12:15:58 PM	 b82111f2-7997-40a5-9ef6-d7a298f2c5dc	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('include/header.ejs') %>
+    4|   <body>
+    5|     <%- include('include/navbar.ejs') %>
+    6|     <div class="container mx-auto">Login Page</div>
+
+Could not find the include file "include/header.ejs" 	 GET 	 /ftp/ 	 undefined
+18-05-2022 12:19:48 PM	 1742f35c-04c0-4f5d-9163-14369e9c2094	 Failed to lookup view "ftpfiles" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:26:19 PM	 89407e4a-f6ea-4047-a494-6337dd4d8cf7	 Failed to lookup view "ftpfiles" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:35:10 PM	 5fdd611d-a62a-4abb-8c7f-3907d4005da5	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:35:54 PM	 1050ce5e-7300-4d94-b985-1ecb86244031	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:35:58 PM	 196d3d12-d7a2-4cc7-ace5-3c35af6e12f6	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:36:45 PM	 ff5bf121-6ecb-4352-86dc-3ca59dc99f71	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:36:47 PM	 ce60b848-be59-4f5d-84df-f0dd65cdf5be	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:37:08 PM	 c89cf64e-983f-4319-9f1c-cbd89aaa63fb	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:39:37 PM	 05b5bbaa-9ec6-4eba-b9eb-86840884cec5	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:40:12 PM	 881830f6-8dcd-4a26-80e6-8bc976a82cac	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:40:23 PM	 c0292fdf-0536-4534-8b58-0533dc71d8c7	 F:\Workspace\nodeapiserver\views\ftpfiles.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto"></div>
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:40:47 PM	 07acc696-b990-4a3c-89e8-03b497695658	 F:\Workspace\nodeapiserver\views\ftpfiles.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto"></div>
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:41:30 PM	 76011a39-3c3e-43b1-a03b-2a0043f764a1	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:41:32 PM	 2f075723-04a3-48e3-a931-ff9ef681ea58	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:42:28 PM	 0a6f550a-a3bb-485d-aa18-15a43fd978fb	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:44:52 PM	 ad2e0499-f509-4b3a-bd5f-add45f776abc	 F:\Workspace\nodeapiserver\views\ftpDocs.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto"><%= file %></div>
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:45:20 PM	 03e6a1f4-8319-40af-987a-c7473938ce55	 F:\Workspace\nodeapiserver\views\ftpDocs.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto"><%= file %></div>
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:45:45 PM	 a204f1e2-9096-46cc-bef5-7aecd3a27cbe	 F:\Workspace\nodeapiserver\views\ftpDocs.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto"><%= file %></div>
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:46:11 PM	 75183dc2-8847-4d92-85fa-31ae37130373	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:46:13 PM	 cecb57e2-26d4-4277-853e-74e535152880	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:46:29 PM	 099419c4-12a1-4401-94df-26b8497f51e7	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:46:31 PM	 862b5bf6-3650-4c00-8581-2519a264df9a	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:46:51 PM	 f4e4d3f6-b3f2-409d-aa07-d1d1272efece	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:47:02 PM	 6e7254fb-56d6-44c2-a786-72299bdea56d	 F:\Workspace\nodeapiserver\views\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+F:\Workspace\nodeapiserver\views\includes\header.ejs:5
+    3|   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    4|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ >> 5|   <title><%= title %></title>
+    6|   <link rel="stylesheet" href="/stylesheets/style.css" />
+    7|   <link rel="stylesheet" href="/stylesheets/tailwind.css" />
+    8|   <link rel="stylesheet" href="/fonts/css/all.css" />
+
+title is not defined 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:50:53 PM	 7ca2ce76-e4fc-40b3-8791-f9ff4c43c971	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:51:36 PM	 6945db6a-acb7-49fb-8caa-f4c0320342d9	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:52:16 PM	 79b7d4ae-6af8-445c-91d5-ed932594d11e	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:52:23 PM	 4d5a7680-da04-4200-9444-09a6799a8cc7	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 12:52:50 PM	 6571b34f-01e7-4b13-a351-a4a45b90ca4e	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
+18-05-2022 01:19:42 PM	 b54fa738-d69c-4010-974b-4b115b8344db	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\ftp\text.txt' 	 GET 	 /ftp/download/text.txt 	 undefined
+18-05-2022 01:20:41 PM	 d1b88c65-d6f2-43eb-ae85-3dc75c0b99e3	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\ftp\text.txt' 	 GET 	 /ftp/download/text.txt 	 undefined
