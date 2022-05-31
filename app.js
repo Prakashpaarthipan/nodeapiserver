@@ -11,6 +11,8 @@ var cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
 const { serverLog } = require('./middleware/logger');
 const { homeRouter, moviesRouter, productRouter, authRouter, registerRouter, refreshRouter, logoutRouter } = require('./routes/index');
+const { codeRouter } = require('./routes/code/index');
+
 const { productsRouter, studentRouter } = require('./routes/api');
 const ftpRouter = require('./routes/ftp');
 const swaggerJSDoc = require('swagger-jsdoc');
@@ -74,9 +76,11 @@ app.use('/ftp', ftpRouter);
 var Apiurl = ['/article2', '/article3'];
 
 //below Route will use JWT
-app.use(verifyJWTToken);
-app.use('/api/v1/Products', productsRouter);
-app.use('/api/v1/Student', studentRouter);
+//app.use(verifyJWTToken);
+app.use('/api/v1/Products', verifyJWTToken, productsRouter);
+app.use('/api/v1/Student', verifyJWTToken, studentRouter);
+
+app.use('/code', codeRouter);
 
 //API Docs
 const swaggerDefinition = {

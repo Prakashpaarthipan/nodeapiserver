@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../includes/header.ejs') %>
+  <body>
+    <%- include('../includes/navbar.ejs') %>
+    <div class="mx-4 my-2">
+      <div class="flex flex-row lg (1024px)">
+        <div class="lg (1024px) w-1/2 text-center Editor">
+          <div class="flex justify-center xl:h-2/6">
+            <div class="xl:w-screen">
+              <label
+                for="htmlLabel"
+                class="form-label inline-block mb-2 text-gray-700 float-left"
+                >HTML CODE</label
+              >
+              <textarea
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
+                id="HtmlCode"
+                rows="8"
+                placeholder="<html>..</html>"
+              ></textarea>
+            </div>
+          </div>
+          <div class="flex justify-center xl:h-2/6">
+            <div class="xl:w-screen">
+              <label
+                for="cssLabel"
+                class="form-label inline-block mb-2 text-gray-700 float-left"
+                >CSS</label
+              >
+              <textarea
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
+                id="CssCode"
+                rows="8"
+                placeholder="Your Style"
+              ></textarea>
+            </div>
+          </div>
+          <div class="flex justify-center xl:h-2/6">
+            <div class="xl:w-screen">
+              <label
+                for="ScriptLable"
+                class="form-label inline-block mb-2 text-gray-700 float-left"
+                >SCRIPT</label
+              >
+              <textarea
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
+                id="JsCode"
+                rows="8"
+                placeholder="Your script"
+              ></textarea>
+            </div>
+          </div>
+          <button
+            type="button"
+            onclick="run()"
+            class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+          >
+            Run
+          </button>
+        </div>
+        <div class="lg (1024px) w-1/2 text-center OutputArea">
+          <div class="flex justify-center xl:h-screen">
+            <div class="mb-3 xl:w-screen">
+              <label
+                for="OutputLabel"
+                class="form-label inline-block mb-2 text-gray-700"
+                >OUTPUT</label
+              >
+              <iframe frameborder="0" id="Output"></iframe>
+              <code>
+                <div id="log"></div>
+              </code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function run() {
+        let Htmlcode = document.querySelector(".Editor #HtmlCode").value;
+        localStorage.setItem("HtmlCookie", Htmlcode);
+        let Csscode =
+          "<style>" +
+          document.querySelector(".Editor #CssCode").value +
+          "</style>";
+        localStorage.setItem(
+          "CssCookie",
+          document.querySelector(".Editor #CssCode").value
+        );
+        let Jscode = document.querySelector(".Editor #JsCode").value;
+        localStorage.setItem("JsCookie", Jscode);
+        let Output = document.querySelector(".OutputArea #Output");
+
+        Output.contentDocument.body.innerHTML = Htmlcode + Csscode;
+        Output.contentWindow.eval(Jscode);
+
+        setTimeout(function () {
+          show();
+        }, 2000);
+      }
+
+      document
+        .querySelector(".Editor #HtmlCode")
+        .addEventListener("keyup", run);
+      document
+        .querySelector(".Editor #CssCode")
+        .addEventListener("keyup onblur", run);
+      document.querySelector(".Editor #JsCode").addEventListener("keyup", run);
+
+      let show = function () {
+        var old = console.log;
+        var logger = document.getElementById("log");
+
+        console.log = function (message) {
+          if (typeof message == "object") {
+            logger.innerHTML +=
+              (JSON && JSON.stringify ? JSON.stringify(message) : message) +
+              "<br />";
+          } else {
+            logger.innerHTML += message + "<br />";
+          }
+        };
+
+        if (localStorage.getItem("HtmlCookie") != "") {
+          document.querySelector(".Editor #HtmlCode").value =
+            localStorage.getItem("HtmlCookie");
+        }
+        if (localStorage.getItem("CssCookie") != "") {
+          document.querySelector(".Editor #CssCode").value =
+            localStorage.getItem("CssCookie");
+        }
+        if (localStorage.getItem("JsCookie") != "") {
+          document.querySelector(".Editor #JsCode").value =
+            localStorage.getItem("JsCookie");
+        }
+      };
+      show();
+    </script>
+  </body>
+</html>

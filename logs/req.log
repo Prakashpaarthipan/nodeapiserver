@@ -272,3 +272,7 @@ title is not defined 	 GET 	 /ftp/files 	 undefined
 18-05-2022 12:52:50 PM	 6571b34f-01e7-4b13-a351-a4a45b90ca4e	 ENOENT: no such file or directory, scandir 'F:\Workspace\nodeapiserver\routes\resources' 	 GET 	 /ftp/files 	 undefined
 18-05-2022 01:19:42 PM	 b54fa738-d69c-4010-974b-4b115b8344db	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\ftp\text.txt' 	 GET 	 /ftp/download/text.txt 	 undefined
 18-05-2022 01:20:41 PM	 d1b88c65-d6f2-43eb-ae85-3dc75c0b99e3	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\ftp\text.txt' 	 GET 	 /ftp/download/text.txt 	 undefined
+31-05-2022 03:16:12 PM	 da0d88a2-c857-48dc-b3ec-f86169e4ebd1	 Failed to lookup view "/code/home" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /code 	 undefined
+31-05-2022 03:20:16 PM	 4cc69c50-cd44-46d3-a62e-cb8226ff5476	 Failed to lookup view "/code/home" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /code 	 undefined
+31-05-2022 03:20:18 PM	 384035f3-e9d0-46ab-a12c-0b8a6a07e857	 Failed to lookup view "/code/home" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /code 	 undefined
+31-05-2022 03:21:18 PM	 72f4b5d9-c907-4630-8892-561651d1577d	 Failed to lookup view "/code/home" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /code 	 undefined
