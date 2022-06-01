@@ -80,6 +80,12 @@ var Apiurl = ['/article2', '/article3'];
 app.use('/api/v1/Products', verifyJWTToken, productsRouter);
 app.use('/api/v1/Student', verifyJWTToken, studentRouter);
 
+app.use('/styles',
+  express.static(path.join(__dirname,
+    'node_modules/highlight.js/styles')));
+// app.use('/scripts',
+//   express.static(path.join(__dirname,
+//     'node_modules/highlight.js/lib')));
 app.use('/code', codeRouter);
 
 //API Docs
