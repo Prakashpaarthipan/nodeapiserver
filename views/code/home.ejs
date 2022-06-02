@@ -4,54 +4,56 @@
   <body>
     <%- include('../includes/navbar.ejs') %>
     <div class="mx-4 my-2">
-      <div class="flex flex-row lg (1024px)">
-        <div class="lg (1024px) w-1/2 text-center Editor">
-          <div class="flex justify-center xl:h-2/6">
-            <div class="xl:w-screen">
+      <div class="w-full text-center text-lg">
+        <h1 class="box-decoration-slice bg-pink-500 text-white px-2 w-full">
+          CODE EDITOR
+        </h1>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div class="text-center Editor">
+          <div class="flex flex-col">
+            <div class="h-56">
               <label
                 for="htmlLabel"
                 class="form-label inline-block mb-2 text-gray-700 float-left"
                 >HTML CODE</label
               >
               <textarea
-                class="form-control language-html block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
+                class="h-5/6 form-control language-html block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
                 id="HtmlCode"
-                rows="8"
                 placeholder="<html>..</html>"
               ></textarea>
             </div>
           </div>
-          <div class="flex justify-center xl:h-2/6">
-            <div class="xl:w-screen">
+          <div class="flex flex-col">
+            <div class="h-56">
               <label
                 for="cssLabel"
                 class="form-label inline-block mb-2 text-gray-700 float-left"
                 >CSS</label
               >
               <textarea
-                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
+                class="h-5/6 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
                 id="CssCode"
-                rows="8"
                 placeholder="Your Style"
               ></textarea>
             </div>
           </div>
-          <div class="flex justify-center xl:h-2/6">
-            <div class="xl:w-screen">
+          <div class="flex flex-col">
+            <div class="h-52">
               <label
                 for="ScriptLable"
                 class="form-label inline-block mb-2 text-gray-700 float-left"
                 >SCRIPT</label
               >
               <textarea
-                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
+                class="h-5/6 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none resize-none"
                 id="JsCode"
-                rows="8"
                 placeholder="Your script"
               ></textarea>
               <textarea style="display: none" id="common">
                 (function () { var old = console.log; var logger =
-                parent.window.document.getElementById("log"); console.log = function
+                parent.window.document.getElementById("log");console.log = function
                 (message) { if (typeof message == "object") { logger.innerHTML
                 += (JSON && JSON.stringify ? JSON.stringify(message) : message)
                 + "<br />"; } else { logger.innerHTML += message + "<br />"; }
@@ -59,26 +61,25 @@
               </textarea>
             </div>
           </div>
-          <button
-            type="button"
-            onclick="run()"
-            class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Run
-          </button>
+          <div class="flex flex-col m-5">
+            <button
+              type="button"
+              onclick="run()"
+              class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Run
+            </button>
+          </div>
         </div>
-        <div class="lg (1024px) w-1/2 text-center OutputArea">
-          <div class="flex justify-center xl:h-screen">
-            <div class="mb-3 xl:w-screen">
+        <div class="OutputArea">
+          <div class="flex flex-col h-2/3">
+            <div class="" style="height: 80%">
               <label
                 for="OutputLabel"
-                class="form-label inline-block mb-2 text-gray-700"
+                class="form-label inline-block mb-2 text-gray-700 float-left"
                 >OUTPUT</label
               >
-              <div
-                class="w-full ml-5 mr-5 block h-3/5 border-2"
-                style="margin: 0 5px 0 5px"
-              >
+              <div class="w-full h-full inline-block border-2">
                 <iframe
                   id="Output"
                   srcDoc=""
@@ -88,9 +89,17 @@
                   height="100%"
                 ></iframe>
               </div>
+            </div>
+          </div>
+          <div class="flex flex-col h-1/3">
+            <div class="h-1/3" style="height: 80%">
+              <label
+                for="ConOutputLabel"
+                class="form-label inline-block mb-2 text-gray-700 float-left"
+                >CONSOLE OUTPUT</label
+              >
               <div
-                class="w-full ml-5 mr-5 block h-1/3 border-2 bg-gray-600 text-cyan-50"
-                style="margin: 0 5px 0 5px"
+                class="w-full inline-block h-52 border-2 bg-gray-600 text-cyan-50"
                 id="logger"
               >
                 <pre id="log"></pre>
@@ -127,7 +136,7 @@
 
         setTimeout(function () {
           show();
-          hljs.highlightAll();
+          // hljs.highlightAll();
         }, 2000);
       }
 
@@ -167,6 +176,20 @@
         }
       };
       show();
+
+      (function () {
+        var old = console.log;
+        var logger = window.document.getElementById("log");
+        console.log = function (message) {
+          if (typeof message == "object") {
+            logger.innerHTML +=
+              (JSON && JSON.stringify ? JSON.stringify(message) : message) +
+              "<br />";
+          } else {
+            logger.innerHTML += message + "<br />";
+          }
+        };
+      })();
     </script>
   </body>
 </html>
