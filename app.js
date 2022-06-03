@@ -21,6 +21,7 @@ const swaggerUi = require('swagger-ui-express');
 var verifyJWTToken = require('./middleware/verifyJWT');
 const whiteLists = require('./util/accessLists')
 const credential = require('./middleware/credential');
+var bodyParser = require('body-parser');
 
 logger.token('pid', (req, res) => {
   return process.pid;
@@ -52,6 +53,7 @@ app.use(credential);   //only brefore cors
 app.use(cors(whiteLists));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+//app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/data/Product', express.static(path.join(__dirname, 'public')));
@@ -72,7 +74,7 @@ app.use('/users/register', registerRouter);
 app.use('/users/auth', authRouter);
 app.use('/users/refresh', refreshRouter);
 app.use('/users/logout', logoutRouter);
-app.use('/ftp', ftpRouter);
+
 var Apiurl = ['/article2', '/article3'];
 
 //below Route will use JWT
@@ -86,6 +88,7 @@ app.use('/styles',
 // app.use('/scripts',
 //   express.static(path.join(__dirname,
 //     'node_modules/highlight.js/lib')));
+app.use('/ftp', ftpRouter);
 app.use('/code', codeRouter);
 
 //API Docs

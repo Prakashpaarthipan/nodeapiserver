@@ -1,17 +1,59 @@
 var path = require('path');
 var fs = require('fs');
 const resource = path.join(__dirname, '../../resources');
-
+const { parse } = require('querystring');
+function collectRequestData(request, callback) {
+    const FORM_URLENCODED = 'application/x-www-form-urlencoded';
+    if (request.headers['content-type'] === FORM_URLENCODED) {
+        const { headers, method, url } = request;
+        let body = '';
+        request.on('data', chunk => {
+            body += chunk.toString();
+        });
+        request.on('end', () => {
+            callback(parse(body));
+        });
+    }
+    else {
+        callback(null);
+    }
+}
 const ftpHomePage = (req, res) => {
-
-    res.render('ftplogin', { title: 'Express' });
+    //console.log(req);
+    res.render('ftpview/ftplogin', { title: 'Express', req: req });
 }
 const ftpAuthPage = (req, res) => {
-    const { user, pwd } = req.body;
-    if (!user || !pwd) {
-        return res.status(400).json({ error: "username and password are required" })
+    // collectRequestData(req, result => {
+    //     console.log(result);
+    // });
+    if (req.method === 'POST') {
+        let Formdata;
+        const { headers, method, url } = req;
+        let body = '';
+        req.on('data', chunk => {
+            body += chunk.toString();
+        });
+        req.on('end', () => {
+            Formdata = JSON.stringify(parse(body));
+            // console.log(Formdata);
+            const { user, pwd } = parse(body);
+            if (!user || !pwd) {
+                return res.status(400).json({ error: "username and password are required" })
+            }
+            else if (user == 'prakash' && pwd == 123) {
+                res.redirect('files');
+            } else {
+                return res.status(400).json({ error: "authentication is required" })
+            }
+
+        });
+
+
+    } else {
+
     }
-    return res.redirect('/files');
+
+
 }
 const getListFiles = (req, res) => {
     try {
@@ -22,7 +64,7 @@ const getListFiles = (req, res) => {
 
 
     // res.render('ftplogin', { title: 'Express' });
-    res.render('ftpDocs', { title: 'FTP Resource', file: files });
+    res.render('ftpview/ftpDocs', { title: 'FTP Resource', file: files });
 }
 const getDownload = (req, res) => {
     console.log(req.params.file);

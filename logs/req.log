@@ -276,3 +276,289 @@ title is not defined 	 GET 	 /ftp/files 	 undefined
 31-05-2022 03:20:16 PM	 4cc69c50-cd44-46d3-a62e-cb8226ff5476	 Failed to lookup view "/code/home" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /code 	 undefined
 31-05-2022 03:20:18 PM	 384035f3-e9d0-46ab-a12c-0b8a6a07e857	 Failed to lookup view "/code/home" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /code 	 undefined
 31-05-2022 03:21:18 PM	 72f4b5d9-c907-4630-8892-561651d1577d	 Failed to lookup view "/code/home" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /code 	 undefined
+03-06-2022 02:42:52 PM	 6bef62b8-8e71-45df-9f7a-a9255c1002ae	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:42:52 PM	 aa49e302-6f0d-45dd-ba0f-80a1c2278fa2	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:42:52 PM	 854dee56-8107-4773-94bf-86a3c8b45030	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:42:52 PM	 e0b0a410-87b9-436f-a178-675829e6933a	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:43:02 PM	 6b2a6507-b0cb-4f64-b89c-01c097afaf60	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:43:02 PM	 642ea3a8-7f21-4793-ba8f-f21c77619037	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:43:02 PM	 c87bcbfc-661f-43dc-87ed-45105ae41fdf	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:43:02 PM	 a1e73d59-c16f-43ba-acdd-c8379783506d	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:45:20 PM	 2749767b-d2be-47d5-98b9-826eb2f56597	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:45:20 PM	 327d8355-fdce-4c93-b5cb-4eee1bcacc32	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:45:20 PM	 5d263923-d587-4e40-8611-8f780a7bd28c	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:45:20 PM	 22c510ea-24ca-46a4-8db3-6068f55c88c6	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:45:22 PM	 333fd5c9-56a5-41d5-a8de-1308dcd3b2cf	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:45:22 PM	 56fd9837-2bda-41b1-b802-4a8f5f36378d	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:45:22 PM	 6660b0ca-a50e-4681-ae81-1338bc130985	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:45:22 PM	 c9d823e2-a266-4696-ad7c-2290c75849f6	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:48:05 PM	 845be312-5834-4832-b07f-2cea29bebd79	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:48:05 PM	 91c07d8d-5a2b-489c-a326-cf4eceda5f48	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:48:05 PM	 d762f3d1-b37b-4d33-b309-12b5ac10c68a	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:48:05 PM	 a1ad5ced-57d9-447a-9f59-4b2bae718fce	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:48:29 PM	 6b10653b-ae5e-4f6c-b58e-92439da51577	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:48:29 PM	 48193d16-a801-432f-b80a-e3e05503c707	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:48:29 PM	 4bebe5f8-4dff-4c8a-97c1-5394e56b20cc	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:48:29 PM	 4d909286-4ab0-4de4-85ca-61ed6d75e68d	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:48:32 PM	 e0b4a7b0-eca5-4a31-817a-c3b5a61d83b7	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:48:32 PM	 e83c2dc1-ce20-4872-8d2d-ee30675c5ad7	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:48:32 PM	 3d3c8ebb-7f69-40d5-aed5-e25778582c9e	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:48:32 PM	 5b0f21d5-71ff-484c-9102-b09644553f16	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:50:02 PM	 19661b17-f996-4de2-b157-0298bfdeec43	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:50:02 PM	 86381c00-1d27-4a15-9bec-11a40a27de22	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:50:02 PM	 ccb7aca5-16e1-455b-bbee-b541c1045237	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:50:02 PM	 e75f7ba0-8e1a-4f95-b77a-a0fe00c25670	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:50:04 PM	 94ded9a1-a406-4274-9b1d-88658f49ad2f	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:50:04 PM	 80aed5b8-f513-4ae5-8360-cc1068b7a191	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:50:04 PM	 be262bc4-743c-416a-8e2e-3cda85e17b56	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:50:04 PM	 d7fee802-2881-49a4-bf42-2be861d72290	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:50:42 PM	 2a39bc9b-61b5-496b-8117-fb02cd69a53a	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:50:42 PM	 11ea880c-867b-484a-9919-0e2701dc1dd3	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:50:42 PM	 1d8c8474-6b1e-458b-947b-e670b6b72cc6	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:50:42 PM	 7cd3f724-c83f-47ef-893f-f65679e5310a	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:51:51 PM	 2d1dbafa-ef41-4948-b093-a154bc3a2d1c	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:51:51 PM	 97475069-7155-4ba2-99a1-1f564af5ec52	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:51:51 PM	 99cdc2ed-4c47-4980-ac7e-2fbda16b9fca	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:51:51 PM	 3b840c1e-b252-4ec1-910c-a85ce2ebcaec	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 02:53:39 PM	 3ee7a2db-f4a1-4658-9955-6ea1b4e40485	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 02:53:39 PM	 12bd56d7-9b51-4e64-999e-4ea4d3bff58f	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 02:53:39 PM	 f92169a6-87e0-4f3d-8c82-e8cdc2151eee	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 02:53:39 PM	 fde5c3d0-0dfa-4385-b46c-030ebc0808de	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 03:01:51 PM	 ac882980-3b89-4f69-bfff-8cf0fc1a31b2	 F:\Workspace\nodeapiserver\views\ftp\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+Could not find the include file "includes/header.ejs" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:01:56 PM	 9766acda-bb77-45fb-915f-f2546108701a	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 03:01:56 PM	 04b671b6-af2d-438f-ac72-457e564f4bf1	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 03:01:56 PM	 dc364a7e-b171-4e6c-a829-e92059356a54	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 03:01:56 PM	 f22c9f00-daa1-427a-857c-eb801e6f5ae5	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 03:01:57 PM	 642c31ba-cdc3-4eca-abcb-966afecca087	 F:\Workspace\nodeapiserver\views\ftp\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+Could not find the include file "includes/header.ejs" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:03:02 PM	 60eb8ac0-b6cb-41e2-8a2f-7dbcff938270	 F:\Workspace\nodeapiserver\views\ftpview\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+Could not find the include file "includes/header.ejs" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:03:38 PM	 d8286fbf-6a94-4984-9654-0ff5521f04ef	 F:\Workspace\nodeapiserver\views\ftpview\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+Could not find the include file "includes/header.ejs" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:09:09 PM	 94740767-22af-45e9-9f2f-148a49f80e81	 Failed to lookup view "/ftpview/ftplogin" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:09:20 PM	 77699e79-d63c-4a59-b78d-814f061ccef4	 Failed to lookup view "/ftpview/ftplogin" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:09:52 PM	 b9d251ea-6ec5-48ac-806a-c42366d334dd	 F:\Workspace\nodeapiserver\views\ftpview\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+Could not find the include file "includes/header.ejs" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:09:56 PM	 2142cb09-0c16-455c-b872-77f83a9a5d73	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 03:09:56 PM	 4384ee59-455e-4fd6-81af-054fc80c8aac	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 03:09:56 PM	 fbb18d07-13fd-436e-8dfc-0628221e5030	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 03:09:56 PM	 b0333251-e093-44b4-ad86-c62cf110343c	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 03:09:58 PM	 8fd71fe2-650d-4c2e-9dd2-a64566e5e437	 F:\Workspace\nodeapiserver\views\ftpview\ftplogin.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+Could not find the include file "includes/header.ejs" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:10:06 PM	 7b4d281f-e6d9-4367-a598-ef5c762a201a	 Failed to lookup view "ftplogin" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:11:19 PM	 42f27572-289c-4956-b4f9-67e0a332f5d8	 Failed to lookup view "ftplogin" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:11:22 PM	 a383198f-c700-423e-bf7f-18f8753cfa1b	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 03:11:22 PM	 429c3512-37ca-4a91-b8b0-79b5dc6ee82c	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 03:11:22 PM	 852a8ec1-6008-4f3f-85c4-5c2ae0329038	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 03:11:22 PM	 36c24342-bdfb-4f46-8b4c-ef3f84254909	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 03:11:23 PM	 18e0de22-ce14-4a3e-a998-b905f4493d3d	 Failed to lookup view "ftplogin" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:12:11 PM	 a4d7d94d-b4ea-48a3-af73-c30ccb3dfcf1	 Failed to lookup view "ftplogin" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:15:53 PM	 ed5bf77c-d1b9-41b0-8b13-a33cc4b0c0d2	 Cors Blocked 	 POST 	 /auth 	 http://localhost:3000
+03-06-2022 03:17:11 PM	 30df9e28-477e-400a-9034-4c6c43192ad0	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 03:17:11 PM	 66fa2e3a-a418-4e38-9085-40c71a999f3d	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 03:17:11 PM	 39c7934b-21b9-47fb-b8c2-785efb4230f9	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 03:17:11 PM	 d0ffe0f0-9564-4185-961b-f0dc0a145caf	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 03:17:14 PM	 73df55e6-abdd-4fda-b81f-e44cab737138	 Cors Blocked 	 POST 	 / 	 http://localhost:3000
+03-06-2022 03:17:33 PM	 06e29de1-be23-435d-a687-73532cf94501	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 03:17:34 PM	 5e53cb34-81f3-41f9-ba9d-e4d366905511	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 03:17:34 PM	 38b2a4a9-2d9a-4b50-889b-06a67c1a02e2	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 03:17:34 PM	 b1171a13-4907-4ca7-b718-218729bca8f1	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 03:17:44 PM	 22e8edbc-53e6-4c24-95b4-756b36acf895	 F:\Workspace\nodeapiserver\views\ftpview\ftpDocs.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+Could not find the include file "includes/header.ejs" 	 GET 	 /ftp/files 	 undefined
+03-06-2022 03:18:19 PM	 5108a336-bf52-4c57-8788-8f580fc1fbc9	 F:\Workspace\nodeapiserver\views\ftpview\ftpDocs.ejs:3
+    1| <!DOCTYPE html>
+    2| <html lang="en">
+ >> 3|   <%- include('includes/header.ejs') %>
+    4|   <body>
+    5|     <%- include('includes/navbar.ejs') %>
+    6|     <div class="container mx-auto">
+
+Could not find the include file "includes/header.ejs" 	 GET 	 /ftp/files 	 undefined
+03-06-2022 03:24:41 PM	 e6971940-bf1c-4cef-8eb5-97b9acfdac16	 F:\Workspace\nodeapiserver\views\ftpview\ftplogin.ejs:10
+    8|         class="bg-white w-full lg:w-1/3 mx-auto rounded-lg lg:my-20 px-4 py-4 shadow-lg"
+    9|       >
+ >> 10|         <form action="<%=__dirname%>/" method="post">
+    11|           <input
+    12|             type="text"
+    13|             placeholder="Email or Phone Number"
+
+__dirname is not defined 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:24:45 PM	 2ee87e05-7085-4962-8f08-26c5241e84e4	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 03:24:45 PM	 93c221bb-d3d4-4e85-9644-3c3d7a430327	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 03:24:45 PM	 0c50050c-4931-4cd1-b57d-f0e2525e60ed	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 03:24:45 PM	 ede983d0-9269-4abf-b0c8-a2c7a1e1d4f6	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 03:24:46 PM	 c2190bb5-fa65-4e5b-9c07-3d8134379aec	 F:\Workspace\nodeapiserver\views\ftpview\ftplogin.ejs:10
+    8|         class="bg-white w-full lg:w-1/3 mx-auto rounded-lg lg:my-20 px-4 py-4 shadow-lg"
+    9|       >
+ >> 10|         <form action="<%=__dirname%>/" method="post">
+    11|           <input
+    12|             type="text"
+    13|             placeholder="Email or Phone Number"
+
+__dirname is not defined 	 GET 	 /ftp/ 	 undefined
+03-06-2022 03:27:18 PM	 ccd14659-920f-48f1-ba13-3850b0be35ab	 Cors Blocked 	 POST 	 / 	 http://localhost:3000
+03-06-2022 03:28:17 PM	 84226f2d-2419-42f0-a419-782016be4741	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 03:28:17 PM	 acd3b85f-ea23-467f-b194-526588a10b81	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 03:28:17 PM	 dfdf85f5-12f8-459a-9674-d95ce6c52a06	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 03:28:17 PM	 f7381000-c65c-4402-97eb-b14e8220059c	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 03:30:19 PM	 97d3dfe5-4f08-433a-bda5-01bd3a1d9e12	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:30:19 PM	 760def61-fb22-4303-9787-4fa95aa379ac	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:32:04 PM	 b15c9ce4-250a-4fa8-816e-1b2dc97bacef	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:32:04 PM	 a6e2bee9-8b10-4a42-b446-2bda6b97184a	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:32:45 PM	 02ef5233-a892-40f7-8ee3-88bae99bde11	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:32:45 PM	 bc1acf2d-2e42-4292-a171-5116848ccdd7	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:34:35 PM	 e9fb6a0e-7b5f-45a3-8a21-811ba7e9b034	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:34:35 PM	 396bf72f-6b13-4eec-ad7d-e466d33cc78d	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:35:06 PM	 ffb98ed3-c189-47d5-a234-e554cc1c04b3	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:35:06 PM	 11ce0285-1cd4-43d3-ab32-13d9661dfb69	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:59:04 PM	 363f5340-8350-44fb-81a9-8a3eb84144e0	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:59:04 PM	 fde47c71-2451-47e1-a493-243197597d4a	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:59:47 PM	 243f0f7f-2a53-4113-9f29-5c4b49510b46	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 03:59:47 PM	 e333b74f-5493-40b3-9579-226690bf8841	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:00:24 PM	 5e26cdde-3eb9-4db4-8237-ab5b31f54a2e	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:00:24 PM	 f5071cd5-bd34-4049-b1b8-78761b6aa70f	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:07:29 PM	 de084649-43b2-4493-83ca-715e424966e0	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:07:29 PM	 da5a33f2-88be-4792-ae2b-4cc70bfa59c1	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:07:52 PM	 2f5585f9-5b88-41f6-8018-89cf56002c00	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:07:52 PM	 f6f38bdb-692a-4f36-aea1-745d1ea38fb9	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:08:24 PM	 fa5548bd-c785-492f-aab8-f81167438c2d	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:08:24 PM	 30f6aa45-b282-44d6-828b-33027dac9539	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:08:38 PM	 2b745d89-2f93-4d14-bd4b-dd34ec6145e4	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:08:38 PM	 50a34360-0334-434b-862f-26d9a0815ef3	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:08:55 PM	 1a46803d-5b9e-4610-b480-2fdde86c0aa6	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:08:55 PM	 9766ddcf-269e-4148-8b0d-984c3a12e2fb	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:16:48 PM	 afd898a1-8c53-421d-9e5c-47824bdd2c47	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:16:48 PM	 a5d07465-92e5-47ae-b0f6-68e1be7a6cb8	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:20:25 PM	 07accf70-cccd-48ff-bd52-18441942de0d	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:20:25 PM	 a7577af2-3236-49b7-a2bc-670903e69506	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:21:21 PM	 967da05d-c116-48af-9e04-386e9969f914	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:21:21 PM	 b9d30a36-a09b-47d0-86b2-ec6f80b97b2a	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:22:40 PM	 ef682ae5-d257-4c43-9ec1-7fd7a4664cc0	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:22:40 PM	 81b4a60d-9f4c-4dae-96bc-2484aebb4c22	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:31:28 PM	 a90ec6c8-43db-40dd-956e-d84dd9105b6e	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:31:28 PM	 8d758b03-aa3d-4e23-8f48-0debf16f4c69	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:32:24 PM	 beec02ab-8379-46e5-8995-e69d177f669e	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:32:24 PM	 e35f0e13-00a8-4ac6-b919-1ff2a03f3117	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:33:11 PM	 365404b8-5e18-43e7-b555-4ab599f84d27	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:33:11 PM	 29f0d24d-f3ca-42f3-97d9-9415635de24c	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:33:14 PM	 972b07e5-2c4b-4a3a-978d-9a4e72687d40	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:33:14 PM	 98e8cde3-94e9-4fe8-b46b-35bfe78e8b10	 Cannot destructure property 'user' of 'req.body' as it is undefined. 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:34:53 PM	 0c80a5cf-6ef8-4878-a73a-eee0f0e9adda	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:35:10 PM	 fd546acb-0ec7-4e09-9bde-0f8cafb11a24	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:37:03 PM	 6ab4c982-0237-4332-b8ac-bf8f0439e351	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:40:17 PM	 b7fc0f6c-aa8b-4a14-b577-6aaf7607f97e	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:40:58 PM	 ed58e516-f7a8-48ce-8f1b-89358b2d6554	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:42:14 PM	 00ede591-b0a4-4ce5-81fb-ae8ca0784d07	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 04:44:31 PM	 5922a42c-5664-42c9-8b05-4137fac81e5b	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:47:08 PM	 90798945-07bc-4413-a83a-d4c9ae7c5865	 Cors Blocked 	 POST 	 / 	 http://localhost:3000
+03-06-2022 04:47:21 PM	 66878a88-1181-45bc-8a79-8ffa5f4fdf90	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.woff2 	 http://localhost:3000
+03-06-2022 04:47:21 PM	 08c98b00-98f5-4286-99bf-fb031963a41c	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.woff2 	 http://localhost:3000
+03-06-2022 04:47:21 PM	 0c21af7a-381d-4ca8-bded-e5a494f4fbad	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-brands-400.ttf 	 http://localhost:3000
+03-06-2022 04:47:22 PM	 42681c3e-f655-4c6e-977d-e1e57d7a9321	 Cors Blocked 	 GET 	 /fonts/webfonts/fa-solid-900.ttf 	 http://localhost:3000
+03-06-2022 04:47:35 PM	 2039fd28-5280-40fe-b77b-6e31d365c5cd	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:47:45 PM	 c10e1d97-6311-4276-b8b8-65f92140622b	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:48:57 PM	 387709fa-15ab-4868-8e8c-b086b4f3efa4	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:49:22 PM	 b8b7e58c-44a1-4fc7-b37a-1a2e1efe1046	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:50:47 PM	 82b2265b-7584-478a-9405-82bb3188f10f	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:52:24 PM	 62436309-21c8-413e-be3f-1fef0ff4d11e	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:52:24 PM	 e138aa94-d22e-437d-a1dc-11cd44f59fe8	 Cannot read properties of undefined (reading 'user') 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:52:48 PM	 a45438f9-0455-4f8d-8e48-5abf86c9e69e	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:52:58 PM	 16926e80-dd2e-4551-9e4b-c98fa47f001a	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:52:58 PM	 95d1ea76-a99c-4ec1-8830-c6cb6c9d1c39	 user is not defined 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:53:33 PM	 1a7bcde1-c2c3-4af8-9a43-ac77a0b5afb1	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:53:58 PM	 337d0589-3989-450a-bb07-fc046168ce8d	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:54:08 PM	 2c0dd40d-8d2f-4f0c-b802-3d85fd75ffcb	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:54:30 PM	 e0156152-ff65-4cf2-a9f2-51a744cc2329	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 04:59:55 PM	 d1aa5d7b-9522-43f0-bcff-4f302b736660	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 05:02:10 PM	 4bd4e174-1ab8-49a8-bb66-5561a3833c39	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 05:02:59 PM	 d9da76a9-74e3-4bb0-a52c-cc310b947b6a	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 05:15:22 PM	 234662c3-6d02-4266-b751-0bdbfcf92842	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 05:15:46 PM	 4e6d69e9-e02e-4eed-8a6b-012aa77ac4fe	 Cors Blocked 	 POST 	 /ftp 	 http://localhost:3000
+03-06-2022 05:17:06 PM	 0d3680c0-efb6-40ee-a8af-85dbf114383b	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:18:18 PM	 63faf6f1-d4d8-4b58-8017-9f2e9bd4704c	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:20:37 PM	 5c470dcf-ad46-4631-b71f-4fdf8a95ef83	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:21:41 PM	 307f39cf-59b7-40dd-a844-c2cacb2acc17	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:21:54 PM	 8a85baa8-610b-4a5e-b491-6b57a509d267	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:23:06 PM	 bd2ed44a-cf13-44f3-b958-4caa53a8376e	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:23:50 PM	 1176c783-c3c8-422b-89c1-756022f8c40c	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:36:56 PM	 2bb25bbb-c24d-4338-8400-9fb271cedb7f	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:37:01 PM	 a75d9110-d0c4-4d5b-ba3f-4da4e5780300	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:38:05 PM	 50c0bec6-1851-470c-9c45-3a3c5145e696	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:38:25 PM	 28575f1e-e3af-45b8-82b8-e6d9906b84fa	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:40:14 PM	 7ab55a9c-bc2d-4dc4-8d15-c6081d7dc3a8	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:40:14 PM	 ac7749a4-6c54-4749-a877-5e2b3b90d607	 request is not defined 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:41:48 PM	 187fb8cb-9a79-4522-81aa-d2b94a3ccfcd	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:41:48 PM	 cfcaa83c-8f51-497f-beb6-bc91a45946cc	 request is not defined 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:42:35 PM	 f24c9835-8c42-4679-992a-db2c2493f2f8	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:42:35 PM	 b2d92e30-0799-4f37-9b40-0a40d49bf5d4	 request is not defined 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:42:54 PM	 aa7d66e2-12e5-479a-b262-7c7f430360ec	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:43:55 PM	 afb6a6fd-c7dd-431c-8c45-5fa56dbc7f9a	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:44:27 PM	 41915773-ef2a-41d5-a97c-af5c8a7af256	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:45:10 PM	 6995154e-b309-4b78-9294-1f1df225ee92	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:46:18 PM	 84fc076c-cfb1-46e8-ab4b-0366b15ca37d	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:46:52 PM	 2514c981-d7ca-4e87-a67a-f1e10e690f03	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:48:30 PM	 78330333-ebb6-4665-a16c-3030fa4fd3ec	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:48:51 PM	 e0e0b5da-c343-45a0-96ce-852822db0458	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:49:12 PM	 e0f17731-4e89-4d4c-bbcb-094106395130	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:50:15 PM	 e1cf8d47-09ca-45d6-8fa2-7acf2948acb6	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:51:55 PM	 d245b788-0707-47e8-b08d-bb3a87fd94d3	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 05:52:05 PM	 fdf842e0-5566-4360-bc56-e8a7cc5ffc00	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:01:03 PM	 0368d64b-d413-49bf-810d-1e2b7d68db86	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:01:03 PM	 ba503acb-b60d-40d7-8b84-161ac1cf8879	 result is not defined 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:01:35 PM	 b7b3e379-61b6-48a5-9604-53f9d7217d1f	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:01:42 PM	 9ece5137-a516-438d-9f3a-70577044b4a3	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:01:48 PM	 f6085f69-494b-46c2-b0dc-79b787febffe	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:01:48 PM	 aa02a926-98d5-4ea0-a258-f2506e5186f5	 result is not defined 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:02:34 PM	 6fb02177-4287-46db-b965-121c8527e15f	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:02:34 PM	 6d62a059-134e-488d-b786-01def4f1bc73	 data is not defined 	 POST 	 /ftp/ 	 http://localhost:3000
+03-06-2022 06:03:03 PM	 064a1bec-a70d-49d2-be1c-0f2c1675f803	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000

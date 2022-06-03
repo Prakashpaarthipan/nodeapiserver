@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../includes/header.ejs') %>
+  <body>
+    <%- include('../includes/navbar.ejs') %>
+    <div class="container mx-auto">
+      <div
+        class="bg-white w-full lg:w-1/3 mx-auto rounded-lg lg:my-20 px-4 py-4 shadow-lg"
+      >
+        <form action="" name="loginFrm" id="loginFrm" method="post">
+          <input
+            name="user"
+            type="text"
+            placeholder="Email or Phone Number"
+            class="w-full mb-3 px-4 py-3 border rounded-lg text-gray-700 focus:outline-none focus:border-green-500"
+          />
+          <input
+            name="pwd"
+            type="text"
+            placeholder="Password"
+            class="w-full mb-3 px-4 py-3 border rounded-lg text-gray-700 focus:outline-none focus:border-green-500"
+          />
+          <button
+            class="text-white py-3 rounded-lg w-full font-bold text-xl tracking-wider"
+            style="background-color: #1977f2"
+            type="submit"
+            name="loginBtn"
+            value="submit"
+          >
+            Log In
+          </button>
+        </form>
+      </div>
+    </div>
+    <script>
+      async function submit() {
+        //alert(1);
+        let formData = new FormData(document.getElementById("loginFrm"));
+        console.log(formData);
+        await fetch("/ftp", {
+          method: "POST",
+          body: formData,
+        });
+      }
+    </script>
+  </body>
+</html>
