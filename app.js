@@ -174,7 +174,7 @@ process.on('SIGINT', (e) => {
 
 process.on('uncaughtException', err => {
   console.log('Uncaught exception');
-  console.error(err);
+  console.log(err.message, err.name);
 
   Calldown(err);
 });

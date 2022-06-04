@@ -2,6 +2,8 @@ var path = require('path');
 var fs = require('fs');
 const resource = path.join(__dirname, '../../resources');
 const { parse } = require('querystring');
+var formidable = require('formidable');
+
 function collectRequestData(request, callback) {
     const FORM_URLENCODED = 'application/x-www-form-urlencoded';
     if (request.headers['content-type'] === FORM_URLENCODED) {
@@ -55,9 +57,10 @@ const ftpAuthPage = (req, res) => {
 
 
 }
-const getListFiles = (req, res) => {
+const getListFiles = async (req, res) => {
     try {
         var files = fs.readdirSync(resource);
+        // console.log(JSON.stringify(files));
     } catch (e) {
         console.log(e, "**");
     }
@@ -65,6 +68,47 @@ const getListFiles = (req, res) => {
 
     // res.render('ftplogin', { title: 'Express' });
     res.render('ftpview/ftpDocs', { title: 'FTP Resource', file: files });
+}
+const ftpupload = async (req, res) => {
+    const uploadFolder = path.join(__dirname, "../../", "resources");
+    const form = formidable({ multiples: true, maxFileSize: 50 * 1024 * 1024 });
+
+
+    form.parse(req, async (err, fields, files) => {
+        if (err) {
+            return res.status(400).json({ Status: "Fail", Error: err });
+            //next(err);
+            //return;
+        }
+        //console.log(files.formProfile);
+        if (files.formProfile.size > 0) {
+            var readStream = fs.createReadStream(files.formProfile.filepath);
+            var writeStream = fs.createWriteStream(uploadFolder + "/pro_" + Date.parse(new Date()) + ".jpg");
+            readStream.pipe(writeStream);
+            readStream.on('end', function () {
+                fs.unlinkSync(files.formProfile.filepath);
+            });
+            // await fs.rename(files.formProfile.filepath, uploadFolder + "/" + files.formProfile.originalFilename)
+        }
+        let fil = [];
+        for (var key in files.fileupload) {
+
+            var obj = files.fileupload[key];
+            fil.push(obj);
+            if (obj.size > 0) {
+                var readStream = fs.createReadStream(obj.filepath);
+                var writeStream = fs.createWriteStream(path.join(__dirname, "../../public", "ftp") + "/cv_" + Date.parse(new Date()) + ".jpg");
+                readStream.pipe(writeStream);
+                readStream.on('end', function () {
+                    fs.unlinkSync(obj.filepath);
+                });
+                // await fs.rename(files.formProfile.filepath, uploadFolder + "/" + files.formProfile.originalFilename)
+            }
+        }
+        //fs.rename()
+        res.json({ fields, files, date: new Date().toString(), list: fil });
+    });
+
 }
 const getDownload = (req, res) => {
     console.log(req.params.file);
@@ -74,5 +118,5 @@ const getDownload = (req, res) => {
 }
 
 module.exports = {
-    ftpHomePage, ftpAuthPage, getListFiles, getDownload
+    ftpHomePage, ftpAuthPage, getListFiles, getDownload, ftpupload
 }

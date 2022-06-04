@@ -12,6 +12,7 @@ router.route('/')
     ;
 router.route('/files')
     .get(ftp.getListFiles)
+    .post(ftp.ftpupload)
     ;
 router.route('/download/:file')
     .get(ftp.getDownload)
