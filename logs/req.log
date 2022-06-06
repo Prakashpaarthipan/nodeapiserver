@@ -626,3 +626,164 @@ Or, if you meant to create an async function, pass `async: true` as an option. 	
 04-06-2022 05:06:09 PM	 11d976e7-91ad-4f82-87bf-e8a1c321385b	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
 04-06-2022 05:06:59 PM	 96380933-55fd-4d46-a4db-d6b472ddf1f8	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
 04-06-2022 05:08:15 PM	 8fbb1a9a-ffea-41be-af34-4c63825dbed8	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
+06-06-2022 01:03:04 PM	 8707971f-f7b0-47aa-86bf-ca2733f4bd56	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:32
+    30|                         type="text"
+    31|                         placeholder="Mongodb Url"
+ >> 32|                         value="<%= Dburi %>"
+    33|                       />
+    34|                     </div>
+    35|                     <div class="mb-6">
+
+Dburi is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 02:44:58 PM	 d09adc92-de00-4971-b7e3-eeb2fa39890a	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:26:45 PM	 c9a39c5d-c66e-4f52-b738-714ceca1a9f8	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:27:44 PM	 83649db8-888b-4159-9198-dbcc23a23ca2	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:32:17 PM	 d2d6e62a-46cb-4fb4-b0bf-1d78c106d172	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:35:31 PM	 fa041aa2-e3ac-468d-9515-beacde01206b	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:35:55 PM	 a2820e3b-f054-4b30-b9d1-31aebf68b872	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:37:30 PM	 05668cb4-3ab1-41e4-8b9d-41bbc37c6968	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:39:08 PM	 45eaf9f7-11b2-476b-9116-ea3f233a81cd	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:41:50 PM	 231a3a8a-3fd8-4556-8e75-cf5f97e2783a	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:43:03 PM	 d5ff1fe8-3e84-434e-aed8-1ad5121cf33b	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:49:06 PM	 1b9d8466-68ba-4a50-b7fe-6fc7e7de8c7e	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:50:08 PM	 1757b9db-4498-4443-8c96-bd41040bdec2	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:52:35 PM	 006ba6a3-56d0-4ea1-9a4a-21bc6d0d703d	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 03:56:54 PM	 f027357a-bb34-44a7-bbb3-bc76b90ac2cd	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:18:20 PM	 d5881cba-98f7-4a7c-946f-c740c6cdf41c	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:20:32 PM	 f72b0429-e9a6-40d8-a71b-715a383db393	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:23:11 PM	 b90c10d2-2865-4ddf-b342-a9da182ce518	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:25:46 PM	 1bb40a50-e9fb-4db9-8312-ca103ba3d814	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:27:40 PM	 0ff74274-b878-42b2-888a-81fac1431062	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:29:35 PM	 5871b41d-a61d-4946-9c99-b8bb96379c44	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:32:45 PM	 399c7e15-2fcc-4b65-b619-70b93fb6230b	 Cors Blocked 	 POST 	 /mongo?logout=logout 	 http://localhost:3000
+06-06-2022 04:34:19 PM	 b20e3005-4bf6-477e-a5e9-1f320c250b0b	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:33
+    31|                         type="text"
+    32|                         placeholder="Mongodb Url"
+ >> 33|                         value="<%= config.MONGO_DB_URI %>"
+    34|                       />
+    35|                     </div>
+    36|                     <div class="mb-6">
+
+Cannot read properties of undefined (reading 'MONGO_DB_URI') 	 GET 	 /mongo 	 undefined
+06-06-2022 04:34:45 PM	 291528bf-8296-46a3-8c59-c93707df18c3	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:33
+    31|                         type="text"
+    32|                         placeholder="Mongodb Url"
+ >> 33|                         value="<%= config.MONGO_DB_URI %>"
+    34|                       />
+    35|                     </div>
+    36|                     <div class="mb-6">
+
+Cannot read properties of undefined (reading 'MONGO_DB_URI') 	 GET 	 /mongo 	 undefined
+06-06-2022 04:41:46 PM	 efbd9c30-dd18-4da8-9bcb-e3cf860a2fca	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:46:08 PM	 16bf1e60-7510-41d3-ae2b-09a3f875ef15	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:47:15 PM	 969e1e13-1b30-406d-97f8-fb66e735fa2e	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:47:20 PM	 61de7dda-79cc-48a7-8e43-89f9b0430133	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:50:18 PM	 b57f9d2d-9269-43aa-8164-d03c1a359b83	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:50:20 PM	 b64b3bac-3caf-4b61-b5f5-d07bd739747d	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:50:21 PM	 c8697f16-f93c-4841-a30c-99a950955381	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:50:22 PM	 d8baa171-8ff2-436c-a7aa-091232a29c95	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:50:58 PM	 70730da5-bb65-4231-8c1b-4d44bb0cd6ea	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 04:54:25 PM	 72da843f-dcfb-4a92-b8a4-a1356f504e13	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:07:54 PM	 031b3e09-083c-41e2-ac1a-47e99f385de1	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:35
+    33|                         placeholder="Mongodb Url"
+    34|                         value="<%= config_url %>"
+ >> 35|                         "<%= dynData %>"
+    36|                       />
+    37|                     </div>
+    38|                     <div class="mb-6">
+
+dynData is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 05:08:25 PM	 6f527c4d-1aff-483b-b4ab-7ad103188d21	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:35
+    33|                         placeholder="Mongodb Url"
+    34|                         value="<%= config_url %>"
+ >> 35|                         "<%=dynData%>"
+    36|                       />
+    37|                     </div>
+    38|                     <div class="mb-6">
+
+dynData is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 05:09:04 PM	 248febf9-ac10-4cf8-9df8-9f37e7c8c3dc	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:34
+    32|                         placeholder="Mongodb Url"
+    33|                         value="<%= config_url %>"
+ >> 34|                         <%=dynData%>
+    35|                       />
+    36|                     </div>
+    37|                     <div class="mb-6">
+
+dynData is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 05:10:05 PM	 f7d1c7ae-e1dc-4b55-bd00-25890b8330e9	 Could not find matching close tag for "<%=". 	 GET 	 /mongo 	 undefined
+06-06-2022 05:10:20 PM	 b0b95aaf-5375-4626-88a7-0de0f70483b7	 Invalid or unexpected token in F:\Workspace\nodeapiserver\views\mongodb\home.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option. 	 GET 	 /mongo 	 undefined
+06-06-2022 05:15:45 PM	 210d3ed5-3354-4695-bb36-6b3704dc2e13	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:15:50 PM	 8ef74126-34b1-474e-81f2-f2ed50945499	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:5
+    3|   <%- include('../includes/header.ejs') %>
+    4|   <body>
+ >> 5|     <%- include('../includes/navbar.ejs') %> <% if(status){ Constatus =
+    6|     'CONNECTED'; document.getElementById('mongodb_url').setAttribute("readonly",
+    7|     "readonly"); }else{ Constatus = 'NOT CONNECTED'; } %>
+    8|     <div class="mx-4 my-2">
+
+document is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 05:16:09 PM	 b6507748-db9c-4728-84a1-4ffdf7220b4b	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:5
+    3|   <%- include('../includes/header.ejs') %>
+    4|   <body>
+ >> 5|     <%- include('../includes/navbar.ejs') %> <% if(status){ Constatus =
+    6|     'CONNECTED'; document.getElementById('mongodb_url').setAttribute("readonly",
+    7|     "readonly"); }else{ Constatus = 'NOT CONNECTED'; } %>
+    8|     <div class="mx-4 my-2">
+
+document is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 05:16:42 PM	 ce1e9fa4-30b4-429b-860c-6a9585cfedc6	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:5
+    3|   <%- include('../includes/header.ejs') %>
+    4|   <body>
+ >> 5|     <%- include('../includes/navbar.ejs') %> <% if(status){ Constatus =
+    6|     'CONNECTED'; document.getElementById('mongodb_url').setAttribute("readonly",
+    7|     "true"); }else{ Constatus = 'NOT CONNECTED'; } %>
+    8|     <div class="mx-4 my-2">
+
+document is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 05:19:04 PM	 dd307178-2f75-4719-936a-74e825fc430b	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:5
+    3|   <%- include('../includes/header.ejs') %>
+    4|   <body>
+ >> 5|     <%- include('../includes/navbar.ejs') %> <% if(status){ Constatus =
+    6|     'CONNECTED';
+    7|     document.getElementById('mongodb_url').setAttribute("readonly","readonly");
+    8|     }else{ Constatus = 'NOT CONNECTED'; } %>
+
+document is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 05:19:59 PM	 d334c669-9ee9-4603-8d5f-72265133e067	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:117
+    115|       </div>
+    116|     </div>
+ >> 117|     <%
+    118|     document.getElementById('mongodb_url').setAttribute("readonly","readonly");
+    119|     %>
+    120|   </body>
+
+document is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 05:22:42 PM	 2fa7eb91-b811-4395-928c-7d7aa78da538	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:23:51 PM	 7d03b1fa-7d71-4944-9c24-fdd0e387016f	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:24:00 PM	 bcc1394d-6140-4e62-8e88-9fa8e4fc160d	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:24:07 PM	 4790ab2c-acf1-492f-bcb5-7546840f9a67	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:24:16 PM	 23afdd67-f8fa-455d-8046-613956a89f4e	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:24:26 PM	 71985025-6cfa-4d20-a812-8c64e1104c1c	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:28:39 PM	 4789c200-4372-49bb-aee9-cb2d12403ffd	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:28:45 PM	 b994af9e-09cd-46b1-89c8-a5c9dbd26f15	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 05:29:45 PM	 3bd5c160-8cb2-499c-8d16-0e922dfb4d1e	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:08:24 PM	 c7ea5012-4104-41ce-9ab1-62ca818d0a6f	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:09:38 PM	 0910cee7-af9c-4763-8be9-8ea714320fb2	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:09:46 PM	 faa73993-0e3b-4ac9-8968-894a929c49e7	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:10:15 PM	 cdb7ab71-b4d9-4432-a39b-e758d0130346	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:11:03 PM	 ef5d801d-240b-42e3-90c9-d2569710ccc8	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:12:09 PM	 6443e4bc-4446-4d6e-885b-0ba819df4131	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:12:53 PM	 fa00a371-7528-490d-bf25-178d1f0f65ef	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:12:58 PM	 af29b6e9-f974-4840-b754-e8d43ab4d05f	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:14:30 PM	 f0d5589f-46b6-4f18-8d17-d68ea28d1542	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:14:46 PM	 7a80f50c-4497-498f-9b86-71ac552169a8	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:19:46 PM	 05bec8a2-1f8e-4f81-a97c-d1a4a9bd066c	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:25:33 PM	 b3af1fe1-2924-4638-8396-2ec05f63a365	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:26:25 PM	 d9fb5ec4-8d30-4e53-b290-6767c57b76a5	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:26:41 PM	 35d6294f-3e3a-45b3-93d7-33391836555d	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:26:56 PM	 624e84c9-94b9-448b-a7a1-48187f19508f	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000

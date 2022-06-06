@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../includes/header.ejs') %>
+  <body>
+    <%- include('../includes/navbar.ejs') %> <% if(status){ Constatus =
+    'CONNECTED'; }else{ Constatus = 'NOT CONNECTED'; } %>
+    <div class="mx-4 my-2">
+      <div class="w-full text-center text-lg">
+        <h1 class="box-decoration-slice bg-pink-500 text-white px-2 w-full">
+          MONGO DATABASE CONFIG
+        </h1>
+      </div>
+      <div class="container mx-auto">
+        <div class="grid grid-cols-2">
+          <div class="text-center">
+            <form
+              action=""
+              id="formDb"
+              class="form"
+              method="post"
+              onsubmit="callOverlay()"
+            >
+              <section class="py-26 bg-white">
+                <div class="container px-4 mx-auto">
+                  <div class="max-w-lg mx-auto">
+                    <div class="text-center mb-8">
+                      <h2 class="text-3xl md:text-4xl font-semibold mb-2">
+                        Mongo DB Login
+                      </h2>
+                    </div>
+
+                    <div class="mb-6">
+                      <label class="block mb-2 font-semibold" for="">URL</label>
+                      <input
+                        id="mongodb_url"
+                        name="mongodb_url"
+                        class="inline-block w-full p-4 leading-6 text-lg font-semibold placeholder-indigo-900 bg-white shadow border-2 border-indigo-900 rounded"
+                        type="text"
+                        placeholder="Mongodb Url"
+                        value="<%= config_url %>"
+                      />
+                    </div>
+                    <div class="mb-6">
+                      <label class="block mb-2 font-semibold" for=""
+                        >Database</label
+                      >
+                      <input
+                        name="db_name"
+                        class="inline-block w-full p-4 leading-6 text-lg font-semibold placeholder-indigo-900 bg-white shadow border-2 border-indigo-900 rounded"
+                        type="text"
+                        value="<%= config_dbname %>"
+                        placeholder="Optional"
+                      />
+                    </div>
+                    <div
+                      class="flex flex-wrap -mx-4 mb-6 items-center justify-between"
+                      style="display: none"
+                    >
+                      <div class="w-full lg:w-auto px-4 mb-4 lg:mb-0">
+                        <label for="">
+                          <input type="checkbox" />
+                          <span class="ml-1 font-extrabold">Remember me</span>
+                        </label>
+                      </div>
+                      <div class="w-full lg:w-auto px-4">
+                        <a
+                          class="inline-block font-extrabold hover:underline"
+                          href="#"
+                          >Forgot your password?</a
+                        >
+                      </div>
+                    </div>
+                    <button
+                      type="submit"
+                      name="Save"
+                      value="signin"
+                      class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-extrabold bg-indigo-800 hover:bg-indigo-900 border-3 border-indigo-900 shadow rounded transition duration-200"
+                    >
+                      Sign in
+                    </button>
+                  </div>
+                </div>
+              </section>
+            </form>
+          </div>
+          <div class="text-center">
+            <form action="" method="post">
+              <section class="py-26 bg-white">
+                <div class="container px-4 mx-auto">
+                  <div class="max-w-lg mx-auto">
+                    <div class="text-center mb-8">
+                      <h2 class="text-3xl md:text-4xl font-semibold mb-2">
+                        Mongo DB Status
+                      </h2>
+                    </div>
+
+                    <div class="mb-6">
+                      <label class="block mb-2 font-semibold" for="">URL</label>
+                      <input
+                        class="inline-block w-full p-4 leading-6 text-lg font-semibold placeholder-indigo-900 bg-white shadow border-2 border-indigo-900 rounded"
+                        type="text"
+                        value="<%=Constatus%>"
+                        readonly
+                      />
+                    </div>
+
+                    <button
+                      type="submit"
+                      name="Save"
+                      value="logout"
+                      class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-extrabold bg-orange-800 hover:bg-orange-900 border-3 border-orange-900 shadow rounded transition duration-200"
+                    >
+                      Logout
+                    </button>
+                  </div>
+                </div>
+              </section>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full"
+      id="my-modal"
+    ></div>
+    <script>
+
+      //       document.querySelector("#formDb").addEventListener("submit", function(e){
+
+      //           e.preventDefault();    //stop form from submitting
+
+
+      //           let modal = document.getElementById("my-modal");
+      //           modal.style.display = "block";
+      //           document.getElementById('formDb').submit();
+
+
+      //   });
+      function callOverlay(){
+        let modal = document.getElementById("my-modal");
+        modal.style.display = "block";
+      }
+              let stat = <%=status%>;
+              if (stat){
+                  document
+                  .getElementById("mongodb_url")
+                  .setAttribute("readonly", "readonly");
+              }
+    </script>
+  </body>
+</html>

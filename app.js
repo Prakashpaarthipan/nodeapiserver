@@ -15,13 +15,14 @@ const { codeRouter } = require('./routes/code/index');
 
 const { productsRouter, studentRouter } = require('./routes/api');
 const ftpRouter = require('./routes/ftp');
+const mongoRouter = require('./routes/mongodb/index');
+
 const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 
 var verifyJWTToken = require('./middleware/verifyJWT');
 const whiteLists = require('./util/accessLists')
 const credential = require('./middleware/credential');
-var bodyParser = require('body-parser');
 
 logger.token('pid', (req, res) => {
   return process.pid;
@@ -66,6 +67,7 @@ app.use(serveStatic(path.join(__dirname, 'public/ftp'), {
   //setHeaders: setCustomCacheControl
 }));
 //app.use(serveStatic('public/ftp', { index: ['default.html', 'default.htm'] }))
+// ^/$|index(.html)? // optionally pass through router
 app.use(serverLog);
 app.use('/', homeRouter);
 app.use('/movies', moviesRouter);
@@ -90,6 +92,7 @@ app.use('/styles',
 //     'node_modules/highlight.js/lib')));
 app.use('/ftp', ftpRouter);
 app.use('/code', codeRouter);
+app.use('/mongo', mongoRouter);
 
 //API Docs
 const swaggerDefinition = {
@@ -128,12 +131,21 @@ app.use(serverLog);
 
 app.use((err, req, res, next) => {
   res.status(500).send(err.message)
+  next();
 });
 
 // catch 404 and forward to error handler
-// app.use(function (req, res, next) {
-//   next(createError(404));
-// });
+app.use(function (req, res, next) {
+  //next(createError(404));
+  res.status(404);//.render('404');
+  if (req.accepts('html')) {
+    res.sendFile(path.join(__dirname, 'views', '404.html'))
+  } else if (req.headers['accept'] == 'application/json') {
+    res.json({ error: '404 Not Found' })
+  } else {
+    res.type('txt').send(err.message)
+  }
+});
 
 
 // error handler

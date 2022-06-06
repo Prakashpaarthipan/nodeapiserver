@@ -83,7 +83,7 @@ const ftpupload = async (req, res) => {
         //console.log(files.formProfile);
         if (files.formProfile.size > 0) {
             var readStream = fs.createReadStream(files.formProfile.filepath);
-            var writeStream = fs.createWriteStream(uploadFolder + "/pro_" + Date.parse(new Date()) + ".jpg");
+            var writeStream = fs.createWriteStream(uploadFolder + "/pro_" + Date.now() + ".jpg");
             readStream.pipe(writeStream);
             readStream.on('end', function () {
                 fs.unlinkSync(files.formProfile.filepath);
@@ -97,7 +97,7 @@ const ftpupload = async (req, res) => {
             fil.push(obj);
             if (obj.size > 0) {
                 var readStream = fs.createReadStream(obj.filepath);
-                var writeStream = fs.createWriteStream(path.join(__dirname, "../../public", "ftp") + "/cv_" + Date.parse(new Date()) + ".jpg");
+                var writeStream = fs.createWriteStream(path.join(__dirname, "../../public", "ftp") + "/cv_" + Date.now() + ".jpg");
                 readStream.pipe(writeStream);
                 readStream.on('end', function () {
                     fs.unlinkSync(obj.filepath);
