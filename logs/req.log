@@ -787,3 +787,22 @@ document is not defined 	 GET 	 /mongo 	 undefined
 06-06-2022 06:26:25 PM	 d9fb5ec4-8d30-4e53-b290-6767c57b76a5	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
 06-06-2022 06:26:41 PM	 35d6294f-3e3a-45b3-93d7-33391836555d	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
 06-06-2022 06:26:56 PM	 624e84c9-94b9-448b-a7a1-48187f19508f	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+06-06-2022 06:33:44 PM	 9158e72e-e2fd-43ef-b923-fb1b6ad6a3a9	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:122
+    120|                       name="extime"
+    121|                       id="extime"
+ >> 122|                       value="<%=expiretime%>"
+    123|                     />
+    124|                   </div>
+    125|                 </div>
+
+expiretime is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 06:34:14 PM	 222b379b-bc8b-48eb-9ddc-f64497dd4ef4	 F:\Workspace\nodeapiserver\views\mongodb\home.ejs:122
+    120|                       name="extime"
+    121|                       id="extime"
+ >> 122|                       value="<%=expiretime%>"
+    123|                     />
+    124|                   </div>
+    125|                 </div>
+
+expiretime is not defined 	 GET 	 /mongo 	 undefined
+06-06-2022 06:37:03 PM	 a1521430-74bf-4a85-926e-b51d231b88d0	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000

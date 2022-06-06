@@ -112,6 +112,15 @@
                     >
                       Logout
                     </button>
+                    <div>
+                      Database closes in <span id="time">00:00</span> minutes!
+                    </div>
+                    <input
+                      type="hidden"
+                      name="extime"
+                      id="extime"
+                      value="<%=expiretime%>"
+                    />
                   </div>
                 </div>
               </section>
@@ -147,6 +156,30 @@
                   .getElementById("mongodb_url")
                   .setAttribute("readonly", "readonly");
               }
+
+              function startTimer(duration, display) {
+                  var timer = duration, minutes, seconds;
+                  setInterval(function () {
+                      minutes = parseInt(timer / 60, 10);
+                      seconds = parseInt(timer % 60, 10);
+
+                      minutes = minutes < 10 ? "0" + minutes : minutes;
+                      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                      display.textContent = minutes + ":" + seconds;
+
+                      if (--timer < 0) {
+                          timer = duration;
+                      }
+                  }, 1000);
+              }
+
+              window.onload = function () {
+                  var fiveMinutes = Math.round((document.getElementById('extime').value - Date.now() )/60000)*60;
+                  console.log(fiveMinutes);
+                  var    display = document.querySelector('#time');
+                  startTimer(fiveMinutes, display);
+              };
     </script>
   </body>
 </html>

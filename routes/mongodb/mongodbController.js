@@ -48,9 +48,9 @@ const getCollection = async (req, res) => {
             await main();
             configData = require(path.join(__dirname, 'config.json'));
             //console.log(configData);
-            res.render('mongodb/home', { title: 'Mongodb', status: isConnected(), config_url: configData.mongodb_url, config_dbname: configData.db_name });
+            res.render('mongodb/home', { title: 'Mongodb', status: isConnected(), config_url: configData.mongodb_url, config_dbname: configData.db_name, expiretime: configData.expriredAt });
         } else {
-            res.render('mongodb/home', { title: 'Mongodb', status: isConnected(), config_url: 'NOT FOUND', config_dbname: 'NOT FOUND' });
+            res.render('mongodb/home', { title: 'Mongodb', status: isConnected(), config_url: 'NOT FOUND', config_dbname: 'NOT FOUND', expiretime: 0 });
         }
     } catch (e) {
         return res.status(400).json({ Status: "Fail to read", Error: e });
