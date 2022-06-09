@@ -1,1 +1,6 @@
-{"mongodb_url":"mongodb+srv://dev524899:K4xd8xj8r3CfUU4h@sandbox.8g1kh.mongodb.net/?retryWrites=true&w=majority","db_name":"sdf","Save":"signin","expriredAt":1654522623099}
+{
+  "mongodb_url": "mongodb+srv://1:1@sandbox.8g1kh.mongodb.net/?retryWrites=true&w=majority",
+  "db_name": "sdf",
+  "Save": "signin",
+  "expriredAt": 1654522623099
+}

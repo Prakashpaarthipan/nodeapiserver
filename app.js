@@ -16,6 +16,8 @@ const { codeRouter } = require('./routes/code/index');
 const { productsRouter, studentRouter } = require('./routes/api');
 const ftpRouter = require('./routes/ftp');
 const mongoRouter = require('./routes/mongodb/index');
+const mongoApiRouter = require('./routes/mongodb/api/index');
+
 
 const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
@@ -93,6 +95,7 @@ app.use('/styles',
 app.use('/ftp', ftpRouter);
 app.use('/code', codeRouter);
 app.use('/mongo', mongoRouter);
+app.use('/mongo/api', mongoApiRouter);
 
 //API Docs
 const swaggerDefinition = {

@@ -660,3 +660,9 @@
 25580 - ::1 - - 06-46-2022 06:46:14 PM "GET /mongo HTTP/1.1" 200 - 19bbc21f-25e3-49f7-876f-c8d53d516adf -2959.480 ms
 25580 - ::1 - - 06-46-2022 06:46:14 PM "GET /stylesheets/style.css HTTP/1.1" 200 - 2c58e7a7-ef27-4860-94a1-b9c3b4f14e98 -4.555 ms
 25580 - ::1 - - 06-46-2022 06:46:14 PM "GET /stylesheets/tailwind.css HTTP/1.1" 200 - b8bd029c-9d80-4a60-ae31-863d36f78549 -3.541 ms
+27388 - ::1 - - 06-46-2022 06:46:32 PM "GET /mongo HTTP/1.1" 200 - 12ba0cb1-bddd-4a86-8871-3f7ffe061e6f -3774.178 ms
+27388 - ::1 - - 06-46-2022 06:46:32 PM "GET /stylesheets/style.css HTTP/1.1" 200 - 69af3ee3-7fdd-415e-adb6-af2c19b3e36e -4.942 ms
+27388 - ::1 - - 06-46-2022 06:46:32 PM "GET /stylesheets/tailwind.css HTTP/1.1" 200 - c944c8c0-7696-4bb2-9b33-ae8a00ec4f00 -5.430 ms
+21432 - ::ffff:172.16.54.155 - - 09-25-2022 01:25:10 PM "GET /mongo/api HTTP/1.1" 200 - 93be45a4-ff1d-4b9e-8466-8df0084213b9 -10.957 ms
+21432 - ::ffff:172.16.54.155 - - 09-25-2022 01:25:32 PM "POST /mongo/api HTTP/1.1" 200 - ab7331eb-7703-4123-8a67-35a02b415b8c -1.934 ms
+21432 - ::ffff:172.16.54.155 - - 09-31-2022 01:31:21 PM "POST /mongo/api HTTP/1.1" 200 - d91ce7e4-3e6b-47fa-9f86-8ea1b3d66b40 -1.040 ms
