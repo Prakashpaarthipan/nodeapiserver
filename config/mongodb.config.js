@@ -15,10 +15,8 @@ class Connection {
 Connection.db = null
 Connection.url = process.env.MONGO_DB_URI;
 Connection.options = {
-    poolSize: 50,
-    wtimeout: 2500,
-    bufferMaxEntries: 0,
-    reconnectTries: 5000,
+    maxPoolSize: 50,
+    wtimeoutMS: 2500,
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }
