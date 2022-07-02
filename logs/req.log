@@ -806,3 +806,36 @@ expiretime is not defined 	 GET 	 /mongo 	 undefined
 
 expiretime is not defined 	 GET 	 /mongo 	 undefined
 06-06-2022 06:37:03 PM	 a1521430-74bf-4a85-926e-b51d231b88d0	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+02-07-2022 06:11:43 PM	 fcbcd28e-cf47-479b-89c9-49629d89853e	 Failed to lookup view "oracle/index" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /oracle 	 undefined
+02-07-2022 06:13:29 PM	 8c3b0b30-52b2-4972-af63-c425bf745b5d	 Failed to lookup view "oracle/index" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /oracle 	 undefined
+02-07-2022 06:13:32 PM	 cd0a7582-60eb-46eb-a3dd-e40ca56ec86e	 Failed to lookup view "oracle/index" in views directory "F:\Workspace\nodeapiserver\views" 	 GET 	 /oracle 	 undefined
+02-07-2022 06:14:32 PM	 59e001c8-bcd8-4fab-86e1-2df3131fc28b	 Invalid status code: oracle/index.html 	 GET 	 /oracle 	 undefined
+02-07-2022 06:14:53 PM	 8fda9070-6baa-4366-bfcd-d1261224b700	 Invalid status code: oracle/index.html 	 GET 	 /oracle 	 undefined
+02-07-2022 06:15:49 PM	 a10aa4c1-b4f6-4164-821a-363c82b224fa	 Invalid status code: oracle/index.html 	 GET 	 /oracle 	 undefined
+02-07-2022 06:15:51 PM	 ab4aa0be-52da-47f8-9041-0ceacf309f40	 Invalid status code: oracle/index.html 	 GET 	 /oracle 	 undefined
+02-07-2022 06:15:54 PM	 82b4d282-282b-4bfc-af96-e4590534405a	 Invalid status code: oracle/index.html 	 GET 	 /oracle 	 undefined
+02-07-2022 06:16:47 PM	 839f895c-127a-446f-ace8-90cc2ccec156	 Invalid status code: oracle/index.html 	 GET 	 /oracle 	 undefined
+02-07-2022 06:16:48 PM	 891dfed2-1bf4-40a4-a72b-e5332d8ee186	 Invalid status code: oracle/index.html 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:02 PM	 731f3231-6421-45b0-8502-8aaf2f32da35	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:03 PM	 e1355123-c0dd-4cf5-b90e-e4c1e330307a	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:21 PM	 7f8bbf43-c2bb-49f2-91bd-ba07cb6f6626	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:22 PM	 89ce1aa6-0276-4ea0-9f60-e8179d6225bb	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:22 PM	 b398b9bf-6571-4370-b70f-858019f9759e	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:22 PM	 97251c46-6e37-4a60-bb29-54d340d758f8	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:23 PM	 4d73695b-2095-40f0-8056-71322da9ed3f	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:23 PM	 4e82e137-8e0a-4b96-8ca4-5cf56d76ab86	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:23 PM	 64d38ecb-9d59-4f71-bb3d-7cd26b4168b1	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:23 PM	 5e728a83-e8f6-44ee-9ff9-147251cbca47	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:17:23 PM	 05209e59-7bda-4e55-95d1-f82cfb8347ab	 path must be absolute or specify root to res.sendFile 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:15 PM	 e9bfbd3a-92ce-482b-9314-94da4206a861	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:16 PM	 fa698947-c625-41de-80ec-d1844fc14328	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:16 PM	 dbbef1c9-4b30-4f47-a670-65b269d74308	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:16 PM	 e94e4f4c-9b64-483e-8fbd-d09de6637417	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:16 PM	 f1caa58c-6b04-4c57-a596-2e0cb1c2875a	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:17 PM	 b74c64c3-bf52-4410-b78d-952e6f657431	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:17 PM	 9ab27ce3-e705-4cd9-8243-a05af82affb7	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:17 PM	 15be201a-b1aa-4b93-b7ff-1284ebd7c7cb	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:29:48 PM	 27577234-e9a2-41e0-b526-ddf4ac5b975b	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:30:06 PM	 54eedaf0-27d1-4b46-bb08-242d632f4922	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:30:17 PM	 fb94ab78-50ac-4ffd-a014-2937a90a223a	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+02-07-2022 06:31:00 PM	 d9a0798d-4970-4e7d-b308-f16448ce2706	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
