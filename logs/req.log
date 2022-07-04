@@ -849,3 +849,83 @@ expiretime is not defined 	 GET 	 /mongo 	 undefined
 04-07-2022 12:28:49 PM	 0fe86542-d4be-4d55-8adc-8060a7d33f42	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
 04-07-2022 12:46:37 PM	 9c40066b-f17e-41f7-8c6b-cde1d0108a50	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
 04-07-2022 12:52:03 PM	 825d5cef-11fe-4d1a-9b1c-091b63a9db56	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 02:53:12 PM	 1845349c-94de-4be7-b000-2bde7bd7f384	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 02:54:03 PM	 a4be9e20-dc58-4400-ae97-a444190d39bb	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 02:54:16 PM	 5556afbe-4ba5-4f40-a9a3-529791ab4200	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 02:55:42 PM	 7cef88b7-74d0-4193-a1b4-68070f25e829	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 02:55:55 PM	 394cd10a-5a2d-4614-aef2-7db3cfaee33b	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 02:57:40 PM	 7fb259b8-0269-45a1-9a0d-0b205cd42e5e	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 02:58:00 PM	 b252bc1e-ee01-4bb0-b81d-2ff1d1140f04	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:00:27 PM	 6ea6add2-cb05-4486-a8e7-bd5bf91655c4	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:02:44 PM	 ff3ff4a0-c2c8-467c-bd49-972220d50e45	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:03:04 PM	 24387298-a2ad-4662-bbf9-d631ea783aa7	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:04:32 PM	 e459b1bc-129a-407e-8b54-5c606d639de0	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:39 PM	 42341d99-75f8-4ef6-9fd6-6659c9694d9b	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:42 PM	 040b4212-196c-4602-94ea-5f4b9fc987cc	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:42 PM	 372ebb2b-203e-46d9-b962-3a18a2c46e69	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:43 PM	 8879b056-3a0d-4b56-8cab-c26876062793	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:43 PM	 3735cf6b-1ff2-4887-a7f1-b2282727d65c	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:43 PM	 26f9b5e8-0d60-41e2-9e1d-f527213e2042	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:44 PM	 d6123cd8-d88f-4283-8db7-24b51031cc8e	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:44 PM	 6dc4d66a-142f-4f09-a90c-72b4fdf321ff	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:44 PM	 6cfd43c9-3457-442f-9b8b-42f132c3c384	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:44 PM	 4ff1e98d-a1fe-45e5-81e8-8034414517f9	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:45 PM	 cf09c48a-4086-470a-86a0-16b6b4111f95	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:45 PM	 5049bec7-1cc3-4007-898b-06886b4297cd	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:45 PM	 fb173db8-92fc-4339-b225-fbbe41263d72	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:45 PM	 2d0307c6-69cb-4d7a-aaad-a2c99a5b3251	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:46 PM	 82afb102-fdd4-4741-a9cd-30f03b239d59	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:46 PM	 17f1f7c3-b665-4e4d-80db-474613dcd8e8	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:46 PM	 46bd65eb-6809-4219-92f5-6e10cfe5963d	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:46 PM	 20744d10-54e4-4122-a59a-897fed6abcc2	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:47 PM	 bda0c11b-2c56-485b-b6ec-f246738d1124	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:47 PM	 4ab36a60-cab6-4a61-96d0-d8abf99932bf	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:47 PM	 ea37dd98-1fba-4540-9ebe-85c07d580969	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:48 PM	 4d237025-f265-4ce6-844c-9d99b310e10d	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:48 PM	 435633b6-e92f-43e9-9107-70efc91b7d0a	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:48 PM	 df9f87a3-b569-45ea-97dc-c97c786df677	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:48 PM	 62e97271-718c-4b00-955d-322e08e76048	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:48 PM	 b7dad888-f697-4cb2-98d5-7404c6f057d8	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:49 PM	 837b32a4-4a13-4a8f-a74a-590b119e286f	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:49 PM	 31b1392e-65b4-4ec9-b468-f82f52590739	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:49 PM	 f86b9479-98a8-47e3-83e4-37f3359d8959	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:49 PM	 931f0caf-0862-416c-a6d7-975d484892c2	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:50 PM	 44bcf3f0-be31-45ab-8bb5-8f011f524762	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:50 PM	 1ba4f5fd-5fc6-4cb2-b311-dbd755d4611b	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:50 PM	 7bbf2acf-2f52-483d-9379-927084ee376f	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:50 PM	 401fe121-79cc-407f-84ae-337548de64b3	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:51 PM	 e3a021d4-6fc7-416f-88db-1241bfb56601	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:09:53 PM	 14050955-6cb4-4533-a15b-a5a9bc24efef	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 03:23:15 PM	 57d9f69f-7320-4d23-975b-1ac967968eae	 Invalid or unexpected token in F:\Workspace\nodeapiserver\views\mongodb\home.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option. 	 GET 	 /mongo 	 undefined
+04-07-2022 04:33:58 PM	 9c589cdf-d19d-4d04-9a6a-9f3a48dc5c1f	 Invalid or unexpected token in F:\Workspace\nodeapiserver\views\mongodb\home.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option. 	 GET 	 /mongo 	 undefined
+04-07-2022 04:40:00 PM	 5a4c0e84-bb74-4764-add4-88094c26fa59	 Could not find matching close tag for "<%". 	 GET 	 /mongo 	 undefined
+04-07-2022 04:40:01 PM	 4612b381-eca8-4747-a8ef-bfb54568136f	 Could not find matching close tag for "<%". 	 GET 	 /mongo 	 undefined
+04-07-2022 04:48:22 PM	 0396214b-0cdc-4d6e-8050-e4fdd26037f3	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 05:18:46 PM	 b31729b8-194a-45be-b88a-1b9120ed37b4	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 05:50:39 PM	 347ac189-d823-4992-99ad-2c781f3583d0	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 06:21:54 PM	 f4cbf81a-1625-47ff-b9b6-379b2e52aa8f	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 06:23:14 PM	 3e48b299-2f25-4f9f-9593-876be34bece2	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 06:28:29 PM	 8c86e72f-117e-43d2-8385-f5a3b3de6025	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 06:32:55 PM	 7d095963-6efa-4d2d-a517-d368e201d1a4	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 06:38:19 PM	 17851f9c-9302-4afb-8672-058272354dae	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:41:13 PM	 9794efdf-d293-4f22-b4f2-dcee9e8f899d	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:41:57 PM	 b2586326-4a8b-40fb-8122-7f443dd21249	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:42:02 PM	 e8441194-2745-45e7-ba65-1077af319803	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:42:26 PM	 f3f1d201-fae0-40b6-8aaf-70eb3e79f5a4	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:42:59 PM	 ad861e2b-77ab-48b3-83cc-69fd2b92ed48	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:45:00 PM	 71336cd6-308d-4b59-a2c1-194e92fb6589	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:45:33 PM	 e985edb9-d7df-442c-9a12-e6fdaa286c3f	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:45:38 PM	 90e6881b-9c05-4184-9a97-753db45bc96e	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:46:14 PM	 643a34cd-c460-4730-bee8-4bebe116a918	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:47:25 PM	 948e9616-d5c6-4095-b172-7fc0708be34b	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:49:37 PM	 5162172b-cff7-4bc9-8dd7-4d67219fb69e	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+04-07-2022 06:55:14 PM	 a31ec1be-0339-4d32-9e3f-f426ac6b3850	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 06:56:35 PM	 df178b3d-a525-473f-9735-7822686ac96d	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000

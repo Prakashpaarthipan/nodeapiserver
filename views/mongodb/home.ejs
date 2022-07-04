@@ -3,7 +3,8 @@
   <%- include('../includes/header.ejs') %>
   <body>
     <%- include('../includes/navbar.ejs') %> <% if(status){ Constatus =
-    'CONNECTED'; }else{ Constatus = 'NOT CONNECTED'; } %>
+    'CONNECTED'; disableStat = 1; }else{ Constatus = 'NOT CONNECTED';
+    disableStat = 0;} %>
     <div class="mx-4 my-2">
       <div class="w-full text-center text-lg">
         <h1 class="box-decoration-slice bg-pink-500 text-white px-2 w-full">
@@ -70,6 +71,17 @@
                         >
                       </div>
                     </div>
+                    <% if(disableStat){ %>
+                    <button
+                      type="submit"
+                      name="Save"
+                      value="signin"
+                      disabled
+                      class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-extrabold bg-indigo-800 hover:bg-indigo-900 border-3 border-indigo-900 shadow rounded transition duration-200"
+                    >
+                      Sign in
+                    </button>
+                    <%}else{%>
                     <button
                       type="submit"
                       name="Save"
@@ -78,13 +90,19 @@
                     >
                       Sign in
                     </button>
+                    <%}%>
                   </div>
                 </div>
               </section>
             </form>
           </div>
           <div class="text-center">
-            <form action="" method="post">
+            <form
+              action="mongo/logout"
+              method="post"
+              name="formLogout"
+              id="formLogout"
+            >
               <section class="py-26 bg-white">
                 <div class="container px-4 mx-auto">
                   <div class="max-w-lg mx-auto">
@@ -100,18 +118,32 @@
                         class="inline-block w-full p-4 leading-6 text-lg font-semibold placeholder-indigo-900 bg-white shadow border-2 border-indigo-900 rounded"
                         type="text"
                         value="<%=Constatus%>"
+                        ref="<%=disableStat%>"
                         readonly
                       />
                     </div>
-
+                    <% if(disableStat){ %>
                     <button
                       type="submit"
                       name="Save"
+                      id="logout"
                       value="logout"
                       class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-extrabold bg-orange-800 hover:bg-orange-900 border-3 border-orange-900 shadow rounded transition duration-200"
                     >
                       Logout
                     </button>
+                    <%}else{%>
+                    <button
+                      type="submit"
+                      name="Save"
+                      id="logout"
+                      value="logout"
+                      disabled
+                      class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-extrabold bg-orange-800 hover:bg-orange-900 border-3 border-orange-900 shadow rounded transition duration-200"
+                    >
+                      Logout
+                    </button>
+                    <%}%>
                     <div>
                       Database closes in <span id="time">00:00</span> minutes!
                     </div>
@@ -158,8 +190,10 @@
               }
 
               function startTimer(duration, display) {
+                var instenceTimer;
                   var timer = duration, minutes, seconds;
-                  setInterval(function () {
+                  if(timer > 0){
+                  instenceTimer = setInterval(function () {
                       minutes = parseInt(timer / 60, 10);
                       seconds = parseInt(timer % 60, 10);
 
@@ -172,10 +206,17 @@
                           timer = duration;
                       }
                   }, 1000);
+                }else{
+                        clearInterval(instenceTimer);
+                        display.textContent = "00:00";
+                        document.getElementById('logout').click();
+
+                        //document.formLogout.submit();
+                      }
               }
 
               window.onload = function () {
-                  var fiveMinutes = Math.round((document.getElementById('extime').value - Date.now() )/60000)*60;
+                  var fiveMinutes = ((document.getElementById('extime').value - Date.now() )/60000)*60;
                   console.log(fiveMinutes);
                   var    display = document.querySelector('#time');
                   startTimer(fiveMinutes, display);

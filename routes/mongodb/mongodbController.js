@@ -25,7 +25,23 @@ async function main() {
 if (!isConnected()) {
     //  main();
 }
+async function startTimer(duration, req, res) {
+    var instenceTimer;
+    var timer = duration;
 
+    instenceTimer = setInterval(function () {
+        if (timer > 0) {
+            if (--timer < 0) {
+                timer = duration;
+            }
+        } else {
+            clearInterval(instenceTimer);
+            Logoutdb(req, res);
+
+        }
+    }, 1000);
+
+}
 function isConnected() {
     return !!client && !!client.topology && client.topology.isConnected()
 }
@@ -37,17 +53,17 @@ async function listDatabases(client) {
 };
 
 const getCollection = async (req, res) => {
-
+    console.log('sign')
     // const DB = await client.db().admin().listDatabases();
     //console.log(req.param)
     let configData;
     //console.log(isConnected());
     try {
 
-        if (fs.existsSync(path.join(__dirname, 'config.json'))) {
+        if (fs.existsSync(path.join(__dirname, 'config.json')) && !isConnected()) {
             await main();
             configData = require(path.join(__dirname, 'config.json'));
-            console.log(configData);
+            //console.log(configData);
             res.render('mongodb/home', { title: 'Mongodb', status: isConnected(), config_url: configData.mongodb_url, config_dbname: configData.db_name, expiretime: configData.expriredAt });
         } else {
             res.render('mongodb/home', { title: 'Mongodb', status: isConnected(), config_url: 'NOT FOUND', config_dbname: 'NOT FOUND', expiretime: 0 });
@@ -59,7 +75,7 @@ const getCollection = async (req, res) => {
 }
 
 const Logindb = async (req, res) => {
-    //console.log(client)
+    //console.log(",")
     const form = formidable({ multiples: true, maxFileSize: 50 * 1024 * 1024 });
 
     form.parse(req, async (err, fields, files) => {
@@ -69,31 +85,38 @@ const Logindb = async (req, res) => {
         if (fields.Save == 'signin') {
             try {
                 if (!fs.existsSync(path.join(__dirname, 'config.json'))) {
-                    fields.expriredAt = Date.now() + (60000 * 30);
+                    fields.expriredAt = Date.now() + (60000 * 1);
                     fs.writeFileSync(path.join(__dirname, 'config.json'), JSON.stringify(fields));
                 }
+                var expireTime = ((fields.expriredAt - Date.now()) / 60000) * 60;
+                startTimer(expireTime, req, res);
             } catch (e) {
                 return res.status(400).json({ Status: "Fail to sign in", Error: e });
             }
             res.status(301).redirect("/mongo");
         }
-        if (fields.Save == 'logout') {
-            try {
-                if (fs.existsSync(path.join(__dirname, 'config.json'))) {
 
-                    fs.unlinkSync(path.join(__dirname, 'config.json'));
-                    await client.close();
-                }
-            } catch (e) {
-                return res.status(400).json({ Status: "Fail to logout", Error: e });
-            }
-            res.status(301).redirect("/mongo");
-        }
         //const DB = await client.db().admin().listDatabases();
 
     })
 }
+const Logoutdb = async (req, res) => {
+    console.log("logout");
+
+    try {
+        if (fs.existsSync(path.join(__dirname, 'config.json'))) {
+
+            fs.unlinkSync(path.join(__dirname, 'config.json'));
+            if (isConnected()) await client.close();
+        }
+    } catch (e) {
+        return res.status(400).json({ Status: "Fail to logout", Error: e });
+    }
+    res.status(301).redirect("/mongo");
+
+}
 module.exports = {
     getCollection,
-    Logindb
+    Logindb,
+    Logoutdb
 }

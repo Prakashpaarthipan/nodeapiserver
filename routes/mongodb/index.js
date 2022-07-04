@@ -10,10 +10,9 @@ router.route('/')
     .get(mongo.getCollection)
     .post(mongo.Logindb)
     ;
-// router.route('/files')
-//     .get(mongo.getListFiles)
-//     .post(mongo.ftpupload)
-//     ;
+router.route('/logout')
+    .get(mongo.Logoutdb)
+    ;
 // router.route('/download/:file')
 //     .get(mongo.getDownload)
 //     ;
