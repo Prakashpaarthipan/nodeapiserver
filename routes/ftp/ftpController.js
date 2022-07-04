@@ -81,6 +81,7 @@ const ftpupload = async (req, res) => {
             //return;
         }
         //console.log(files.formProfile);
+
         if (files.formProfile.size > 0) {
             var readStream = fs.createReadStream(files.formProfile.filepath);
             var writeStream = fs.createWriteStream(uploadFolder + "/pro_" + Date.now() + ".jpg");
@@ -90,21 +91,26 @@ const ftpupload = async (req, res) => {
             });
             // await fs.rename(files.formProfile.filepath, uploadFolder + "/" + files.formProfile.originalFilename)
         }
-        let fil = [];
-        for (var key in files.fileupload) {
 
-            var obj = files.fileupload[key];
-            fil.push(obj);
-            if (obj.size > 0) {
-                var readStream = fs.createReadStream(obj.filepath);
-                var writeStream = fs.createWriteStream(path.join(__dirname, "../../public", "ftp") + "/cv_" + Date.now() + ".jpg");
-                readStream.pipe(writeStream);
-                readStream.on('end', function () {
-                    fs.unlinkSync(obj.filepath);
-                });
-                // await fs.rename(files.formProfile.filepath, uploadFolder + "/" + files.formProfile.originalFilename)
+
+        let fil = [];
+        if (files.fileupload.size > 0) {
+            for (var key in files.fileupload) {
+
+                var obj = files.fileupload[key];
+                fil.push(obj);
+                if (obj.size > 0) {
+                    var readStream = fs.createReadStream(obj.filepath);
+                    var writeStream = fs.createWriteStream(path.join(__dirname, "../../public", "ftp") + "/cv_" + Date.now() + ".jpg");
+                    readStream.pipe(writeStream);
+                    readStream.on('end', function () {
+                        fs.unlinkSync(obj.filepath);
+                    });
+                    // await fs.rename(files.formProfile.filepath, uploadFolder + "/" + files.formProfile.originalFilename)
+                }
             }
         }
+
         //fs.rename()
         res.json({ fields, files, date: new Date().toString(), list: fil });
     });

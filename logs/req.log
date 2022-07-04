@@ -839,3 +839,13 @@ expiretime is not defined 	 GET 	 /mongo 	 undefined
 02-07-2022 06:30:06 PM	 54eedaf0-27d1-4b46-bb08-242d632f4922	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
 02-07-2022 06:30:17 PM	 fb94ab78-50ac-4ffd-a014-2937a90a223a	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
 02-07-2022 06:31:00 PM	 d9a0798d-4970-4e7d-b308-f16448ce2706	 ENOENT: no such file or directory, stat 'F:\Workspace\nodeapiserver\routes\oracle\views\oracle\index.html' 	 GET 	 /oracle 	 undefined
+04-07-2022 12:02:17 PM	 e9232f8d-d43b-4983-a972-7204f2934dac	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+04-07-2022 12:02:49 PM	 d983332e-7a47-44a8-9603-507015d4c2b6	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
+04-07-2022 12:06:31 PM	 51f5a061-87b9-44f6-9046-47b2f6e3c58a	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+04-07-2022 12:06:47 PM	 357ce8cb-8e3e-42d8-9efb-3fd4fd996161	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
+04-07-2022 12:10:16 PM	 4b615967-224b-479a-b86a-d45e724a3d2a	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
+04-07-2022 12:11:59 PM	 a17df36f-cce7-4ce6-8ade-72fcd47628be	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
+04-07-2022 12:28:34 PM	 5abad5a7-2fc4-4565-b729-c65917b5fcef	 Cors Blocked 	 POST 	 /ftp/ 	 http://localhost:3000
+04-07-2022 12:28:49 PM	 0fe86542-d4be-4d55-8adc-8060a7d33f42	 Cors Blocked 	 POST 	 /ftp/files 	 http://localhost:3000
+04-07-2022 12:46:37 PM	 9c40066b-f17e-41f7-8c6b-cde1d0108a50	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
+04-07-2022 12:52:03 PM	 825d5cef-11fe-4d1a-9b1c-091b63a9db56	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000

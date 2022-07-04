@@ -47,7 +47,7 @@ const getCollection = async (req, res) => {
         if (fs.existsSync(path.join(__dirname, 'config.json'))) {
             await main();
             configData = require(path.join(__dirname, 'config.json'));
-            //console.log(configData);
+            console.log(configData);
             res.render('mongodb/home', { title: 'Mongodb', status: isConnected(), config_url: configData.mongodb_url, config_dbname: configData.db_name, expiretime: configData.expriredAt });
         } else {
             res.render('mongodb/home', { title: 'Mongodb', status: isConnected(), config_url: 'NOT FOUND', config_dbname: 'NOT FOUND', expiretime: 0 });
@@ -73,7 +73,7 @@ const Logindb = async (req, res) => {
                     fs.writeFileSync(path.join(__dirname, 'config.json'), JSON.stringify(fields));
                 }
             } catch (e) {
-                return res.status(400).json({ Status: "Fail to write", Error: e });
+                return res.status(400).json({ Status: "Fail to sign in", Error: e });
             }
             res.status(301).redirect("/mongo");
         }
@@ -85,7 +85,7 @@ const Logindb = async (req, res) => {
                     await client.close();
                 }
             } catch (e) {
-                return res.status(400).json({ Status: "Fail to write", Error: e });
+                return res.status(400).json({ Status: "Fail to logout", Error: e });
             }
             res.status(301).redirect("/mongo");
         }
