@@ -1,5 +1,7 @@
 var createError = require('http-errors');
 var express = require('express');
+const bodyParser = require('body-parser');
+
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -57,7 +59,6 @@ app.use(credential);   //only brefore cors
 app.use(cors(whiteLists));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-//app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/data/Product', express.static(path.join(__dirname, 'public')));

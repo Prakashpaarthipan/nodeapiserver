@@ -53,7 +53,7 @@ async function listDatabases(client) {
 };
 
 const getCollection = async (req, res) => {
-    console.log('sign')
+    //console.log('sign')
     // const DB = await client.db().admin().listDatabases();
     //console.log(req.param)
     let configData;
@@ -85,7 +85,7 @@ const Logindb = async (req, res) => {
         if (fields.Save == 'signin') {
             try {
                 if (!fs.existsSync(path.join(__dirname, 'config.json'))) {
-                    fields.expriredAt = Date.now() + (60000 * 1);
+                    fields.expriredAt = Date.now() + (60000 * 15);
                     fs.writeFileSync(path.join(__dirname, 'config.json'), JSON.stringify(fields));
                 }
                 var expireTime = ((fields.expriredAt - Date.now()) / 60000) * 60;

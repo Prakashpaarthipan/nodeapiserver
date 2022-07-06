@@ -929,3 +929,23 @@ Or, if you meant to create an async function, pass `async: true` as an option. 	
 04-07-2022 06:49:37 PM	 5162172b-cff7-4bc9-8dd7-4d67219fb69e	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
 04-07-2022 06:55:14 PM	 a31ec1be-0339-4d32-9e3f-f426ac6b3850	 Cors Blocked 	 POST 	 /mongo 	 http://localhost:3000
 04-07-2022 06:56:35 PM	 df178b3d-a525-473f-9735-7822686ac96d	 Cors Blocked 	 POST 	 /mongo/logout 	 http://localhost:3000
+06-07-2022 04:59:09 PM	 5b2b937e-f28e-49dd-8a22-2abb49c38878	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:10:27 PM	 e7248e5c-f248-42d2-9c2d-59063e34303b	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:11:34 PM	 0956636b-0e5c-4374-9c28-f2adfc91b240	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:11:44 PM	 387008b3-1724-4c92-b521-2869553bfe2c	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:11:50 PM	 cd0d33f1-c872-4c99-a00a-f38eb67c4d12	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:12:18 PM	 252473da-ff15-4f1e-a7a4-c21d6ebb2cc6	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:12:40 PM	 f94525c3-bd6a-46b1-8f43-1e30cdf262f1	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:13:48 PM	 01b33e25-4285-404e-9b7a-a9361c9e16ce	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:14:15 PM	 885679f6-9dbd-414f-96f5-5d52b1b9dc11	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api?namr=rrtrt 	 undefined
+06-07-2022 05:14:37 PM	 bea72fb5-c30e-4e76-80de-4852c150c68f	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api?namr=rrtrt 	 undefined
+06-07-2022 05:16:39 PM	 2bf6e0e7-d204-46f1-ace6-e7af7676d941	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api?namr=rrtrt 	 undefined
+06-07-2022 05:17:46 PM	 029ad23b-062b-4274-968b-30ef088e575a	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api?namr=rrtrt 	 undefined
+06-07-2022 05:18:06 PM	 9a534e41-ad6e-4e23-8a17-be6b3b4dd817	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api?namr=rrtrt 	 undefined
+06-07-2022 05:18:46 PM	 1b44ff0e-9798-438f-b7ca-bfc9b654ff73	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:18:52 PM	 88f40567-d6d8-4ccd-a550-4a9920bdf489	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:19:03 PM	 0207c97c-a226-4e5b-ba88-65d921a10326	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:19:40 PM	 888e5b23-8208-462f-b771-d9662f150405	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:19:42 PM	 83d6df46-8ee6-4672-b7d8-13fb041c09ea	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:24:33 PM	 6f46764e-5202-415c-940b-672278d36c66	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+06-07-2022 05:25:05 PM	 aed8f67d-8478-464f-9a21-403235bcc272	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
