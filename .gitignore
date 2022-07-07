@@ -8,3 +8,6 @@ logs
 *.log
 req.log
 config.json
+basicController.js
+approvalController.js
+leavesController.js
