@@ -12,7 +12,7 @@ var setDate = require('date-fns');
 var cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
 const { serverLog } = require('./middleware/logger');
-const { homeRouter, moviesRouter, productRouter, authRouter, registerRouter, refreshRouter, logoutRouter } = require('./routes/index');
+const { homeRouter, moviesRouter, productRouter, authRouter, registerRouter, refreshRouter, logoutRouter, streamRouter } = require('./routes/index');
 const { codeRouter } = require('./routes/code/index');
 
 const { productsRouter, studentRouter } = require('./routes/api');
@@ -96,6 +96,7 @@ app.use('/styles',
 //     'node_modules/highlight.js/lib')));
 app.use('/ftp', ftpRouter);
 app.use('/code', codeRouter);
+app.use('/stream', streamRouter);
 app.use('/mongo', mongoRouter);
 app.use('/mongo/api', mongoApiRouter);
 app.use('/oracle', oracleRouter);

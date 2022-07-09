@@ -41,7 +41,7 @@ router.get('/monitor/:mode', async function (req, res) {
             break;
         case 'approvedisplay':
             query_result = await App.checkApprovalDisplayissue();
-            res.status(200).json({ result: query_result, main: JSON.parse(query_result.app[0]) });
+            res.status(200).json({ result: query_result });
             break;
         default:
             res.status(200).json({ result: 'not found' });

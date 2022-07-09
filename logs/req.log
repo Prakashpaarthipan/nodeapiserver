@@ -949,3 +949,75 @@ Or, if you meant to create an async function, pass `async: true` as an option. 	
 06-07-2022 05:19:42 PM	 83d6df46-8ee6-4672-b7d8-13fb041c09ea	 Unexpected token - in JSON at position 0 	 POST 	 /oracle/api 	 undefined
 06-07-2022 05:24:33 PM	 6f46764e-5202-415c-940b-672278d36c66	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
 06-07-2022 05:25:05 PM	 aed8f67d-8478-464f-9a21-403235bcc272	 Unexpected token n in JSON at position 0 	 POST 	 /oracle/api 	 undefined
+09-07-2022 02:58:54 PM	 5854d2f1-beb1-4469-b3d0-725de865afe7	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 02:59:45 PM	 9738e76a-bf78-4c9d-ad3f-a3c48c340019	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:00:04 PM	 e82518e3-d177-4861-96a8-60a989ff2354	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:02:38 PM	 5101c66f-023f-4857-afee-0ca348548f94	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:03:19 PM	 38d272a9-d4b3-4b2e-8425-5869e9fd5473	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:06:20 PM	 4e5bfc70-a50c-44fb-863c-245a86dfeab2	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:06:52 PM	 8a8024f8-5d12-4555-b310-6f610e6b225c	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:07:32 PM	 9c0ee54f-ad2b-4cf8-b4fc-c24a42c88ca9	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:07:53 PM	 f7f25638-cb4c-4c76-a5ec-9a8624c72e5f	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:20:48 PM	 9d40a6ad-ae6d-48f9-b27b-13b589c5c994	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:21:04 PM	 4c33f499-1a3e-492f-a37c-5eb6bb072c17	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:22:09 PM	 735ffd1a-ff45-4d1d-a588-c30947d03bff	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:23:28 PM	 aa9998c0-130a-4a8f-9df4-5defe6eb6b58	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:23:28 PM	 5a618285-5259-44b5-b699-b3ee6a3993f5	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:23:28 PM	 13d5066a-7b07-4513-b3b5-154b553417db	 fs is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:39:54 PM	 31d72ff9-9f5a-49c8-b81f-31bf6b1f8366	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:39:54 PM	 97b55722-5bc0-41ef-b3d4-3a4f163bf498	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:39:54 PM	 da9784c3-8e08-40c3-9869-362694a4e138	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:39:54 PM	 a13c790e-754f-4686-b49d-475da1df681f	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:44:16 PM	 53abecf9-68f9-41bd-bf60-9df9da621add	 ENOENT: no such file or directory, stat 'F:\Workspace\views\stream\index.html' 	 GET 	 /stream/ 	 undefined
+09-07-2022 03:44:51 PM	 b6f9e435-5ee1-4308-8667-8e6da41a4567	 ENOENT: no such file or directory, stat 'F:\Workspace\views\stream\index.html' 	 GET 	 /stream/ 	 undefined
+09-07-2022 03:50:46 PM	 49bf82ac-b682-4226-843b-5af5227423a8	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:50:46 PM	 cf474c42-45ce-4f2f-a265-1e05475462fa	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:50:46 PM	 590da677-1a06-4a2d-89d0-ed448c8bbb3e	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:51:09 PM	 88da4b67-cf02-4bdf-9e79-020a941df08d	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:51:09 PM	 62e68888-967c-4453-8cf2-c30eec56a0a4	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:51:09 PM	 e1a9e578-dd46-4e85-8dfb-3f3b0a92a9ec	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:53:45 PM	 7fa997f2-14a2-45ec-b202-9b7953e67120	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:53:45 PM	 8342d3fb-dc58-40db-9679-72e2cd08009f	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:53:45 PM	 67763170-ff59-4d6f-a34d-1cbc1abdca91	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:56:13 PM	 dfc350ad-fa90-4a1c-9474-e83be289683c	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:56:13 PM	 1e9e0da0-92df-46fd-bfdd-191b2f76717d	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 03:56:13 PM	 f3dec1fc-0622-4965-bdcd-df26ad42194e	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:00:10 PM	 8a000dae-6303-422b-9b11-eeae45b1616d	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:00:10 PM	 0009c4cb-12e2-489c-a5cd-c306e4ff0803	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:00:10 PM	 78407af0-c20a-432d-bf16-12d952006848	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:08 PM	 6b847fc6-7a0e-4c27-8045-b2347353317c	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:08 PM	 855b676f-7927-4d00-b8e0-0cefa8367d86	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:08 PM	 fd5a6363-1069-4df6-b321-07a5722bfc56	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:27 PM	 54d0cae3-3cd8-4317-9f75-754590b468fa	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:27 PM	 a7891d4a-2fd7-4180-8eb2-4e87491e03ad	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:27 PM	 e4970ac9-b6aa-4a1e-81be-c7b76e9e4f80	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:32 PM	 c8b3970a-981c-41fa-bd29-d8733dac1592	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:32 PM	 ab55a4c4-a80d-4f21-85c1-1dfcf6cec39d	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:06:32 PM	 9d107f01-4e56-460d-a634-8000ce097b19	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:07:06 PM	 8aca6d36-98f3-4bd4-90a7-8aa4a3db590d	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:07:06 PM	 aca06d3c-759d-4e3a-9f5d-4e6da2ec581a	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:07:06 PM	 84c3f8ea-6f49-457b-ace1-7e2457cf6fc9	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:07:13 PM	 41a36def-fca7-4da3-a2e0-b70ec0a32894	 Cannot read properties of undefined (reading 'replace') 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:10:02 PM	 59be3d12-6e51-462f-aa3d-8e2b78bf18ec	 Cannot read properties of undefined (reading 'replace') 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:10:16 PM	 d495a08c-9941-4223-932b-fe708782d517	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:10:16 PM	 4d2545cb-c7dc-42e8-9451-09d74bbbbae2	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:10:16 PM	 b2abc521-d35c-47f5-b436-e2c9d01a0551	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:10:24 PM	 5df20c2d-adc3-4cbc-a03b-0d771ec02c2b	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:10:24 PM	 ab3e0bb2-f405-4fce-9ade-7171cf55753d	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:10:24 PM	 f25896f2-c1f0-4b24-b209-05465723a0e7	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:11:42 PM	 299c8d95-2acc-4e6a-887e-ecf9603bb714	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:11:42 PM	 559aa3a0-88d7-4e33-962a-f04ff6b0a1e4	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:11:42 PM	 f1b5ef30-c538-4dc1-87da-1e85a86ffa80	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:14:32 PM	 89e8ffb4-0255-4082-bfb8-de88e2c3f062	 videoSize is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:14:59 PM	 23044cb9-5163-4075-9f59-728a6c90966d	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:14:59 PM	 a71c144b-2e17-4c54-a989-608e5a7938e0	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:14:59 PM	 cca1c2f2-c903-4b59-9485-3f4c0aa76464	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:15:18 PM	 9e921477-849e-45cf-8475-250f55def76d	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:15:18 PM	 d5ad6643-e4bd-4fe7-9aba-697c68092c62	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:15:18 PM	 84be8e86-66e5-4e03-ab4f-d41997c16d5c	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:15:48 PM	 e2608b81-4cc5-4f0a-a4de-222c7cafbe54	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:15:48 PM	 abf0a2d2-9fd0-4a7f-9095-5708fbcf12aa	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:15:48 PM	 71cc5aca-6b3b-4a8a-b774-521185a9ea0c	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:17:03 PM	 597e178c-9583-481b-8874-e48dea05999f	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:17:03 PM	 b50fd594-94ff-4b8b-8ce4-64686441e52a	 videoPath is not defined 	 GET 	 /stream/video 	 undefined
+09-07-2022 04:17:03 PM	 26d8c4bc-7ec0-4e60-88b5-cb2dfc44ddb6	 videoPath is not defined 	 GET 	 /stream/video 	 undefined

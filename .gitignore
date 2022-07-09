@@ -14,3 +14,6 @@ leavesController.js
 controllers/oracle/approvalController.js
 controllers/oracle/basicController.js
 controllers/oracle/leaveController.js
+video
+./video/**
+

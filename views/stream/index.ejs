@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bulma/bulma.min.css" />
+    <link rel="stylesheet" href="../bootstrap-icons/bootstrap-icons.css" />
+    <title>Node Js Streaming</title>
+  </head>
+  <style></style>
+  <body>
+    <div class="columns" style="margin-top: 20px">
+      <div class="column is-3"></div>
+      <div class="column is-6">
+        <form action="">
+          <div class="field has-addons">
+            <div class="control is-expanded">
+              <input
+                class="input"
+                type="text"
+                placeholder="Search the contents "
+              />
+            </div>
+            <div class="control">
+              <button class="button is-link">Submit</button>
+            </div>
+          </div>
+        </form>
+        <div class="box">
+          <span> Sample player for node js streaming </span>
+          <video id="videoPlayer" width="100%" controls muted="muted">
+            <source src="/stream/video/<%=title%>" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="column is-3"></div>
+    </div>
+  </body>
+</html>
