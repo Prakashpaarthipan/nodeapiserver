@@ -11,7 +11,7 @@ router.route('/')
     .post(mongo.Logindb)
     ;
 router.route('/logout')
-    .get(mongo.Logoutdb)
+    .post(mongo.Logoutdb)
     ;
 // router.route('/download/:file')
 //     .get(mongo.getDownload)

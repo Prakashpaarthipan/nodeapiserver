@@ -9,7 +9,7 @@ var { select_query, closePoolAndExit } = require('../../../controllers/oracle/ba
 router.get('/', async function (req, res) {
     const opts = {};
 
-    const employee = await select_query('select * from employee_office where empcode  in (20169,11032)', 'KSREQ', opts);
+    const employee = await select_query('select * from trandata.employee_office@tcscentr where empcode  in (20169,11032)', 'TRANVIEW', opts);
     if (req.query.approvel == 'approve') {
         const data1 = await App.checkLastRowError();
         res.status(200).json({ result: employee.rows, data: data1.rows });
@@ -19,7 +19,7 @@ router.get('/', async function (req, res) {
         res.status(200).json({ result: employee.rows, data: data1.rows });
     }
     else {
-        res.status(404).json({ error: 'nos' });
+        res.status(404).json({ error: 'nos', employee: employee.rows });
     }
 
 });

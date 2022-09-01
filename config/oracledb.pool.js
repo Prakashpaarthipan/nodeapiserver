@@ -27,7 +27,7 @@ module.exports = {
             });
         }
         if (ConnectMode == "TRANVIEW") {
-            console.log(ConnectMode);
+            //console.log(ConnectMode);
             return await oracledb.createPool({
                 user: process.env.NODE_ORACLEDB_LIVEUSER,
                 password: process.env.NODE_ORACLEDB_LIVEPASSWORD,
