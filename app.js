@@ -21,6 +21,8 @@ const mongoRouter = require('./routes/mongodb/index');
 const mongoApiRouter = require('./routes/mongodb/api/index');
 const oracleRouter = require('./routes/oracle');
 const oracleApiRouter = require('./routes/oracle/api/index');
+// node js extra server
+const WebserverRouter = require('./routes/web');
 
 const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
@@ -101,7 +103,7 @@ app.use('/mongo', mongoRouter);
 app.use('/mongo/api', mongoApiRouter);
 app.use('/oracle', oracleRouter);
 app.use('/oracle/api', oracleApiRouter);
-
+app.use('/webserver', WebserverRouter);
 //API Docs
 const swaggerDefinition = {
   openapi: '3.0.0',

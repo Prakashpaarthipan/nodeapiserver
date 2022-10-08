@@ -579,6 +579,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 50;
 }
 
+.order-3 {
+  order: 3;
+}
+
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -1063,6 +1067,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 3.5rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -1352,6 +1360,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-right-radius: 0.375rem;
 }
 
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1370,6 +1388,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-solid {
@@ -1535,6 +1557,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-teal-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(94 234 212 / var(--tw-bg-opacity));
+}
+
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
@@ -2170,6 +2197,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-teal-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-blue-700:hover {
