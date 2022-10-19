@@ -118,7 +118,6 @@
           url: "http://" + url,
           cache: false,
           error: function (XMLHttpRequest, textStatus, errorThrown) {
-            console.log(errorThrown);
             if (errorThrown == "timeout") {
               result.push({
                 url: url,
@@ -141,7 +140,9 @@
               alert(
                 "All url's checked. Check the console for 'result' varialble"
               );
-              console.log(result);
+            }
+            if (result.status == "listening") {
+              alert("Server already running...");
             }
           },
           statusCode: {
@@ -191,8 +192,10 @@
           $.ajax({
             url: window.location.href + "/simpleserver/start",
             success: function (result) {
-              console.log("Welcome to simple server");
-              console.log(result);
+              if (result.success == "connected") {
+                $("#start_server1").attr("disabled", true);
+                $("#stop_server1").attr("disabled", false);
+              }
             },
           });
         }
@@ -201,7 +204,10 @@
         $.ajax({
           url: window.location.href + "/simpleserver/stop",
           success: function (result) {
-            console.log("Server Stopped at 4040 ");
+            if (result.success == "disconnected") {
+              $("#start_server1").attr("disabled", false);
+              $("#stop_server1").attr("disabled", true);
+            }
           },
         });
       });

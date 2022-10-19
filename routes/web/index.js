@@ -7,23 +7,14 @@ router.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, '../../', 'views/web/servers.html'));
 });
 router.get('/simpleserver/start', async function (req, res) {
-    const startState = await startServer();
-    console.log(startState);
-    if (!startState) {
+    let result = await startServer();
+    if (result == 'open') res.json({ success: "connected" });
 
-        res.status(404).send('failed to start');
-    } else {
-        res.status(200).send('success');
-    }
 
 });
 router.get('/simpleserver/stop', async function (req, res) {
-    if (!await stopServer()) {
-
-        res.status(404).send('failed to stop');
-    } else {
-        res.status(200).send('success');
-    }
+    let result = await stopServer();
+    if (result == 'close') res.json({ success: "disconnected" });
 
 });
 module.exports = router;

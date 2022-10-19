@@ -1,34 +1,28 @@
-const express = require("express");
-const app = express();
+const appServer = require("./server");
+var http = require('http');
 const PORT = 4040;
-
+var server;
 const startServer = async () => {
 
-    app.use(express.urlencoded({ extended: true }));
-    app.use(express.json());
+    appServer.set('port', PORT);
+    server = http.createServer(appServer);
+    server.listen(PORT, function () {
+        var port = server.address().port;
+        console.log('Example app listening at port %s', port);
 
-    app.get("/api", (req, res) => {
-        res.json({
-            message: "Hello world",
-        });
     });
-    app.get("/", (req, res) => {
-        res.json({
-            message: "Hello world",
-        });
-    });
+    return 'open';
 
-    app.listen(PORT, (err) => {
-        console.log(`Server listening on ${PORT}`);
-    });
 }
 
 const stopServer = async () => {
-    app.close((err) => {
-        console.log('server closed')
-        process.exit(err ? 1 : 0)
+
+    server.close((err) => {
+        if (err) return console.error(err);
+        console.log('server closed');
 
     })
+    return 'close';
 }
 module.exports = {
     startServer, stopServer
